@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return '테스트입니다';
-//    return view('welcome');
+//    return '테스트입니다';
+    return view('welcome');
 
 });
