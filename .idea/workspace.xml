@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7b9bbde3-8263-4b2f-a5e1-68ab3708b880" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_09_29_124954_create_categories_table.php" afterPath="$PROJECT_DIR$/database/migrations/2017_09_29_124954_create_categories_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_09_29_125006_create_products_table.php" afterPath="$PROJECT_DIR$/database/migrations/2017_09_29_125006_create_products_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_09_29_125020_create_transactions_table.php" afterPath="$PROJECT_DIR$/database/migrations/2017_09_29_125020_create_transactions_table.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +16,11 @@
   <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2017_09_29_124954_create_categories_table.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2017_09_29_124954_create_categories_table.php">
+      <file leaf-file-name="2017_09_29_125020_create_transactions_table.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2017_09_29_125020_create_transactions_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            <state relative-caret-position="321">
+              <caret line="24" column="76" lean-forward="false" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -47,6 +48,8 @@
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_09_29_124954_create_categories_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2017_09_29_125006_create_products_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2017_09_29_125020_create_transactions_table.php" />
       </list>
     </option>
   </component>
@@ -165,7 +168,7 @@
       <option name="presentableId" value="Default" />
       <updated>1506418570282</updated>
       <workItem from="1506418573093" duration="1393000" />
-      <workItem from="1506581564320" duration="11458000" />
+      <workItem from="1506581564320" duration="12438000" />
     </task>
     <task id="LOCAL-00001" summary="Modify database setting">
       <created>1506418941342</created>
@@ -192,7 +195,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12851000" />
+    <option name="totallyTimeSpent" value="13831000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -205,18 +208,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="23" width="1255" height="777" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40972796" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5028854" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40762463" sideWeight="0.4971146" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40762463" sideWeight="0.4971146" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -357,40 +359,6 @@
             <marker date="1506690115000" expanded="true" signature="1335:1358" ph="{...}" />
             <marker date="1506690115000" expanded="true" signature="1367:1496" ph=" Remove the specified resource from storage. ..." />
             <marker date="1506690115000" expanded="true" signature="1531:1554" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2017_09_29_125006_create_products_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1506689406000" expanded="false" signature="11:133" ph="..." />
-            <marker date="1506689406000" expanded="true" signature="178:594" ph="{...}" />
-            <marker date="1506689406000" expanded="true" signature="188:248" ph=" Run the migrations. ..." />
-            <marker date="1506689406000" expanded="true" signature="275:436" ph="{...}" />
-            <marker date="1506689406000" expanded="true" signature="305:428" ph="..." />
-            <marker date="1506689406000" expanded="true" signature="346:427" ph="..." />
-            <marker date="1506689406000" expanded="true" signature="445:509" ph=" Reverse the migrations. ..." />
-            <marker date="1506689406000" expanded="true" signature="538:592" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2017_09_29_125020_create_transactions_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1506689420000" expanded="false" signature="11:133" ph="..." />
-            <marker date="1506689420000" expanded="true" signature="182:606" ph="{...}" />
-            <marker date="1506689420000" expanded="true" signature="192:252" ph=" Run the migrations. ..." />
-            <marker date="1506689420000" expanded="true" signature="279:444" ph="{...}" />
-            <marker date="1506689420000" expanded="true" signature="309:436" ph="..." />
-            <marker date="1506689420000" expanded="true" signature="354:435" ph="..." />
-            <marker date="1506689420000" expanded="true" signature="453:517" ph=" Reverse the migrations. ..." />
-            <marker date="1506689420000" expanded="true" signature="546:604" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -873,6 +841,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <marker date="1506697834000" expanded="false" signature="11:133" ph="..." />
+            <marker date="1506697834000" expanded="true" signature="180:685" ph="{...}" />
+            <marker date="1506697834000" expanded="true" signature="190:250" ph=" Run the migrations. ..." />
+            <marker date="1506697834000" expanded="true" signature="277:525" ph="{...}" />
+            <marker date="1506697834000" expanded="true" signature="307:517" ph="..." />
+            <marker date="1506697834000" expanded="true" signature="350:516" ph="..." />
+            <marker date="1506697834000" expanded="true" signature="534:598" ph=" Reverse the migrations. ..." />
+            <marker date="1506697834000" expanded="true" signature="627:683" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_09_29_125006_create_products_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="27" column="72" lean-forward="true" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+          <folding>
+            <marker date="1506698405000" expanded="true" signature="11:150" ph="..." />
+            <marker date="1506698405000" expanded="true" signature="195:992" ph="{...}" />
+            <marker date="1506698405000" expanded="true" signature="205:265" ph=" Run the migrations. ..." />
+            <marker date="1506698405000" expanded="true" signature="292:834" ph="{...}" />
+            <marker date="1506698405000" expanded="true" signature="322:826" ph="..." />
+            <marker date="1506698405000" expanded="true" signature="363:825" ph="..." />
+            <marker date="1506698405000" expanded="true" signature="843:907" ph=" Reverse the migrations. ..." />
+            <marker date="1506698405000" expanded="true" signature="936:990" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_09_29_125020_create_transactions_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="24" column="76" lean-forward="false" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
           <folding />
         </state>
       </provider>
