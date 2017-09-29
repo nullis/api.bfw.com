@@ -23,7 +23,7 @@ class CreateCategoriesTable extends Migration
 
     /**
      * Reverse the migrations.
-     *
+     *ca
      * @return void
      */
     public function down()

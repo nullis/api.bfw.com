@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7b9bbde3-8263-4b2f-a5e1-68ab3708b880" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_09_29_125006_create_products_table.php" afterPath="$PROJECT_DIR$/database/migrations/2017_09_29_125006_create_products_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_09_29_125020_create_transactions_table.php" afterPath="$PROJECT_DIR$/database/migrations/2017_09_29_125020_create_transactions_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_09_29_124954_create_categories_table.php" afterPath="$PROJECT_DIR$/database/migrations/2017_09_29_124954_create_categories_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +17,11 @@
   <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2017_09_29_125020_create_transactions_table.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2017_09_29_125020_create_transactions_table.php">
+      <file leaf-file-name="2017_09_29_153457_category_product_table.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2017_09_29_153457_category_product_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="24" column="76" lean-forward="false" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
+            <state relative-caret-position="255">
+              <caret line="19" column="79" lean-forward="true" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -47,9 +48,10 @@
         <option value="$PROJECT_DIR$/app/Transaction.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2017_09_29_124954_create_categories_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_09_29_125006_create_products_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_09_29_125020_create_transactions_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2017_09_29_124954_create_categories_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2017_09_29_153457_category_product_table.php" />
       </list>
     </option>
   </component>
@@ -168,7 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1506418570282</updated>
       <workItem from="1506418573093" duration="1393000" />
-      <workItem from="1506581564320" duration="12438000" />
+      <workItem from="1506581564320" duration="13296000" />
     </task>
     <task id="LOCAL-00001" summary="Modify database setting">
       <created>1506418941342</created>
@@ -195,7 +197,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13831000" />
+    <option name="totallyTimeSpent" value="14689000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -208,6 +210,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="23" width="1255" height="777" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40972796" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -837,23 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2017_09_29_124954_create_categories_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding>
-            <marker date="1506697834000" expanded="false" signature="11:133" ph="..." />
-            <marker date="1506697834000" expanded="true" signature="180:685" ph="{...}" />
-            <marker date="1506697834000" expanded="true" signature="190:250" ph=" Run the migrations. ..." />
-            <marker date="1506697834000" expanded="true" signature="277:525" ph="{...}" />
-            <marker date="1506697834000" expanded="true" signature="307:517" ph="..." />
-            <marker date="1506697834000" expanded="true" signature="350:516" ph="..." />
-            <marker date="1506697834000" expanded="true" signature="534:598" ph=" Reverse the migrations. ..." />
-            <marker date="1506697834000" expanded="true" signature="627:683" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2017_09_29_125006_create_products_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -873,8 +859,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2017_09_29_125020_create_transactions_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
+        <state relative-caret-position="330">
           <caret line="24" column="76" lean-forward="false" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
+          <folding>
+            <marker date="1506698789000" expanded="false" signature="11:133" ph="..." />
+            <marker date="1506698789000" expanded="true" signature="182:918" ph="{...}" />
+            <marker date="1506698789000" expanded="true" signature="192:252" ph=" Run the migrations. ..." />
+            <marker date="1506698789000" expanded="true" signature="279:756" ph="{...}" />
+            <marker date="1506698789000" expanded="true" signature="309:748" ph="..." />
+            <marker date="1506698789000" expanded="true" signature="354:747" ph="..." />
+            <marker date="1506698789000" expanded="true" signature="765:829" ph=" Reverse the migrations. ..." />
+            <marker date="1506698789000" expanded="true" signature="858:916" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_09_29_124954_create_categories_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding>
+            <marker date="1506699249000" expanded="false" signature="11:133" ph="..." />
+            <marker date="1506699249000" expanded="true" signature="180:687" ph="{...}" />
+            <marker date="1506699249000" expanded="true" signature="190:250" ph=" Run the migrations. ..." />
+            <marker date="1506699249000" expanded="true" signature="277:525" ph="{...}" />
+            <marker date="1506699249000" expanded="true" signature="307:517" ph="..." />
+            <marker date="1506699249000" expanded="true" signature="350:516" ph="..." />
+            <marker date="1506699249000" expanded="true" signature="534:600" ph=" Reverse the migrations. ..." />
+            <marker date="1506699249000" expanded="true" signature="629:685" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_09_29_153457_category_product_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="79" lean-forward="true" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
           <folding />
         </state>
       </provider>
