@@ -92,7 +92,43 @@ class UserController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $user = User::findOrFail($id);
+
+        $rules = [
+            'email' => 'email|unique:users,email,'. $user->id,
+            'password' => 'min:6|confirmed',
+            'admin'=> 'in:'. User::REGULAR_USER . ',' . User::ADMIN_USER,
+        ];
+
+        if ($request->has('name')){
+            $user->name = $request->name;
+        }
+
+        if ($request->has('email') && $user->email != $request->email){
+            $user->verified = User::UNVERIFIED_USER;
+            $user->verification_token = User::generateVerificationCode();
+            $user->email = $request->email;
+        }
+
+        if ($request->has('password')){
+            $user->password = bcrypt($request->password);
+        }
+
+        if ($request->has('admin')){
+            if (!$user->isVerified()){
+                return response()->json(['error' => '인증된 사용자만이 admin 필드수정이 가능합니다', 'code' => 409],409);
+            }
+
+             $user->admin = $request->admin;
+        }
+
+        if (!$user->isDirty()){
+            return response()->json(['error' => '업데이트  정보를 입력해주세요', 'code' => 422],422);
+        }
+        $user->save();
+
+        return response()->json(['data' => $user],200);
+
     }
 
     /**
