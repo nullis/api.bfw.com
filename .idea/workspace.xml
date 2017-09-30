@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7b9bbde3-8263-4b2f-a5e1-68ab3708b880" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,13 +16,13 @@
   <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/User.php">
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="370">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
-                <element signature="e#23#63#0#PHP" expanded="true" />
+                <element signature="e#45#58#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,6 +60,7 @@
         <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" />
       </list>
     </option>
@@ -133,7 +134,16 @@
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="User" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Product" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="api.bfw.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api.bfw.com" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Product" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ProductController.php" type="88303cf5:PhpFileNode" />
             </path>
             <path>
               <item name="api.bfw.com" type="b2602c69:ProjectViewProjectNode" />
@@ -142,7 +152,6 @@
               <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="User" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="UserController.php" type="88303cf5:PhpFileNode" />
             </path>
             <path>
               <item name="api.bfw.com" type="b2602c69:ProjectViewProjectNode" />
@@ -220,7 +229,7 @@
       <option name="presentableId" value="Default" />
       <updated>1506418570282</updated>
       <workItem from="1506418573093" duration="1393000" />
-      <workItem from="1506581564320" duration="18505000" />
+      <workItem from="1506581564320" duration="21036000" />
     </task>
     <task id="LOCAL-00001" summary="Modify database setting">
       <created>1506418941342</created>
@@ -257,11 +266,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506704302549</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implementing The Index Method for UserController">
+      <created>1506705681920</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1506705681920</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19898000" />
+    <option name="totallyTimeSpent" value="22429000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -274,13 +290,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="25" y="23" width="1255" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3536686" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3739003" sideWeight="0.6108821" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991204" sideWeight="0.6117065" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991204" sideWeight="0.6117065" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -333,7 +350,8 @@
     <MESSAGE value="Modify .env DB setting" />
     <MESSAGE value="Creating The Factory for Category,Product,Seller,Transaction" />
     <MESSAGE value="Using The Factories from The DatabaseSeeder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using The Factories from The DatabaseSeeder" />
+    <MESSAGE value="Implementing The Index Method for UserController" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing The Index Method for UserController" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1013,37 +1031,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/UserController.php">
+    <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="50" column="28" lean-forward="false" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        <state relative-caret-position="300">
+          <caret line="37" column="17" lean-forward="true" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
           <folding>
-            <marker date="1506705604000" expanded="true" signature="49:124" ph="..." />
-            <marker date="1506705604000" expanded="true" signature="165:1722" ph="{...}" />
-            <marker date="1506705604000" expanded="true" signature="175:271" ph=" Display a listing of the resource. ..." />
-            <marker date="1506705604000" expanded="true" signature="301:399" ph="{...}" />
-            <marker date="1506705604000" expanded="true" signature="408:512" ph=" Show the form for creating a new resource. ..." />
-            <marker date="1506705604000" expanded="true" signature="543:566" ph="{...}" />
-            <marker date="1506705604000" expanded="true" signature="575:729" ph=" Store a newly created resource in storage. ..." />
-            <marker date="1506705604000" expanded="true" signature="775:798" ph="{...}" />
-            <marker date="1506705604000" expanded="true" signature="807:924" ph=" Display the specified resource. ..." />
-            <marker date="1506705604000" expanded="true" signature="956:1064" ph="{...}" />
-            <marker date="1506705604000" expanded="true" signature="1073:1208" ph=" Show the form for editing the specified resource. ..." />
-            <marker date="1506705604000" expanded="true" signature="1240:1263" ph="{...}" />
-            <marker date="1506705604000" expanded="true" signature="1272:1449" ph=" Update the specified resource in storage. ..." />
-            <marker date="1506705604000" expanded="true" signature="1501:1524" ph="{...}" />
-            <marker date="1506705604000" expanded="true" signature="1533:1662" ph=" Remove the specified resource from storage. ..." />
-            <marker date="1506705604000" expanded="true" signature="1697:1720" ph="{...}" />
+            <marker date="1506704799000" expanded="true" signature="27:119" ph="..." />
+            <marker date="1506704799000" expanded="true" signature="155:1085" ph="{...}" />
+            <marker date="1506704799000" expanded="true" signature="351:430" ph=" The attributes that are mass assignable. ..." />
+            <marker date="1506704799000" expanded="true" signature="460:585" ph="..." />
+            <marker date="1506704799000" expanded="true" signature="596:683" ph=" The attributes that should be hidden for arrays. ..." />
+            <marker date="1506704799000" expanded="true" signature="711:792" ph="..." />
+            <marker date="1506704799000" expanded="true" signature="829:893" ph="{...}" />
+            <marker date="1506704799000" expanded="true" signature="924:985" ph="{...}" />
+            <marker date="1506704799000" expanded="true" signature="1040:1083" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Routing/ResponseFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="144">
+          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
           <folding>
-            <element signature="e#23#63#0#PHP" expanded="true" />
+            <marker date="1506418558000" expanded="true" signature="73:3874" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="83:279" ph=" Return a new response from the application. ..." />
+            <marker date="1506418558000" expanded="true" signature="367:593" ph=" Return a new view response from the application. ..." />
+            <marker date="1506418558000" expanded="true" signature="685:922" ph=" Return a new JSON response from the application. ..." />
+            <marker date="1506418558000" expanded="true" signature="1021:1292" ph=" Return a new JSONP response from the application. ..." />
+            <marker date="1506418558000" expanded="true" signature="1403:1636" ph=" Return a new streamed response from the application. ..." />
+            <marker date="1506418558000" expanded="true" signature="1722:1990" ph=" Create a new file download response. ..." />
+            <marker date="1506418558000" expanded="true" signature="2102:2343" ph=" Create a new redirect response to the given path. ..." />
+            <marker date="1506418558000" expanded="true" signature="2439:2680" ph=" Create a new redirect response to a named route. ..." />
+            <marker date="1506418558000" expanded="true" signature="2784:3032" ph=" Create a new redirect response to a controller action. ..." />
+            <marker date="1506418558000" expanded="true" signature="3138:3407" ph=" Create a new redirect response, while putting the current URL in the session. ..." />
+            <marker date="1506418558000" expanded="true" signature="3506:3768" ph=" Create a new redirect response to the previously intended location. ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding>
+            <marker date="1506706362000" expanded="true" signature="52:130" ph="..." />
+            <marker date="1506706362000" expanded="true" signature="174:1648" ph="{...}" />
+            <marker date="1506706362000" expanded="true" signature="184:280" ph=" Display a listing of the resource. ..." />
+            <marker date="1506706362000" expanded="true" signature="310:410" ph="{...}" />
+            <marker date="1506706362000" expanded="true" signature="419:523" ph=" Show the form for creating a new resource. ..." />
+            <marker date="1506706362000" expanded="true" signature="554:577" ph="{...}" />
+            <marker date="1506706362000" expanded="true" signature="586:740" ph=" Store a newly created resource in storage. ..." />
+            <marker date="1506706362000" expanded="true" signature="786:809" ph="{...}" />
+            <marker date="1506706362000" expanded="true" signature="818:935" ph=" Display the specified resource. ..." />
+            <marker date="1506706362000" expanded="true" signature="967:990" ph="{...}" />
+            <marker date="1506706362000" expanded="true" signature="999:1134" ph=" Show the form for editing the specified resource. ..." />
+            <marker date="1506706362000" expanded="true" signature="1166:1189" ph="{...}" />
+            <marker date="1506706362000" expanded="true" signature="1198:1375" ph=" Update the specified resource in storage. ..." />
+            <marker date="1506706362000" expanded="true" signature="1427:1450" ph="{...}" />
+            <marker date="1506706362000" expanded="true" signature="1459:1588" ph=" Remove the specified resource from storage. ..." />
+            <marker date="1506706362000" expanded="true" signature="1623:1646" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="e#45#58#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
