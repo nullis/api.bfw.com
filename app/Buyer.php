@@ -2,7 +2,6 @@
 
 namespace App;
 
-use Illuminate\Database\Eloquent\Model;
 use App\Transaction;
 
 class Buyer extends User
@@ -12,6 +11,3 @@ class Buyer extends User
         return $this->hasMany(Transaction::class);
     }
 }
-
-
-

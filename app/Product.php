@@ -2,10 +2,10 @@
 
 namespace App;
 
-use Illuminate\Database\Eloquent\Model;
-use App\Category;
 use App\Seller;
+use App\Category;
 use App\Transaction;
+use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
@@ -19,7 +19,7 @@ class Product extends Model
         'status',
         'image',
         'seller_id',
-        ];
+    ];
 
     public function isAvailable()
     {
@@ -40,5 +40,4 @@ class Product extends Model
     {
         return $this->belongsToMany(Category::class);
     }
-
 }

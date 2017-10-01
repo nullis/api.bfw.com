@@ -1,9 +1,9 @@
 <?php
 
-use App\Category;
-use App\Product;
-use App\Transaction;
 use App\User;
+use App\Product;
+use App\Category;
+use App\Transaction;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
@@ -33,15 +33,13 @@ class DatabaseSeeder extends Seeder
         factory(Category::class, $categoriesQuantity)->create();
 
         factory(Product::class, $productsQuantity)->create()->each(
-            function ($product){
-                $categories = Category::all()->random(mt_rand(1,5))->pluck('id');
+            function ($product) {
+                $categories = Category::all()->random(mt_rand(1, 5))->pluck('id');
 
-                $product-> $categories()->attach($categories);
-            }
-        );
+                $product->categories()->attach($categories);
+            });
 
         factory(Transaction::class, $transactionsQuantity)->create();
-
 
     }
 }

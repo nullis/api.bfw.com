@@ -15,7 +15,6 @@ class User extends Authenticatable
     const ADMIN_USER = 'true';
     const REGULAR_USER = 'false';
 
-
     protected $table = 'users';
 
     /**
@@ -43,10 +42,9 @@ class User extends Authenticatable
         'verification_token',
     ];
 
-
     public function isVerified()
     {
-     return $this->verified == User::VERIFIED_USER;
+        return $this->verified == User::VERIFIED_USER;
     }
 
     public function isAdmin()
