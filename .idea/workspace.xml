@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b9bbde3-8263-4b2f-a5e1-68ab3708b880" name="Default" comment="Fix problem">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="7b9bbde3-8263-4b2f-a5e1-68ab3708b880" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Traits/ApiResponser.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Buyer.php" afterPath="$PROJECT_DIR$/app/Buyer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Category.php" afterPath="$PROJECT_DIR$/app/Category.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Product.php" afterPath="$PROJECT_DIR$/app/Product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Seller.php" afterPath="$PROJECT_DIR$/app/Seller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Transaction.php" afterPath="$PROJECT_DIR$/app/Transaction.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Seller/SellerController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Seller/SellerController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Transaction/TransactionController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Transaction/TransactionController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_09_29_124954_create_categories_table.php" afterPath="$PROJECT_DIR$/database/migrations/2017_09_29_124954_create_categories_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_09_29_125006_create_products_table.php" afterPath="$PROJECT_DIR$/database/migrations/2017_09_29_125006_create_products_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2017_09_29_125020_create_transactions_table.php" afterPath="$PROJECT_DIR$/database/migrations/2017_09_29_125020_create_transactions_table.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api.php" afterPath="$PROJECT_DIR$/routes/api.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,15 +21,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FavoritesManager">
+    <favorites_list name="api.bfw.com" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserFactory.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="30" column="52" lean-forward="false" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+            <state relative-caret-position="165">
+              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding>
-                <element signature="e#7#20#0#PHP" expanded="true" />
+                <element signature="e#45#58#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,11 +54,7 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Transaction/TransactionController.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerController.php" />
         <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/Transaction.php" />
@@ -74,9 +67,17 @@
         <option value="$PROJECT_DIR$/database/migrations/2017_09_29_125006_create_products_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_09_29_125020_create_transactions_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_09_29_153457_category_product_table.php" />
+        <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" />
+        <option value="$PROJECT_DIR$/app/Traits/ApiResponser.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Seller/SellerController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Transaction/TransactionController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" />
       </list>
     </option>
   </component>
@@ -97,8 +98,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="24" />
-    <option name="y" value="32" />
+    <option name="x" value="25" />
+    <option name="y" value="23" />
     <option name="width" value="1255" />
     <option name="height" value="777" />
   </component>
@@ -129,12 +130,6 @@
               <item name="api.bfw.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="api.bfw.com" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.bfw.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.bfw.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="api.bfw.com" type="b2602c69:ProjectViewProjectNode" />
@@ -197,7 +192,7 @@
       <option name="presentableId" value="Default" />
       <updated>1506418570282</updated>
       <workItem from="1506418573093" duration="1393000" />
-      <workItem from="1506581564320" duration="30856000" />
+      <workItem from="1506581564320" duration="37520000" />
     </task>
     <task id="LOCAL-00001" summary="Modify database setting">
       <created>1506418941342</created>
@@ -255,11 +250,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506778082793</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fix DatabaseSeeder.php Problem&#10; $product-&gt; $categories()-&gt;attach($categories);&#10; fix to &#10; $product-&gt; categories()-&gt;attach($categories);">
+      <created>1506851190488</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1506851190488</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32249000" />
+    <option name="totallyTimeSpent" value="38913000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -271,9 +273,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="32" width="1255" height="777" extended-state="6" />
+    <frame x="24" y="25" width="1255" height="777" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20197856" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26298434" sideWeight="0.49457365" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.3924155" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -283,7 +285,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4589443" sideWeight="0.3891179" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26298434" sideWeight="0.50542635" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -334,7 +336,8 @@
     <MESSAGE value="Implementing The Index Method for UserController" />
     <MESSAGE value="Implementing The Update Method for UserController" />
     <MESSAGE value="Implementing The delete Method for UserController" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing The delete Method for UserController" />
+    <MESSAGE value="Fix DatabaseSeeder.php Problem&#10; $product-&gt; $categories()-&gt;attach($categories);&#10; fix to &#10; $product-&gt; categories()-&gt;attach($categories);" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix DatabaseSeeder.php Problem&#10; $product-&gt; $categories()-&gt;attach($categories);&#10; fix to &#10; $product-&gt; categories()-&gt;attach($categories);" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -392,42 +395,6 @@
             <marker date="1506688860000" expanded="true" signature="1358:1497" ph="{...}" />
             <marker date="1506688860000" expanded="true" signature="1423:1439" ph="..." />
             <marker date="1506688860000" expanded="true" signature="1462:1489" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1506418558000" expanded="false" signature="44:252" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="293:360" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Category/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-729">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding>
-            <marker date="1506690115000" expanded="false" signature="53:114" ph="..." />
-            <marker date="1506690115000" expanded="true" signature="159:1556" ph="{...}" />
-            <marker date="1506690115000" expanded="true" signature="169:265" ph=" Display a listing of the resource. ..." />
-            <marker date="1506690115000" expanded="true" signature="295:318" ph="{...}" />
-            <marker date="1506690115000" expanded="true" signature="327:431" ph=" Show the form for creating a new resource. ..." />
-            <marker date="1506690115000" expanded="true" signature="462:485" ph="{...}" />
-            <marker date="1506690115000" expanded="true" signature="494:648" ph=" Store a newly created resource in storage. ..." />
-            <marker date="1506690115000" expanded="true" signature="694:717" ph="{...}" />
-            <marker date="1506690115000" expanded="true" signature="726:843" ph=" Display the specified resource. ..." />
-            <marker date="1506690115000" expanded="true" signature="875:898" ph="{...}" />
-            <marker date="1506690115000" expanded="true" signature="907:1042" ph=" Show the form for editing the specified resource. ..." />
-            <marker date="1506690115000" expanded="true" signature="1074:1097" ph="{...}" />
-            <marker date="1506690115000" expanded="true" signature="1106:1283" ph=" Update the specified resource in storage. ..." />
-            <marker date="1506690115000" expanded="true" signature="1335:1358" ph="{...}" />
-            <marker date="1506690115000" expanded="true" signature="1367:1496" ph=" Remove the specified resource from storage. ..." />
-            <marker date="1506690115000" expanded="true" signature="1531:1554" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -770,89 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding>
-            <marker date="1506706362000" expanded="true" signature="52:130" ph="..." />
-            <marker date="1506706362000" expanded="true" signature="174:1648" ph="{...}" />
-            <marker date="1506706362000" expanded="true" signature="184:280" ph=" Display a listing of the resource. ..." />
-            <marker date="1506706362000" expanded="true" signature="310:410" ph="{...}" />
-            <marker date="1506706362000" expanded="true" signature="419:523" ph=" Show the form for creating a new resource. ..." />
-            <marker date="1506706362000" expanded="true" signature="554:577" ph="{...}" />
-            <marker date="1506706362000" expanded="true" signature="586:740" ph=" Store a newly created resource in storage. ..." />
-            <marker date="1506706362000" expanded="true" signature="786:809" ph="{...}" />
-            <marker date="1506706362000" expanded="true" signature="818:935" ph=" Display the specified resource. ..." />
-            <marker date="1506706362000" expanded="true" signature="967:990" ph="{...}" />
-            <marker date="1506706362000" expanded="true" signature="999:1134" ph=" Show the form for editing the specified resource. ..." />
-            <marker date="1506706362000" expanded="true" signature="1166:1189" ph="{...}" />
-            <marker date="1506706362000" expanded="true" signature="1198:1375" ph=" Update the specified resource in storage. ..." />
-            <marker date="1506706362000" expanded="true" signature="1427:1450" ph="{...}" />
-            <marker date="1506706362000" expanded="true" signature="1459:1588" ph=" Remove the specified resource from storage. ..." />
-            <marker date="1506706362000" expanded="true" signature="1623:1646" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="131" column="5" lean-forward="true" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
-          <folding>
-            <marker date="1506780669000" expanded="true" signature="49:124" ph="..." />
-            <marker date="1506780669000" expanded="true" signature="165:3547" ph="{...}" />
-            <marker date="1506780669000" expanded="true" signature="175:271" ph=" Display a listing of the resource. ..." />
-            <marker date="1506780669000" expanded="true" signature="301:401" ph="{...}" />
-            <marker date="1506780669000" expanded="true" signature="410:514" ph=" Show the form for creating a new resource. ..." />
-            <marker date="1506780669000" expanded="true" signature="545:568" ph="{...}" />
-            <marker date="1506780669000" expanded="true" signature="577:731" ph=" Store a newly created resource in storage. ..." />
-            <marker date="1506780669000" expanded="true" signature="777:1354" ph="{...}" />
-            <marker date="1506780669000" expanded="true" signature="802:947" ph="..." />
-            <marker date="1506780669000" expanded="true" signature="1363:1480" ph=" Display the specified resource. ..." />
-            <marker date="1506780669000" expanded="true" signature="1512:1620" ph="{...}" />
-            <marker date="1506780669000" expanded="true" signature="1629:1764" ph=" Show the form for editing the specified resource. ..." />
-            <marker date="1506780669000" expanded="true" signature="1796:1819" ph="{...}" />
-            <marker date="1506780669000" expanded="true" signature="1828:2005" ph=" Update the specified resource in storage. ..." />
-            <marker date="1506780669000" expanded="true" signature="2057:3237" ph="{...}" />
-            <marker date="1506780669000" expanded="true" signature="2122:2313" ph="..." />
-            <marker date="1506780669000" expanded="true" signature="2352:2403" ph="..." />
-            <marker date="1506780669000" expanded="true" signature="2477:2657" ph="..." />
-            <marker date="1506780669000" expanded="true" signature="2699:2766" ph="..." />
-            <marker date="1506780669000" expanded="true" signature="2805:3017" ph="..." />
-            <marker date="1506780669000" expanded="true" signature="2844:2961" ph="..." />
-            <marker date="1506780669000" expanded="true" signature="3051:3149" ph="..." />
-            <marker date="1506780669000" expanded="true" signature="3246:3375" ph=" Remove the specified resource from storage. ..." />
-            <marker date="1506780669000" expanded="true" signature="3410:3545" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <marker date="1506781050000" expanded="true" signature="50:126" ph="..." />
-            <marker date="1506781050000" expanded="true" signature="168:1666" ph="{...}" />
-            <marker date="1506781050000" expanded="true" signature="178:274" ph=" Display a listing of the resource. ..." />
-            <marker date="1506781050000" expanded="true" signature="304:428" ph="{...}" />
-            <marker date="1506781050000" expanded="true" signature="437:541" ph=" Show the form for creating a new resource. ..." />
-            <marker date="1506781050000" expanded="true" signature="572:595" ph="{...}" />
-            <marker date="1506781050000" expanded="true" signature="604:758" ph=" Store a newly created resource in storage. ..." />
-            <marker date="1506781050000" expanded="true" signature="804:827" ph="{...}" />
-            <marker date="1506781050000" expanded="true" signature="836:953" ph=" Display the specified resource. ..." />
-            <marker date="1506781050000" expanded="true" signature="985:1008" ph="{...}" />
-            <marker date="1506781050000" expanded="true" signature="1017:1152" ph=" Show the form for editing the specified resource. ..." />
-            <marker date="1506781050000" expanded="true" signature="1184:1207" ph="{...}" />
-            <marker date="1506781050000" expanded="true" signature="1216:1393" ph=" Update the specified resource in storage. ..." />
-            <marker date="1506781050000" expanded="true" signature="1445:1468" ph="{...}" />
-            <marker date="1506781050000" expanded="true" signature="1477:1606" ph=" Remove the specified resource from storage. ..." />
-            <marker date="1506781050000" expanded="true" signature="1641:1664" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -914,31 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Transaction/TransactionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <marker date="1506691431000" expanded="false" signature="56:117" ph="..." />
-            <marker date="1506691431000" expanded="true" signature="165:1562" ph="{...}" />
-            <marker date="1506691431000" expanded="true" signature="175:271" ph=" Display a listing of the resource. ..." />
-            <marker date="1506691431000" expanded="true" signature="301:324" ph="{...}" />
-            <marker date="1506691431000" expanded="true" signature="333:437" ph=" Show the form for creating a new resource. ..." />
-            <marker date="1506691431000" expanded="true" signature="468:491" ph="{...}" />
-            <marker date="1506691431000" expanded="true" signature="500:654" ph=" Store a newly created resource in storage. ..." />
-            <marker date="1506691431000" expanded="true" signature="700:723" ph="{...}" />
-            <marker date="1506691431000" expanded="true" signature="732:849" ph=" Display the specified resource. ..." />
-            <marker date="1506691431000" expanded="true" signature="881:904" ph="{...}" />
-            <marker date="1506691431000" expanded="true" signature="913:1048" ph=" Show the form for editing the specified resource. ..." />
-            <marker date="1506691431000" expanded="true" signature="1080:1103" ph="{...}" />
-            <marker date="1506691431000" expanded="true" signature="1112:1289" ph=" Update the specified resource in storage. ..." />
-            <marker date="1506691431000" expanded="true" signature="1341:1364" ph="{...}" />
-            <marker date="1506691431000" expanded="true" signature="1373:1502" ph=" Remove the specified resource from storage. ..." />
-            <marker date="1506691431000" expanded="true" signature="1537:1560" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Transaction.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -989,17 +848,6 @@
             <marker date="1506786011000" expanded="true" signature="109:284" ph="{...}" />
             <marker date="1506786011000" expanded="true" signature="139:183" ph="..." />
             <marker date="1506786011000" expanded="true" signature="217:282" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Buyer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <marker date="1506786022000" expanded="true" signature="69:171" ph="{...}" />
-            <marker date="1506786022000" expanded="true" signature="106:169" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1089,45 +937,321 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <marker date="1506786896000" expanded="true" signature="11:92" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="96:479" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="559:1146" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="607:1145" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="643:1142" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="1167:1321" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="1219:1320" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="1233:1317" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="1342:1817" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="1393:1816" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="1407:1813" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="1838:2218" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="1893:2217" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="2021:2214" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1506418558000" expanded="false" signature="44:252" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="293:360" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/DB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <marker date="1506418558000" expanded="true" signature="49:136" ph=" @see \Illuminate\Database\DatabaseManager ..." />
+            <marker date="1506418558000" expanded="true" signature="162:343" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="172:256" ph=" Get the registered name of the component. ..." />
+            <marker date="1506418558000" expanded="true" signature="308:341" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-251">
+          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <marker date="1506418558000" expanded="false" signature="50:107" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="130:5092" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="140:257" ph=" The application instance being facaded. ..." />
+            <marker date="1506418558000" expanded="true" signature="295:364" ph=" The resolved object instances. ..." />
+            <marker date="1506418558000" expanded="true" signature="415:494" ph=" Convert the facade into a Mockery spy. ..." />
+            <marker date="1506418558000" expanded="true" signature="529:709" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="569:702" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="718:817" ph=" Initiate a mock expectation on the facade. ..." />
+            <marker date="1506418558000" expanded="true" signature="862:1123" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="1132:1238" ph=" Create a fresh mock instance for the given class. ..." />
+            <marker date="1506418558000" expanded="true" signature="1296:1471" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="1322:1463" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="1362:1462" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="1480:1588" ph=" Create a fresh mock instance for the given class. ..." />
+            <marker date="1506418558000" expanded="true" signature="1633:1756" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="1765:1869" ph=" Determines whether a mock is set as the instance of the facade. ..." />
+            <marker date="1506418558000" expanded="true" signature="1910:2100" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="2109:2203" ph=" Get the mockable class for the bound instance. ..." />
+            <marker date="1506418558000" expanded="true" signature="2254:2360" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="2307:2353" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="2369:2492" ph=" Hotswap the underlying instance behind the facade. ..." />
+            <marker date="1506418558000" expanded="true" signature="2537:2747" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="2655:2740" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="2756:2836" ph=" Get the root object behind the facade. ..." />
+            <marker date="1506418558000" expanded="true" signature="2881:2968" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="2977:3101" ph=" Get the registered name of the component. ..." />
+            <marker date="1506418558000" expanded="true" signature="3153:3256" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="3265:3395" ph=" Resolve the facade root instance from the container. ..." />
+            <marker date="1506418558000" expanded="true" signature="3456:3727" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="3494:3529" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="3586:3648" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="3736:3839" ph=" Clear a resolved facade instance. ..." />
+            <marker date="1506418558000" expanded="true" signature="3897:3958" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="3967:4044" ph=" Clear all of the resolved instances. ..." />
+            <marker date="1506418558000" expanded="true" signature="4098:4150" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="4159:4287" ph=" Get the application instance behind the facade. ..." />
+            <marker date="1506418558000" expanded="true" signature="4339:4380" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="4389:4525" ph=" Set the application instance. ..." />
+            <marker date="1506418558000" expanded="true" signature="4581:4622" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="4631:4816" ph=" Handle dynamic, static calls to the object. ..." />
+            <marker date="1506418558000" expanded="true" signature="4874:5090" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="4953:5037" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="276">
+          <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
           <folding>
-            <marker date="1506786274000" expanded="true" signature="11:143" ph="..." />
-            <marker date="1506786274000" expanded="true" signature="180:1114" ph="{...}" />
-            <marker date="1506786274000" expanded="true" signature="190:254" ph=" Run the database seeds. ..." />
-            <marker date="1506786274000" expanded="true" signature="282:1112" ph="{...}" />
-            <marker date="1506786274000" expanded="true" signature="839:1032" ph="..." />
-            <marker date="1506786274000" expanded="true" signature="873:1031" ph="..." />
+            <marker date="1506855822000" expanded="true" signature="11:143" ph="..." />
+            <marker date="1506855822000" expanded="true" signature="180:1124" ph="{...}" />
+            <marker date="1506855822000" expanded="true" signature="190:254" ph=" Run the database seeds. ..." />
+            <marker date="1506855822000" expanded="true" signature="282:1122" ph="{...}" />
+            <marker date="1506855822000" expanded="true" signature="840:1041" ph="..." />
+            <marker date="1506855822000" expanded="true" signature="873:1031" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="242">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
-            <marker date="1506786297000" expanded="true" signature="27:119" ph="..." />
-            <marker date="1506786297000" expanded="true" signature="155:1086" ph="{...}" />
-            <marker date="1506786297000" expanded="true" signature="350:429" ph=" The attributes that are mass assignable. ..." />
-            <marker date="1506786297000" expanded="true" signature="459:584" ph="..." />
-            <marker date="1506786297000" expanded="true" signature="595:682" ph=" The attributes that should be hidden for arrays. ..." />
-            <marker date="1506786297000" expanded="true" signature="710:791" ph="..." />
-            <marker date="1506786297000" expanded="true" signature="827:894" ph="{...}" />
-            <marker date="1506786297000" expanded="true" signature="925:986" ph="{...}" />
-            <marker date="1506786297000" expanded="true" signature="1041:1084" ph="{...}" />
+            <marker date="1506917142000" expanded="true" signature="27:119" ph="..." />
+            <marker date="1506917142000" expanded="true" signature="155:1402" ph="{...}" />
+            <marker date="1506917142000" expanded="true" signature="350:429" ph=" The attributes that are mass assignable. ..." />
+            <marker date="1506917142000" expanded="true" signature="459:584" ph="..." />
+            <marker date="1506917142000" expanded="true" signature="595:682" ph=" The attributes that should be hidden for arrays. ..." />
+            <marker date="1506917142000" expanded="true" signature="710:791" ph="..." />
+            <marker date="1506917142000" expanded="true" signature="838:905" ph="{...}" />
+            <marker date="1506917142000" expanded="true" signature="950:993" ph="{...}" />
+            <marker date="1506917142000" expanded="true" signature="1040:1109" ph="{...}" />
+            <marker date="1506917142000" expanded="true" signature="1143:1210" ph="{...}" />
+            <marker date="1506917142000" expanded="true" signature="1241:1302" ph="{...}" />
+            <marker date="1506917142000" expanded="true" signature="1357:1400" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="30" column="52" lean-forward="false" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#7#20#0#PHP" expanded="true" />
+            <marker date="1506418558000" expanded="true" signature="113:2032" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="123:290" ph=" The application's global HTTP middleware stack. ..." />
+            <marker date="1506418558000" expanded="true" signature="322:658" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="669:750" ph=" The application's route middleware groups. ..." />
+            <marker date="1506418558000" expanded="true" signature="788:1376" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="807:1285" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="1307:1369" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="1387:1540" ph=" The application's route middleware. ..." />
+            <marker date="1506418558000" expanded="true" signature="1577:2028" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Buyer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1506786022000" expanded="true" signature="69:171" ph="{...}" />
+            <marker date="1506786022000" expanded="true" signature="106:169" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Traits/ApiResponser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <marker date="1506921292000" expanded="true" signature="48:162" ph="{...}" />
+            <marker date="1506921292000" expanded="true" signature="101:160" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <marker date="1506918067000" expanded="true" signature="108:119" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding>
+            <marker date="1506925409000" expanded="true" signature="50:129" ph="..." />
+            <marker date="1506925409000" expanded="true" signature="174:1783" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="184:280" ph=" Display a listing of the resource. ..." />
+            <marker date="1506925409000" expanded="true" signature="310:434" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="443:547" ph=" Show the form for creating a new resource. ..." />
+            <marker date="1506925409000" expanded="true" signature="578:601" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="610:764" ph=" Store a newly created resource in storage. ..." />
+            <marker date="1506925409000" expanded="true" signature="810:833" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="842:959" ph=" Display the specified resource. ..." />
+            <marker date="1506925409000" expanded="true" signature="991:1125" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="1134:1269" ph=" Show the form for editing the specified resource. ..." />
+            <marker date="1506925409000" expanded="true" signature="1301:1324" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="1333:1510" ph=" Update the specified resource in storage. ..." />
+            <marker date="1506925409000" expanded="true" signature="1562:1585" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="1594:1723" ph=" Remove the specified resource from storage. ..." />
+            <marker date="1506925409000" expanded="true" signature="1758:1781" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Category/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <marker date="1506925409000" expanded="true" signature="53:117" ph="..." />
+            <marker date="1506925409000" expanded="true" signature="165:1562" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="175:271" ph=" Display a listing of the resource. ..." />
+            <marker date="1506925409000" expanded="true" signature="301:324" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="333:437" ph=" Show the form for creating a new resource. ..." />
+            <marker date="1506925409000" expanded="true" signature="468:491" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="500:654" ph=" Store a newly created resource in storage. ..." />
+            <marker date="1506925409000" expanded="true" signature="700:723" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="732:849" ph=" Display the specified resource. ..." />
+            <marker date="1506925409000" expanded="true" signature="881:904" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="913:1048" ph=" Show the form for editing the specified resource. ..." />
+            <marker date="1506925409000" expanded="true" signature="1080:1103" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="1112:1289" ph=" Update the specified resource in storage. ..." />
+            <marker date="1506925409000" expanded="true" signature="1341:1364" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="1373:1502" ph=" Remove the specified resource from storage. ..." />
+            <marker date="1506925409000" expanded="true" signature="1537:1560" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <marker date="1506925409000" expanded="true" signature="52:133" ph="..." />
+            <marker date="1506925409000" expanded="true" signature="180:1654" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="190:286" ph=" Display a listing of the resource. ..." />
+            <marker date="1506925409000" expanded="true" signature="316:416" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="425:529" ph=" Show the form for creating a new resource. ..." />
+            <marker date="1506925409000" expanded="true" signature="560:583" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="592:746" ph=" Store a newly created resource in storage. ..." />
+            <marker date="1506925409000" expanded="true" signature="792:815" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="824:941" ph=" Display the specified resource. ..." />
+            <marker date="1506925409000" expanded="true" signature="973:996" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="1005:1140" ph=" Show the form for editing the specified resource. ..." />
+            <marker date="1506925409000" expanded="true" signature="1172:1195" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="1204:1381" ph=" Update the specified resource in storage. ..." />
+            <marker date="1506925409000" expanded="true" signature="1433:1456" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="1465:1594" ph=" Remove the specified resource from storage. ..." />
+            <marker date="1506925409000" expanded="true" signature="1629:1652" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Seller/SellerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding>
+            <marker date="1506925409000" expanded="true" signature="51:131" ph="..." />
+            <marker date="1506925409000" expanded="true" signature="177:1784" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="187:283" ph=" Display a listing of the resource. ..." />
+            <marker date="1506925409000" expanded="true" signature="313:436" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="445:549" ph=" Show the form for creating a new resource. ..." />
+            <marker date="1506925409000" expanded="true" signature="580:603" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="612:766" ph=" Store a newly created resource in storage. ..." />
+            <marker date="1506925409000" expanded="true" signature="812:835" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="844:961" ph=" Display the specified resource. ..." />
+            <marker date="1506925409000" expanded="true" signature="993:1126" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="1135:1270" ph=" Show the form for editing the specified resource. ..." />
+            <marker date="1506925409000" expanded="true" signature="1302:1325" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="1334:1511" ph=" Update the specified resource in storage. ..." />
+            <marker date="1506925409000" expanded="true" signature="1563:1586" ph="{...}" />
+            <marker date="1506925409000" expanded="true" signature="1595:1724" ph=" Remove the specified resource from storage. ..." />
+            <marker date="1506925409000" expanded="true" signature="1759:1782" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Transaction/TransactionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding>
+            <marker date="1506925437000" expanded="true" signature="56:120" ph="..." />
+            <marker date="1506925437000" expanded="true" signature="171:1568" ph="{...}" />
+            <marker date="1506925437000" expanded="true" signature="181:277" ph=" Display a listing of the resource. ..." />
+            <marker date="1506925437000" expanded="true" signature="307:330" ph="{...}" />
+            <marker date="1506925437000" expanded="true" signature="339:443" ph=" Show the form for creating a new resource. ..." />
+            <marker date="1506925437000" expanded="true" signature="474:497" ph="{...}" />
+            <marker date="1506925437000" expanded="true" signature="506:660" ph=" Store a newly created resource in storage. ..." />
+            <marker date="1506925437000" expanded="true" signature="706:729" ph="{...}" />
+            <marker date="1506925437000" expanded="true" signature="738:855" ph=" Display the specified resource. ..." />
+            <marker date="1506925437000" expanded="true" signature="887:910" ph="{...}" />
+            <marker date="1506925437000" expanded="true" signature="919:1054" ph=" Show the form for editing the specified resource. ..." />
+            <marker date="1506925437000" expanded="true" signature="1086:1109" ph="{...}" />
+            <marker date="1506925437000" expanded="true" signature="1118:1295" ph=" Update the specified resource in storage. ..." />
+            <marker date="1506925437000" expanded="true" signature="1347:1370" ph="{...}" />
+            <marker date="1506925437000" expanded="true" signature="1379:1508" ph=" Remove the specified resource from storage. ..." />
+            <marker date="1506925437000" expanded="true" signature="1543:1566" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="e#45#58#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
