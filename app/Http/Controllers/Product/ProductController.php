@@ -16,7 +16,8 @@ class ProductController extends ApiController
     public function index()
     {
         $product = Product::all();
-        return response()->json(['data'=>$product]);
+//        return response()->json(['data'=>$product]);
+        return $this->showAll($product);
     }
 
     /**

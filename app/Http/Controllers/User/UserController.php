@@ -16,7 +16,8 @@ class UserController extends ApiController
     public function index()
     {
         $users = User::all();
-        return response()->json(['data' => $users], 200);
+//        return response()->json(['data' => $users], 200);
+        return $this->showAll($users);
     }
 
     /**
@@ -69,7 +70,8 @@ class UserController extends ApiController
     public function show($id)
     {
         $user = User::findOrFail($id);
-        return response()->json(['data' => $user], 200);
+//        return response()->json(['data' => $user], 200);
+        return $this->showOne($user);
     }
 
     /**
@@ -116,14 +118,16 @@ class UserController extends ApiController
 
         if ($request->has('admin')){
             if (!$user->isVerified()){
-                return response()->json(['error' => '인증된 사용자만이 admin 필드수정이 가능합니다', 'code' => 409],409);
+//                return response()->json(['error' => '인증된 사용자만이 admin 필드수정이 가능합니다', 'code' => 409],409);
+                return $this->errorResponse('인증된 사용자만이 admin 필드수정이 가능합니다',409);
             }
 
              $user->admin = $request->admin;
         }
 
         if (!$user->isDirty()){
-            return response()->json(['error' => '업데이트  정보를 입력해주세요', 'code' => 422],422);
+//            return response()->json(['error' => '업데이트  정보를 입력해주세요', 'code' => 422],422);
+            return $this->errorResponse('업데이트  정보를 입력해주세요',422);
         }
         $user->save();
 

@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b9bbde3-8263-4b2f-a5e1-68ab3708b880" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Traits/ApiResponser.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Seller/SellerController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Seller/SellerController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Transaction/TransactionController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Transaction/TransactionController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Traits/ApiResponser.php" afterPath="$PROJECT_DIR$/app/Traits/ApiResponser.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,8 +25,8 @@
       <file leaf-file-name="UserController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="294">
+              <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
               <folding>
                 <element signature="e#45#58#0#PHP" expanded="true" />
               </folding>
@@ -70,13 +66,13 @@
         <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" />
-        <option value="$PROJECT_DIR$/app/Traits/ApiResponser.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Transaction/TransactionController.php" />
+        <option value="$PROJECT_DIR$/app/Traits/ApiResponser.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Seller/SellerController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Transaction/TransactionController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" />
       </list>
     </option>
@@ -134,6 +130,36 @@
             <path>
               <item name="api.bfw.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="api.bfw.com" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="api.bfw.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api.bfw.com" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="api.bfw.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api.bfw.com" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="User" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="api.bfw.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api.bfw.com" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="User" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="UserController.php" type="88303cf5:PhpFileNode" />
+            </path>
+            <path>
+              <item name="api.bfw.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api.bfw.com" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -164,7 +190,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/database/seeds/DatabaseSeeder.php&#10;seed&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/database/seeds/DatabaseSeeder.php" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/app/Traits/ApiResponser.php&#10;Apires&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/app/Traits/ApiResponser.php&#10;seed&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/database/seeds/DatabaseSeeder.php" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -192,7 +218,7 @@
       <option name="presentableId" value="Default" />
       <updated>1506418570282</updated>
       <workItem from="1506418573093" duration="1393000" />
-      <workItem from="1506581564320" duration="37520000" />
+      <workItem from="1506581564320" duration="40771000" />
     </task>
     <task id="LOCAL-00001" summary="Modify database setting">
       <created>1506418941342</created>
@@ -257,11 +283,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506851190488</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Generalizing The Response Methods">
+      <created>1506925509982</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1506925509982</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38913000" />
+    <option name="totallyTimeSpent" value="42164000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -337,7 +370,8 @@
     <MESSAGE value="Implementing The Update Method for UserController" />
     <MESSAGE value="Implementing The delete Method for UserController" />
     <MESSAGE value="Fix DatabaseSeeder.php Problem&#10; $product-&gt; $categories()-&gt;attach($categories);&#10; fix to &#10; $product-&gt; categories()-&gt;attach($categories);" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix DatabaseSeeder.php Problem&#10; $product-&gt; $categories()-&gt;attach($categories);&#10; fix to &#10; $product-&gt; categories()-&gt;attach($categories);" />
+    <MESSAGE value="Generalizing The Response Methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generalizing The Response Methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -399,9 +433,828 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-543">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1506418558000" expanded="true" signature="15:3948" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="23:459" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="518:1166" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="1192:2760" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="1215:1366" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="1390:1913" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="1937:2366" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="2391:2752" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="2770:3203" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="3248:3667" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="3687:3944" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="3742:3936" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <marker date="1506697003000" expanded="true" signature="37:111" ph="..." />
+            <marker date="1506697003000" expanded="true" signature="161:518" ph="{...}" />
+            <marker date="1506697003000" expanded="true" signature="171:247" ph=" Bootstrap any application services. ..." />
+            <marker date="1506697003000" expanded="true" signature="276:376" ph="{...}" />
+            <marker date="1506697003000" expanded="true" signature="385:460" ph=" Register any application services. ..." />
+            <marker date="1506697003000" expanded="true" signature="493:516" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/KakaoTalk_Photo_2017-09-24-20-39-59.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/KakaoTalk_Photo_2017-09-24-20-40-08.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/KakaoTalk_Photo_2017-09-24-20-40-10.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/KakaoTalk_Photo_2017-09-24-20-40-13.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Routing/ResponseFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <marker date="1506418558000" expanded="true" signature="73:3874" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="83:279" ph=" Return a new response from the application. ..." />
+            <marker date="1506418558000" expanded="true" signature="367:593" ph=" Return a new view response from the application. ..." />
+            <marker date="1506418558000" expanded="true" signature="685:922" ph=" Return a new JSON response from the application. ..." />
+            <marker date="1506418558000" expanded="true" signature="1021:1292" ph=" Return a new JSONP response from the application. ..." />
+            <marker date="1506418558000" expanded="true" signature="1403:1636" ph=" Return a new streamed response from the application. ..." />
+            <marker date="1506418558000" expanded="true" signature="1722:1990" ph=" Create a new file download response. ..." />
+            <marker date="1506418558000" expanded="true" signature="2102:2343" ph=" Create a new redirect response to the given path. ..." />
+            <marker date="1506418558000" expanded="true" signature="2439:2680" ph=" Create a new redirect response to a named route. ..." />
+            <marker date="1506418558000" expanded="true" signature="2784:3032" ph=" Create a new redirect response to a controller action. ..." />
+            <marker date="1506418558000" expanded="true" signature="3138:3407" ph=" Create a new redirect response, while putting the current URL in the session. ..." />
+            <marker date="1506418558000" expanded="true" signature="3506:3768" ph=" Create a new redirect response to the previously intended location. ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1506689016000" expanded="true" signature="9:387" ph="..." />
+            <marker date="1506689016000" expanded="true" signature="391:486" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1506418558000" expanded="true" signature="15:9166" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="23:449" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="502:930" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="984:1407" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="1458:1874" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="1934:2358" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="2394:2833" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="2866:3297" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="3339:3760" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="3832:4326" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="4427:4859" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="4883:6690" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="4895:4955" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="6305:6355" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="6369:6423" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="6700:7114" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="7136:9162" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding>
+            <marker date="1506785207000" expanded="true" signature="40:418" ph="..." />
+            <marker date="1506785207000" expanded="true" signature="539:553" ph=" Buyers ..." />
+            <marker date="1506785207000" expanded="true" signature="645:663" ph=" Categories ..." />
+            <marker date="1506785207000" expanded="true" signature="768:784" ph=" Products ..." />
+            <marker date="1506785207000" expanded="true" signature="882:897" ph=" Sellers ..." />
+            <marker date="1506785207000" expanded="true" signature="992:1012" ph=" Transactions ..." />
+            <marker date="1506785207000" expanded="true" signature="1122:1135" ph=" Users ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transaction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <marker date="1506785920000" expanded="true" signature="27:94" ph="..." />
+            <marker date="1506785920000" expanded="true" signature="127:408" ph="{...}" />
+            <marker date="1506785920000" expanded="true" signature="157:224" ph="..." />
+            <marker date="1506785920000" expanded="true" signature="255:314" ph="{...}" />
+            <marker date="1506785920000" expanded="true" signature="345:406" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Seller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1506785951000" expanded="true" signature="66:160" ph="{...}" />
+            <marker date="1506785951000" expanded="true" signature="99:158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <marker date="1506785984000" expanded="true" signature="27:117" ph="..." />
+            <marker date="1506785984000" expanded="true" signature="146:787" ph="{...}" />
+            <marker date="1506785984000" expanded="true" signature="267:387" ph="..." />
+            <marker date="1506785984000" expanded="true" signature="424:496" ph="{...}" />
+            <marker date="1506785984000" expanded="true" signature="526:586" ph="{...}" />
+            <marker date="1506785984000" expanded="true" signature="622:685" ph="{...}" />
+            <marker date="1506785984000" expanded="true" signature="719:785" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding>
+            <marker date="1506786064000" expanded="true" signature="11:147" ph="..." />
+            <marker date="1506786064000" expanded="true" signature="189:959" ph="{...}" />
+            <marker date="1506786064000" expanded="true" signature="199:259" ph=" Run the migrations. ..." />
+            <marker date="1506786064000" expanded="true" signature="286:804" ph="{...}" />
+            <marker date="1506786064000" expanded="true" signature="316:796" ph="..." />
+            <marker date="1506786064000" expanded="true" signature="354:795" ph="..." />
+            <marker date="1506786064000" expanded="true" signature="813:877" ph=" Reverse the migrations. ..." />
+            <marker date="1506786064000" expanded="true" signature="906:957" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_09_29_124954_create_categories_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <marker date="1506786089000" expanded="false" signature="11:133" ph="..." />
+            <marker date="1506786089000" expanded="true" signature="180:685" ph="{...}" />
+            <marker date="1506786089000" expanded="true" signature="190:250" ph=" Run the migrations. ..." />
+            <marker date="1506786089000" expanded="true" signature="277:525" ph="{...}" />
+            <marker date="1506786089000" expanded="true" signature="307:517" ph="..." />
+            <marker date="1506786089000" expanded="true" signature="350:516" ph="..." />
+            <marker date="1506786089000" expanded="true" signature="534:598" ph=" Reverse the migrations. ..." />
+            <marker date="1506786089000" expanded="true" signature="627:683" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_09_29_125006_create_products_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <marker date="1506786107000" expanded="true" signature="11:150" ph="..." />
+            <marker date="1506786107000" expanded="true" signature="195:991" ph="{...}" />
+            <marker date="1506786107000" expanded="true" signature="205:265" ph=" Run the migrations. ..." />
+            <marker date="1506786107000" expanded="true" signature="292:833" ph="{...}" />
+            <marker date="1506786107000" expanded="true" signature="322:825" ph="..." />
+            <marker date="1506786107000" expanded="true" signature="363:824" ph="..." />
+            <marker date="1506786107000" expanded="true" signature="842:906" ph=" Reverse the migrations. ..." />
+            <marker date="1506786107000" expanded="true" signature="935:989" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_09_29_125020_create_transactions_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <marker date="1506786123000" expanded="true" signature="11:133" ph="..." />
+            <marker date="1506786123000" expanded="true" signature="182:917" ph="{...}" />
+            <marker date="1506786123000" expanded="true" signature="192:252" ph=" Run the migrations. ..." />
+            <marker date="1506786123000" expanded="true" signature="279:755" ph="{...}" />
+            <marker date="1506786123000" expanded="true" signature="309:747" ph="..." />
+            <marker date="1506786123000" expanded="true" signature="354:746" ph="..." />
+            <marker date="1506786123000" expanded="true" signature="764:828" ph=" Reverse the migrations. ..." />
+            <marker date="1506786123000" expanded="true" signature="857:915" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2017_09_29_153457_category_product_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <marker date="1506699716000" expanded="true" signature="11:133" ph="..." />
+            <marker date="1506699716000" expanded="true" signature="179:808" ph="{...}" />
+            <marker date="1506699716000" expanded="true" signature="189:249" ph=" Run the migrations. ..." />
+            <marker date="1506699716000" expanded="true" signature="276:642" ph="{...}" />
+            <marker date="1506699716000" expanded="true" signature="306:634" ph="..." />
+            <marker date="1506699716000" expanded="true" signature="355:633" ph="..." />
+            <marker date="1506699716000" expanded="true" signature="651:715" ph=" Reverse the migrations. ..." />
+            <marker date="1506699716000" expanded="true" signature="744:806" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <marker date="1506786896000" expanded="true" signature="11:92" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="96:479" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="559:1146" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="607:1145" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="643:1142" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="1167:1321" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="1219:1320" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="1233:1317" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="1342:1817" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="1393:1816" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="1407:1813" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="1838:2218" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="1893:2217" ph="..." />
+            <marker date="1506786896000" expanded="true" signature="2021:2214" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/DB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <marker date="1506418558000" expanded="true" signature="49:136" ph=" @see \Illuminate\Database\DatabaseManager ..." />
+            <marker date="1506418558000" expanded="true" signature="162:343" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="172:256" ph=" Get the registered name of the component. ..." />
+            <marker date="1506418558000" expanded="true" signature="308:341" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-251">
+          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <marker date="1506418558000" expanded="false" signature="50:107" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="130:5092" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="140:257" ph=" The application instance being facaded. ..." />
+            <marker date="1506418558000" expanded="true" signature="295:364" ph=" The resolved object instances. ..." />
+            <marker date="1506418558000" expanded="true" signature="415:494" ph=" Convert the facade into a Mockery spy. ..." />
+            <marker date="1506418558000" expanded="true" signature="529:709" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="569:702" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="718:817" ph=" Initiate a mock expectation on the facade. ..." />
+            <marker date="1506418558000" expanded="true" signature="862:1123" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="1132:1238" ph=" Create a fresh mock instance for the given class. ..." />
+            <marker date="1506418558000" expanded="true" signature="1296:1471" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="1322:1463" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="1362:1462" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="1480:1588" ph=" Create a fresh mock instance for the given class. ..." />
+            <marker date="1506418558000" expanded="true" signature="1633:1756" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="1765:1869" ph=" Determines whether a mock is set as the instance of the facade. ..." />
+            <marker date="1506418558000" expanded="true" signature="1910:2100" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="2109:2203" ph=" Get the mockable class for the bound instance. ..." />
+            <marker date="1506418558000" expanded="true" signature="2254:2360" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="2307:2353" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="2369:2492" ph=" Hotswap the underlying instance behind the facade. ..." />
+            <marker date="1506418558000" expanded="true" signature="2537:2747" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="2655:2740" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="2756:2836" ph=" Get the root object behind the facade. ..." />
+            <marker date="1506418558000" expanded="true" signature="2881:2968" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="2977:3101" ph=" Get the registered name of the component. ..." />
+            <marker date="1506418558000" expanded="true" signature="3153:3256" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="3265:3395" ph=" Resolve the facade root instance from the container. ..." />
+            <marker date="1506418558000" expanded="true" signature="3456:3727" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="3494:3529" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="3586:3648" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="3736:3839" ph=" Clear a resolved facade instance. ..." />
+            <marker date="1506418558000" expanded="true" signature="3897:3958" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="3967:4044" ph=" Clear all of the resolved instances. ..." />
+            <marker date="1506418558000" expanded="true" signature="4098:4150" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="4159:4287" ph=" Get the application instance behind the facade. ..." />
+            <marker date="1506418558000" expanded="true" signature="4339:4380" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="4389:4525" ph=" Set the application instance. ..." />
+            <marker date="1506418558000" expanded="true" signature="4581:4622" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="4631:4816" ph=" Handle dynamic, static calls to the object. ..." />
+            <marker date="1506418558000" expanded="true" signature="4874:5090" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="4953:5037" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+          <folding>
+            <marker date="1506855822000" expanded="true" signature="11:143" ph="..." />
+            <marker date="1506855822000" expanded="true" signature="180:1124" ph="{...}" />
+            <marker date="1506855822000" expanded="true" signature="190:254" ph=" Run the database seeds. ..." />
+            <marker date="1506855822000" expanded="true" signature="282:1122" ph="{...}" />
+            <marker date="1506855822000" expanded="true" signature="840:1041" ph="..." />
+            <marker date="1506855822000" expanded="true" signature="873:1031" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1506418558000" expanded="true" signature="113:2032" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="123:290" ph=" The application's global HTTP middleware stack. ..." />
+            <marker date="1506418558000" expanded="true" signature="322:658" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="669:750" ph=" The application's route middleware groups. ..." />
+            <marker date="1506418558000" expanded="true" signature="788:1376" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="807:1285" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="1307:1369" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="1387:1540" ph=" The application's route middleware. ..." />
+            <marker date="1506418558000" expanded="true" signature="1577:2028" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <marker date="1506917142000" expanded="true" signature="27:119" ph="..." />
+            <marker date="1506917142000" expanded="true" signature="155:1402" ph="{...}" />
+            <marker date="1506917142000" expanded="true" signature="350:429" ph=" The attributes that are mass assignable. ..." />
+            <marker date="1506917142000" expanded="true" signature="459:584" ph="..." />
+            <marker date="1506917142000" expanded="true" signature="595:682" ph=" The attributes that should be hidden for arrays. ..." />
+            <marker date="1506917142000" expanded="true" signature="710:791" ph="..." />
+            <marker date="1506917142000" expanded="true" signature="838:905" ph="{...}" />
+            <marker date="1506917142000" expanded="true" signature="950:993" ph="{...}" />
+            <marker date="1506917142000" expanded="true" signature="1040:1109" ph="{...}" />
+            <marker date="1506917142000" expanded="true" signature="1143:1210" ph="{...}" />
+            <marker date="1506917142000" expanded="true" signature="1241:1302" ph="{...}" />
+            <marker date="1506917142000" expanded="true" signature="1357:1400" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1506786011000" expanded="true" signature="27:79" ph="..." />
+            <marker date="1506786011000" expanded="true" signature="109:284" ph="{...}" />
+            <marker date="1506786011000" expanded="true" signature="139:183" ph="..." />
+            <marker date="1506786011000" expanded="true" signature="217:282" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Buyer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1506786022000" expanded="true" signature="69:171" ph="{...}" />
+            <marker date="1506786022000" expanded="true" signature="106:169" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <marker date="1506418558000" expanded="false" signature="42:351" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="461:41475" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="491:568" ph=" The items contained in the collection. ..." />
+            <marker date="1506418558000" expanded="true" signature="606:677" ph=" The methods that can be proxied. ..." />
+            <marker date="1506418558000" expanded="true" signature="713:872" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="883:977" ph=" Create a new collection. ..." />
+            <marker date="1506418558000" expanded="true" signature="1024:1093" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="1102:1238" ph=" Create a new collection instance if the value isn't one already. ..." />
+            <marker date="1506418558000" expanded="true" signature="1285:1332" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="1341:1464" ph=" Wrap the given value in a collection if applicable. ..." />
+            <marker date="1506418558000" expanded="true" signature="1506:1634" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="1643:1786" ph=" Get the underlying items from the given collection if applicable. ..." />
+            <marker date="1506418558000" expanded="true" signature="1830:1906" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="1915:2094" ph=" Create a new collection by invoking the callback a given amount of times. ..." />
+            <marker date="1506418558000" expanded="true" signature="2165:2405" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="2198:2238" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="2274:2333" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="2414:2495" ph=" Get all of the items in the collection. ..." />
+            <marker date="1506418558000" expanded="true" signature="2523:2564" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="2573:2699" ph=" Get the average value of a given key. ..." />
+            <marker date="1506418558000" expanded="true" signature="2743:2855" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="2788:2848" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="2864:2980" ph=" Alias for the &quot;avg&quot; method. ..." />
+            <marker date="1506418558000" expanded="true" signature="3028:3078" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="3087:3184" ph=" Get the median of a given key. ..." />
+            <marker date="1506418558000" expanded="true" signature="3226:3665" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="3293:3322" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="3491:3542" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="3573:3644" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="3674:3776" ph=" Get the mode of a given key. ..." />
+            <marker date="1506418558000" expanded="true" signature="3816:4395" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="3883:3912" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="4035:4158" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="4068:4157" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="4271:4364" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="4310:4363" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="4404:4500" ph=" Collapse the collection of items into a single array. ..." />
+            <marker date="1506418558000" expanded="true" signature="4533:4601" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="4610:4785" ph=" Determine if an item exists in the collection. ..." />
+            <marker date="1506418558000" expanded="true" signature="4855:5269" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="4897:5070" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="4943:5010" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="5108:5179" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="5278:5445" ph=" Determine if an item exists in the collection using strict comparison. ..." />
+            <marker date="1506418558000" expanded="true" signature="5503:5862" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="5545:5700" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="5581:5689" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="5618:5688" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="5744:5803" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="5871:6015" ph=" Cross join with the given lists, returning all possible permutations. ..." />
+            <marker date="1506418558000" expanded="true" signature="6058:6201" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="6106:6192" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="6210:6290" ph=" Dump the collection and end the script. ..." />
+            <marker date="1506418558000" expanded="true" signature="6317:6355" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="6364:6426" ph=" Dump the collection. ..." />
+            <marker date="1506418558000" expanded="true" signature="6455:6651" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="6519:6524" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="6545:6620" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="6563:6619" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="6660:6804" ph=" Get the items in the collection that are not present in the given items. ..." />
+            <marker date="1506418558000" expanded="true" signature="6839:6938" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="6947:7108" ph=" Get the items in the collection whose keys and values are not present in the given items. ..." />
+            <marker date="1506418558000" expanded="true" signature="7148:7253" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="7262:7412" ph=" Get the items in the collection whose keys are not present in the given items. ..." />
+            <marker date="1506418558000" expanded="true" signature="7451:7554" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="7563:7674" ph=" Execute a callback over each item. ..." />
+            <marker date="1506418558000" expanded="true" signature="7721:7905" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="7777:7875" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="7829:7865" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="7914:8043" ph=" Execute a callback over each nested chunk of items. ..." />
+            <marker date="1506418558000" expanded="true" signature="8096:8260" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="8130:8252" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="8171:8251" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="8269:8469" ph=" Determine if all items in the collection pass the given test. ..." />
+            <marker date="1506418558000" expanded="true" signature="8536:9021" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="8578:8825" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="8681:8789" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="8724:8775" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="8863:8934" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="9030:9156" ph=" Get all items except for those with the specified keys. ..." />
+            <marker date="1506418558000" expanded="true" signature="9192:9325" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="9334:9453" ph=" Run a filter over each of the items. ..." />
+            <marker date="1506418558000" expanded="true" signature="9509:9680" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="9540:9617" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="9689:9870" ph=" Apply the callback if the value is truthy. ..." />
+            <marker date="1506418558000" expanded="true" signature="9951:10121" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="9979:10025" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="10046:10091" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="10130:10310" ph=" Apply the callback if the value is falsy. ..." />
+            <marker date="1506418558000" expanded="true" signature="10393:10464" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="10473:10646" ph=" Filter items by the given key value pair. ..." />
+            <marker date="1506418558000" expanded="true" signature="10706:10907" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="10748:10819" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="10916:11084" ph=" Get an operator checker callback. ..." />
+            <marker date="1506418558000" expanded="true" signature="11151:12019" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="11221:12011" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="11288:11934" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="11325:11920" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="11958:12001" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="12028:12193" ph=" Filter items by the given key value pair using strict comparison. ..." />
+            <marker date="1506418558000" expanded="true" signature="12241:12303" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="12312:12483" ph=" Filter items by the given key value pair. ..." />
+            <marker date="1506418558000" expanded="true" signature="12545:12770" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="12635:12762" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="12682:12761" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="12779:12945" ph=" Filter items by the given key value pair using strict comparison. ..." />
+            <marker date="1506418558000" expanded="true" signature="12996:13060" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="13069:13240" ph=" Filter items by the given key value pair. ..." />
+            <marker date="1506418558000" expanded="true" signature="13305:13530" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="13395:13522" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="13442:13521" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="13539:13705" ph=" Filter items by the given key value pair using strict comparison. ..." />
+            <marker date="1506418558000" expanded="true" signature="13759:13826" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="13835:13987" ph=" Get the first item from the collection. ..." />
+            <marker date="1506418558000" expanded="true" signature="14059:14133" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="14142:14265" ph=" Get a flattened array of the items in the collection. ..." />
+            <marker date="1506418558000" expanded="true" signature="14309:14384" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="14393:14469" ph=" Flip the items in the collection. ..." />
+            <marker date="1506418558000" expanded="true" signature="14498:14563" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="14572:14691" ph=" Remove an item from the collection by key. ..." />
+            <marker date="1506418558000" expanded="true" signature="14727:14852" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="14775:14822" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="14861:15000" ph=" Get an item from the collection by key. ..." />
+            <marker date="1506418558000" expanded="true" signature="15049:15184" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="15096:15144" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="15193:15370" ph=" Group an associative array by a field or using a callback. ..." />
+            <marker date="1506418558000" expanded="true" signature="15433:16133" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="15567:16088" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="15659:15715" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="15765:16078" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="15907:15978" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="16142:16280" ph=" Key an associative array by a field or using a callback. ..." />
+            <marker date="1506418558000" expanded="true" signature="16316:16704" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="16445:16659" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="16537:16604" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="16713:16834" ph=" Determine if an item exists in the collection by key. ..." />
+            <marker date="1506418558000" expanded="true" signature="16866:17097" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="16966:17068" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="17015:17058" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="17106:17254" ph=" Concatenate values of a given key as a string. ..." />
+            <marker date="1506418558000" expanded="true" signature="17306:17526" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="17399:17472" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="17535:17653" ph=" Intersect the collection with the given items. ..." />
+            <marker date="1506418558000" expanded="true" signature="17693:17797" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="17806:17931" ph=" Intersect the collection with the given items by key. ..." />
+            <marker date="1506418558000" expanded="true" signature="17977:18107" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="18030:18098" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="18116:18201" ph=" Determine if the collection is empty or not. ..." />
+            <marker date="1506418558000" expanded="true" signature="18233:18281" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="18290:18372" ph=" Determine if the collection is not empty. ..." />
+            <marker date="1506418558000" expanded="true" signature="18407:18454" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="18463:18592" ph=" Determine if the given value is callable, but not a string. ..." />
+            <marker date="1506418558000" expanded="true" signature="18639:18710" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="18719:18799" ph=" Get the keys of the collection items. ..." />
+            <marker date="1506418558000" expanded="true" signature="18828:18893" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="18902:19053" ph=" Get the last item from the collection. ..." />
+            <marker date="1506418558000" expanded="true" signature="19124:19197" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="19206:19348" ph=" Get the values of a given key. ..." />
+            <marker date="1506418558000" expanded="true" signature="19397:19476" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="19485:19596" ph=" Run a map over each of the items. ..." />
+            <marker date="1506418558000" expanded="true" signature="19642:19815" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="19824:19944" ph=" Run a map over each nested chunk of items. ..." />
+            <marker date="1506418558000" expanded="true" signature="19996:20159" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="20029:20151" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="20070:20150" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="20168:20372" ph=" Run a grouping map over the items. ..." />
+            <marker date="1506418558000" expanded="true" signature="20426:20670" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="20481:20601" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="20508:20596" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="20679:20895" ph=" Run an associative map over each of the items. ..." />
+            <marker date="1506418558000" expanded="true" signature="20949:21244" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="21029:21200" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="21131:21190" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="21253:21389" ph=" Map a collection and flatten the result by a single level. ..." />
+            <marker date="1506418558000" expanded="true" signature="21439:21501" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="21510:21615" ph=" Map the values into a new class. ..." />
+            <marker date="1506418558000" expanded="true" signature="21653:21787" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="21686:21779" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="21724:21778" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="21796:21918" ph=" Get the max value of a given key. ..." />
+            <marker date="1506418558000" expanded="true" signature="21962:22307" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="22053:22120" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="22072:22119" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="22130:22299" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="22173:22298" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="22316:22430" ph=" Merge the collection with the given items. ..." />
+            <marker date="1506418558000" expanded="true" signature="22466:22566" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="22575:22729" ph=" Create a collection by using this collection for keys and another for its values. ..." />
+            <marker date="1506418558000" expanded="true" signature="22768:22871" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="22880:22994" ph=" Union the collection with the given items. ..." />
+            <marker date="1506418558000" expanded="true" signature="23030:23118" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="23127:23249" ph=" Get the min value of a given key. ..." />
+            <marker date="1506418558000" expanded="true" signature="23293:23638" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="23384:23451" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="23403:23450" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="23461:23630" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="23504:23629" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="23647:23801" ph=" Create a new collection consisting of every n-th element. ..." />
+            <marker date="1506418558000" expanded="true" signature="23847:24110" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="23939:24069" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="23988:24033" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="24119:24228" ph=" Get the items with the specified keys. ..." />
+            <marker date="1506418558000" expanded="true" signature="24262:24479" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="24298:24352" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="24488:24652" ph=" &quot;Paginate&quot; the collection by slicing it into a smaller collection. ..." />
+            <marker date="1506418558000" expanded="true" signature="24699:24774" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="24783:24941" ph=" Partition the collection into two arrays using the given callback or key. ..." />
+            <marker date="1506418558000" expanded="true" signature="24984:25272" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="25144:25224" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="25281:25421" ph=" Pass the collection to the given callback and return the result. ..." />
+            <marker date="1506418558000" expanded="true" signature="25468:25513" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="25522:25613" ph=" Get and remove the last item from the collection. ..." />
+            <marker date="1506418558000" expanded="true" signature="25641:25693" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="25702:25850" ph=" Push an item onto the beginning of the collection. ..." />
+            <marker date="1506418558000" expanded="true" signature="25901:26001" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="26010:26125" ph=" Push an item onto the end of the collection. ..." />
+            <marker date="1506418558000" expanded="true" signature="26160:26235" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="26244:26371" ph=" Push all of the given items onto the collection. ..." />
+            <marker date="1506418558000" expanded="true" signature="26409:26565" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="26490:26533" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="26574:26717" ph=" Get and remove an item from the collection. ..." />
+            <marker date="1506418558000" expanded="true" signature="26767:26835" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="26844:26979" ph=" Put an item in the collection by key. ..." />
+            <marker date="1506418558000" expanded="true" signature="27019:27094" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="27103:27294" ph=" Get one or a specified number of items randomly from the collection. ..." />
+            <marker date="1506418558000" expanded="true" signature="27339:27503" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="27377:27432" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="27512:27660" ph=" Reduce the collection to a single value. ..." />
+            <marker date="1506418558000" expanded="true" signature="27726:27802" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="27811:27967" ph=" Create a collection of all elements that do not pass a given truth test. ..." />
+            <marker date="1506418558000" expanded="true" signature="28007:28333" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="28060:28210" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="28094:28199" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="28135:28198" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="28242:28325" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="28276:28324" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="28342:28405" ph=" Reverse items order. ..." />
+            <marker date="1506418558000" expanded="true" signature="28437:28511" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="28520:28707" ph=" Search the collection for a given value and return the corresponding key if successful. ..." />
+            <marker date="1506418558000" expanded="true" signature="28761:29075" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="28813:28886" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="28938:29045" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="28993:29035" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="29084:29176" ph=" Get and remove the first item from the collection. ..." />
+            <marker date="1506418558000" expanded="true" signature="29206:29260" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="29269:29374" ph=" Shuffle the items in the collection. ..." />
+            <marker date="1506418558000" expanded="true" signature="29418:29703" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="29486:29524" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="29532:29660" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="29578:29649" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="29599:29648" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="29712:29849" ph=" Slice the underlying collection array. ..." />
+            <marker date="1506418558000" expanded="true" signature="29902:29992" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="30001:30131" ph=" Split a collection into a certain number of groups. ..." />
+            <marker date="1506418558000" expanded="true" signature="30176:30365" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="30214:30254" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="30374:30481" ph=" Chunk the underlying collection array. ..." />
+            <marker date="1506418558000" expanded="true" signature="30516:30779" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="30548:30588" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="30682:30735" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="30788:30910" ph=" Sort through each item with a callback. ..." />
+            <marker date="1506418558000" expanded="true" signature="30964:31131" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="31140:31332" ph=" Sort the collection using the given callback. ..." />
+            <marker date="1506418558000" expanded="true" signature="31418:32443" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="31828:31886" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="32340:32398" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="32452:32631" ph=" Sort the collection in descending order using the given callback. ..." />
+            <marker date="1506418558000" expanded="true" signature="32700:32769" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="32778:32969" ph=" Splice a portion of the underlying collection array. ..." />
+            <marker date="1506418558000" expanded="true" signature="33042:33256" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="33084:33161" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="33265:33386" ph=" Get the sum of the given values. ..." />
+            <marker date="1506418558000" expanded="true" signature="33430:33721" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="33470:33523" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="33610:33713" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="33653:33709" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="33730:33838" ph=" Take the first or last {$limit} items. ..." />
+            <marker date="1506418558000" expanded="true" signature="33873:34016" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="33905:33968" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="34025:34163" ph=" Pass the collection to the given callback and then return it. ..." />
+            <marker date="1506418558000" expanded="true" signature="34209:34289" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="34298:34430" ph=" Transform each item in the collection using a callback. ..." />
+            <marker date="1506418558000" expanded="true" signature="34482:34570" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="34579:34744" ph=" Return only unique items from the collection array. ..." />
+            <marker date="1506418558000" expanded="true" signature="34803:35251" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="34838:34920" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="35025:35243" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="35084:35242" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="35160:35202" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="35260:35420" ph=" Return only unique items from the collection array using strict comparison. ..." />
+            <marker date="1506418558000" expanded="true" signature="35468:35522" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="35531:35613" ph=" Reset the keys on the underlying array. ..." />
+            <marker date="1506418558000" expanded="true" signature="35644:35711" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="35720:35827" ph=" Get a value retrieving callback. ..." />
+            <marker date="1506418558000" expanded="true" signature="35875:36071" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="35925:35961" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="36010:36063" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="36080:36308" ph=" Zip the collection together with one or more arrays. ..." />
+            <marker date="1506418558000" expanded="true" signature="36342:36702" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="36385:36484" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="36404:36466" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="36518:36622" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="36519:36604" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="36532:36589" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="36711:36861" ph=" Pad collection to the specified length with a value. ..." />
+            <marker date="1506418558000" expanded="true" signature="36902:36981" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="36990:37077" ph=" Get the collection of items as a plain array. ..." />
+            <marker date="1506418558000" expanded="true" signature="37109:37269" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="37141:37261" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="37160:37246" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="37278:37372" ph=" Convert the object into something JSON serializable. ..." />
+            <marker date="1506418558000" expanded="true" signature="37410:37868" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="37442:37860" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="37461:37845" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="37515:37576" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="37615:37688" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="37728:37783" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="37791:37835" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="37877:37985" ph=" Get the collection of items as JSON. ..." />
+            <marker date="1506418558000" expanded="true" signature="38028:38102" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="38111:38192" ph=" Get an iterator for the items. ..." />
+            <marker date="1506418558000" expanded="true" signature="38228:38288" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="38297:38408" ph=" Get a CachingIterator instance. ..." />
+            <marker date="1506418558000" expanded="true" signature="38490:38568" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="38577:38661" ph=" Count the number of items in the collection. ..." />
+            <marker date="1506418558000" expanded="true" signature="38691:38739" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="38748:38875" ph=" Get a base Support collection instance from this collection. ..." />
+            <marker date="1506418558000" expanded="true" signature="38906:38950" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="38959:39068" ph=" Determine if an item exists at an offset. ..." />
+            <marker date="1506418558000" expanded="true" signature="39109:39174" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="39183:39282" ph=" Get an item at a given offset. ..." />
+            <marker date="1506418558000" expanded="true" signature="39320:39367" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="39376:39504" ph=" Set the item at a given offset. ..." />
+            <marker date="1506418558000" expanded="true" signature="39550:39696" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="39585:39631" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="39639:39689" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="39705:39807" ph=" Unset the item at a given offset. ..." />
+            <marker date="1506418558000" expanded="true" signature="39847:39894" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="39903:39998" ph=" Convert the collection to its string representation. ..." />
+            <marker date="1506418558000" expanded="true" signature="40033:40077" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="40086:40209" ph=" Results array of items from Collection or Arrayable. ..." />
+            <marker date="1506418558000" expanded="true" signature="40260:40839" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="40298:40334" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="40369:40412" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="40452:40499" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="40538:40603" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="40650:40703" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="40745:40800" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="40848:40964" ph=" Add a method to the list of proxied methods. ..." />
+            <marker date="1506418558000" expanded="true" signature="41008:41058" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="41067:41208" ph=" Dynamically access collection proxies. ..." />
+            <marker date="1506418558000" expanded="true" signature="41242:41473" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="41298:41405" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Traits/Macroable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <marker date="1506418558000" expanded="false" signature="49:168" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="185:2562" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="195:263" ph=" The registered string macros. ..." />
+            <marker date="1506418558000" expanded="true" signature="309:448" ph=" Register a custom macro. ..." />
+            <marker date="1506418558000" expanded="true" signature="498:551" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="560:665" ph=" Mix another object into the class. ..." />
+            <marker date="1506418558000" expanded="true" signature="708:1027" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="776:858" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="901:1020" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="1036:1136" ph=" Checks if macro is registered. ..." />
+            <marker date="1506418558000" expanded="true" signature="1181:1239" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="1248:1440" ph=" Dynamically handle calls to the class. ..." />
+            <marker date="1506418558000" expanded="true" signature="1504:1914" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="1553:1644" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="1705:1830" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="1923:2115" ph=" Dynamically handle calls to the class. ..." />
+            <marker date="1506418558000" expanded="true" signature="2166:2560" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="2215:2306" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="2393:2494" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-874">
           <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
           <folding>
             <marker date="1506418558000" expanded="false" signature="52:536" ph="..." />
@@ -660,488 +1513,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-543">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1506418558000" expanded="true" signature="15:3948" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="23:459" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="518:1166" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="1192:2760" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="1215:1366" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="1390:1913" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="1937:2366" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="2391:2752" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="2770:3203" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="3248:3667" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="3687:3944" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="3742:3936" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <marker date="1506697003000" expanded="true" signature="37:111" ph="..." />
-            <marker date="1506697003000" expanded="true" signature="161:518" ph="{...}" />
-            <marker date="1506697003000" expanded="true" signature="171:247" ph=" Bootstrap any application services. ..." />
-            <marker date="1506697003000" expanded="true" signature="276:376" ph="{...}" />
-            <marker date="1506697003000" expanded="true" signature="385:460" ph=" Register any application services. ..." />
-            <marker date="1506697003000" expanded="true" signature="493:516" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/img/KakaoTalk_Photo_2017-09-24-20-39-59.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/img/KakaoTalk_Photo_2017-09-24-20-40-08.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/img/KakaoTalk_Photo_2017-09-24-20-40-10.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/img/KakaoTalk_Photo_2017-09-24-20-40-13.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Routing/ResponseFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
-          <folding>
-            <marker date="1506418558000" expanded="true" signature="73:3874" ph="{...}" />
-            <marker date="1506418558000" expanded="true" signature="83:279" ph=" Return a new response from the application. ..." />
-            <marker date="1506418558000" expanded="true" signature="367:593" ph=" Return a new view response from the application. ..." />
-            <marker date="1506418558000" expanded="true" signature="685:922" ph=" Return a new JSON response from the application. ..." />
-            <marker date="1506418558000" expanded="true" signature="1021:1292" ph=" Return a new JSONP response from the application. ..." />
-            <marker date="1506418558000" expanded="true" signature="1403:1636" ph=" Return a new streamed response from the application. ..." />
-            <marker date="1506418558000" expanded="true" signature="1722:1990" ph=" Create a new file download response. ..." />
-            <marker date="1506418558000" expanded="true" signature="2102:2343" ph=" Create a new redirect response to the given path. ..." />
-            <marker date="1506418558000" expanded="true" signature="2439:2680" ph=" Create a new redirect response to a named route. ..." />
-            <marker date="1506418558000" expanded="true" signature="2784:3032" ph=" Create a new redirect response to a controller action. ..." />
-            <marker date="1506418558000" expanded="true" signature="3138:3407" ph=" Create a new redirect response, while putting the current URL in the session. ..." />
-            <marker date="1506418558000" expanded="true" signature="3506:3768" ph=" Create a new redirect response to the previously intended location. ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <marker date="1506689016000" expanded="true" signature="9:387" ph="..." />
-            <marker date="1506689016000" expanded="true" signature="391:486" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1506418558000" expanded="true" signature="15:9166" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="23:449" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="502:930" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="984:1407" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="1458:1874" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="1934:2358" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="2394:2833" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="2866:3297" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="3339:3760" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="3832:4326" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="4427:4859" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="4883:6690" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="4895:4955" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="6305:6355" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="6369:6423" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="6700:7114" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="7136:9162" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding>
-            <marker date="1506785207000" expanded="true" signature="40:418" ph="..." />
-            <marker date="1506785207000" expanded="true" signature="539:553" ph=" Buyers ..." />
-            <marker date="1506785207000" expanded="true" signature="645:663" ph=" Categories ..." />
-            <marker date="1506785207000" expanded="true" signature="768:784" ph=" Products ..." />
-            <marker date="1506785207000" expanded="true" signature="882:897" ph=" Sellers ..." />
-            <marker date="1506785207000" expanded="true" signature="992:1012" ph=" Transactions ..." />
-            <marker date="1506785207000" expanded="true" signature="1122:1135" ph=" Users ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Transaction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <marker date="1506785920000" expanded="true" signature="27:94" ph="..." />
-            <marker date="1506785920000" expanded="true" signature="127:408" ph="{...}" />
-            <marker date="1506785920000" expanded="true" signature="157:224" ph="..." />
-            <marker date="1506785920000" expanded="true" signature="255:314" ph="{...}" />
-            <marker date="1506785920000" expanded="true" signature="345:406" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Seller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <marker date="1506785951000" expanded="true" signature="66:160" ph="{...}" />
-            <marker date="1506785951000" expanded="true" signature="99:158" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <marker date="1506785984000" expanded="true" signature="27:117" ph="..." />
-            <marker date="1506785984000" expanded="true" signature="146:787" ph="{...}" />
-            <marker date="1506785984000" expanded="true" signature="267:387" ph="..." />
-            <marker date="1506785984000" expanded="true" signature="424:496" ph="{...}" />
-            <marker date="1506785984000" expanded="true" signature="526:586" ph="{...}" />
-            <marker date="1506785984000" expanded="true" signature="622:685" ph="{...}" />
-            <marker date="1506785984000" expanded="true" signature="719:785" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <marker date="1506786011000" expanded="true" signature="27:79" ph="..." />
-            <marker date="1506786011000" expanded="true" signature="109:284" ph="{...}" />
-            <marker date="1506786011000" expanded="true" signature="139:183" ph="..." />
-            <marker date="1506786011000" expanded="true" signature="217:282" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-          <folding>
-            <marker date="1506786064000" expanded="true" signature="11:147" ph="..." />
-            <marker date="1506786064000" expanded="true" signature="189:959" ph="{...}" />
-            <marker date="1506786064000" expanded="true" signature="199:259" ph=" Run the migrations. ..." />
-            <marker date="1506786064000" expanded="true" signature="286:804" ph="{...}" />
-            <marker date="1506786064000" expanded="true" signature="316:796" ph="..." />
-            <marker date="1506786064000" expanded="true" signature="354:795" ph="..." />
-            <marker date="1506786064000" expanded="true" signature="813:877" ph=" Reverse the migrations. ..." />
-            <marker date="1506786064000" expanded="true" signature="906:957" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2017_09_29_124954_create_categories_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <marker date="1506786089000" expanded="false" signature="11:133" ph="..." />
-            <marker date="1506786089000" expanded="true" signature="180:685" ph="{...}" />
-            <marker date="1506786089000" expanded="true" signature="190:250" ph=" Run the migrations. ..." />
-            <marker date="1506786089000" expanded="true" signature="277:525" ph="{...}" />
-            <marker date="1506786089000" expanded="true" signature="307:517" ph="..." />
-            <marker date="1506786089000" expanded="true" signature="350:516" ph="..." />
-            <marker date="1506786089000" expanded="true" signature="534:598" ph=" Reverse the migrations. ..." />
-            <marker date="1506786089000" expanded="true" signature="627:683" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2017_09_29_125006_create_products_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <marker date="1506786107000" expanded="true" signature="11:150" ph="..." />
-            <marker date="1506786107000" expanded="true" signature="195:991" ph="{...}" />
-            <marker date="1506786107000" expanded="true" signature="205:265" ph=" Run the migrations. ..." />
-            <marker date="1506786107000" expanded="true" signature="292:833" ph="{...}" />
-            <marker date="1506786107000" expanded="true" signature="322:825" ph="..." />
-            <marker date="1506786107000" expanded="true" signature="363:824" ph="..." />
-            <marker date="1506786107000" expanded="true" signature="842:906" ph=" Reverse the migrations. ..." />
-            <marker date="1506786107000" expanded="true" signature="935:989" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2017_09_29_125020_create_transactions_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <marker date="1506786123000" expanded="true" signature="11:133" ph="..." />
-            <marker date="1506786123000" expanded="true" signature="182:917" ph="{...}" />
-            <marker date="1506786123000" expanded="true" signature="192:252" ph=" Run the migrations. ..." />
-            <marker date="1506786123000" expanded="true" signature="279:755" ph="{...}" />
-            <marker date="1506786123000" expanded="true" signature="309:747" ph="..." />
-            <marker date="1506786123000" expanded="true" signature="354:746" ph="..." />
-            <marker date="1506786123000" expanded="true" signature="764:828" ph=" Reverse the migrations. ..." />
-            <marker date="1506786123000" expanded="true" signature="857:915" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2017_09_29_153457_category_product_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <marker date="1506699716000" expanded="true" signature="11:133" ph="..." />
-            <marker date="1506699716000" expanded="true" signature="179:808" ph="{...}" />
-            <marker date="1506699716000" expanded="true" signature="189:249" ph=" Run the migrations. ..." />
-            <marker date="1506699716000" expanded="true" signature="276:642" ph="{...}" />
-            <marker date="1506699716000" expanded="true" signature="306:634" ph="..." />
-            <marker date="1506699716000" expanded="true" signature="355:633" ph="..." />
-            <marker date="1506699716000" expanded="true" signature="651:715" ph=" Reverse the migrations. ..." />
-            <marker date="1506699716000" expanded="true" signature="744:806" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-          <folding>
-            <marker date="1506786896000" expanded="true" signature="11:92" ph="..." />
-            <marker date="1506786896000" expanded="true" signature="96:479" ph="..." />
-            <marker date="1506786896000" expanded="true" signature="559:1146" ph="..." />
-            <marker date="1506786896000" expanded="true" signature="607:1145" ph="..." />
-            <marker date="1506786896000" expanded="true" signature="643:1142" ph="..." />
-            <marker date="1506786896000" expanded="true" signature="1167:1321" ph="..." />
-            <marker date="1506786896000" expanded="true" signature="1219:1320" ph="..." />
-            <marker date="1506786896000" expanded="true" signature="1233:1317" ph="..." />
-            <marker date="1506786896000" expanded="true" signature="1342:1817" ph="..." />
-            <marker date="1506786896000" expanded="true" signature="1393:1816" ph="..." />
-            <marker date="1506786896000" expanded="true" signature="1407:1813" ph="..." />
-            <marker date="1506786896000" expanded="true" signature="1838:2218" ph="..." />
-            <marker date="1506786896000" expanded="true" signature="1893:2217" ph="..." />
-            <marker date="1506786896000" expanded="true" signature="2021:2214" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1506418558000" expanded="false" signature="44:252" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="293:360" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/DB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <marker date="1506418558000" expanded="true" signature="49:136" ph=" @see \Illuminate\Database\DatabaseManager ..." />
-            <marker date="1506418558000" expanded="true" signature="162:343" ph="{...}" />
-            <marker date="1506418558000" expanded="true" signature="172:256" ph=" Get the registered name of the component. ..." />
-            <marker date="1506418558000" expanded="true" signature="308:341" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-251">
-          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding>
-            <marker date="1506418558000" expanded="false" signature="50:107" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="130:5092" ph="{...}" />
-            <marker date="1506418558000" expanded="true" signature="140:257" ph=" The application instance being facaded. ..." />
-            <marker date="1506418558000" expanded="true" signature="295:364" ph=" The resolved object instances. ..." />
-            <marker date="1506418558000" expanded="true" signature="415:494" ph=" Convert the facade into a Mockery spy. ..." />
-            <marker date="1506418558000" expanded="true" signature="529:709" ph="{...}" />
-            <marker date="1506418558000" expanded="true" signature="569:702" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="718:817" ph=" Initiate a mock expectation on the facade. ..." />
-            <marker date="1506418558000" expanded="true" signature="862:1123" ph="{...}" />
-            <marker date="1506418558000" expanded="true" signature="1132:1238" ph=" Create a fresh mock instance for the given class. ..." />
-            <marker date="1506418558000" expanded="true" signature="1296:1471" ph="{...}" />
-            <marker date="1506418558000" expanded="true" signature="1322:1463" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="1362:1462" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="1480:1588" ph=" Create a fresh mock instance for the given class. ..." />
-            <marker date="1506418558000" expanded="true" signature="1633:1756" ph="{...}" />
-            <marker date="1506418558000" expanded="true" signature="1765:1869" ph=" Determines whether a mock is set as the instance of the facade. ..." />
-            <marker date="1506418558000" expanded="true" signature="1910:2100" ph="{...}" />
-            <marker date="1506418558000" expanded="true" signature="2109:2203" ph=" Get the mockable class for the bound instance. ..." />
-            <marker date="1506418558000" expanded="true" signature="2254:2360" ph="{...}" />
-            <marker date="1506418558000" expanded="true" signature="2307:2353" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="2369:2492" ph=" Hotswap the underlying instance behind the facade. ..." />
-            <marker date="1506418558000" expanded="true" signature="2537:2747" ph="{...}" />
-            <marker date="1506418558000" expanded="true" signature="2655:2740" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="2756:2836" ph=" Get the root object behind the facade. ..." />
-            <marker date="1506418558000" expanded="true" signature="2881:2968" ph="{...}" />
-            <marker date="1506418558000" expanded="true" signature="2977:3101" ph=" Get the registered name of the component. ..." />
-            <marker date="1506418558000" expanded="true" signature="3153:3256" ph="{...}" />
-            <marker date="1506418558000" expanded="true" signature="3265:3395" ph=" Resolve the facade root instance from the container. ..." />
-            <marker date="1506418558000" expanded="true" signature="3456:3727" ph="{...}" />
-            <marker date="1506418558000" expanded="true" signature="3494:3529" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="3586:3648" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="3736:3839" ph=" Clear a resolved facade instance. ..." />
-            <marker date="1506418558000" expanded="true" signature="3897:3958" ph="{...}" />
-            <marker date="1506418558000" expanded="true" signature="3967:4044" ph=" Clear all of the resolved instances. ..." />
-            <marker date="1506418558000" expanded="true" signature="4098:4150" ph="{...}" />
-            <marker date="1506418558000" expanded="true" signature="4159:4287" ph=" Get the application instance behind the facade. ..." />
-            <marker date="1506418558000" expanded="true" signature="4339:4380" ph="{...}" />
-            <marker date="1506418558000" expanded="true" signature="4389:4525" ph=" Set the application instance. ..." />
-            <marker date="1506418558000" expanded="true" signature="4581:4622" ph="{...}" />
-            <marker date="1506418558000" expanded="true" signature="4631:4816" ph=" Handle dynamic, static calls to the object. ..." />
-            <marker date="1506418558000" expanded="true" signature="4874:5090" ph="{...}" />
-            <marker date="1506418558000" expanded="true" signature="4953:5037" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
-          <folding>
-            <marker date="1506855822000" expanded="true" signature="11:143" ph="..." />
-            <marker date="1506855822000" expanded="true" signature="180:1124" ph="{...}" />
-            <marker date="1506855822000" expanded="true" signature="190:254" ph=" Run the database seeds. ..." />
-            <marker date="1506855822000" expanded="true" signature="282:1122" ph="{...}" />
-            <marker date="1506855822000" expanded="true" signature="840:1041" ph="..." />
-            <marker date="1506855822000" expanded="true" signature="873:1031" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <marker date="1506917142000" expanded="true" signature="27:119" ph="..." />
-            <marker date="1506917142000" expanded="true" signature="155:1402" ph="{...}" />
-            <marker date="1506917142000" expanded="true" signature="350:429" ph=" The attributes that are mass assignable. ..." />
-            <marker date="1506917142000" expanded="true" signature="459:584" ph="..." />
-            <marker date="1506917142000" expanded="true" signature="595:682" ph=" The attributes that should be hidden for arrays. ..." />
-            <marker date="1506917142000" expanded="true" signature="710:791" ph="..." />
-            <marker date="1506917142000" expanded="true" signature="838:905" ph="{...}" />
-            <marker date="1506917142000" expanded="true" signature="950:993" ph="{...}" />
-            <marker date="1506917142000" expanded="true" signature="1040:1109" ph="{...}" />
-            <marker date="1506917142000" expanded="true" signature="1143:1210" ph="{...}" />
-            <marker date="1506917142000" expanded="true" signature="1241:1302" ph="{...}" />
-            <marker date="1506917142000" expanded="true" signature="1357:1400" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1506418558000" expanded="true" signature="113:2032" ph="{...}" />
-            <marker date="1506418558000" expanded="true" signature="123:290" ph=" The application's global HTTP middleware stack. ..." />
-            <marker date="1506418558000" expanded="true" signature="322:658" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="669:750" ph=" The application's route middleware groups. ..." />
-            <marker date="1506418558000" expanded="true" signature="788:1376" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="807:1285" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="1307:1369" ph="..." />
-            <marker date="1506418558000" expanded="true" signature="1387:1540" ph=" The application's route middleware. ..." />
-            <marker date="1506418558000" expanded="true" signature="1577:2028" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Buyer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <marker date="1506786022000" expanded="true" signature="69:171" ph="{...}" />
-            <marker date="1506786022000" expanded="true" signature="106:169" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Traits/ApiResponser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <marker date="1506921292000" expanded="true" signature="48:162" ph="{...}" />
-            <marker date="1506921292000" expanded="true" signature="101:160" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <marker date="1506918067000" expanded="true" signature="108:119" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        <state relative-caret-position="321">
+          <caret line="55" column="53" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
-            <marker date="1506925409000" expanded="true" signature="50:129" ph="..." />
-            <marker date="1506925409000" expanded="true" signature="174:1783" ph="{...}" />
-            <marker date="1506925409000" expanded="true" signature="184:280" ph=" Display a listing of the resource. ..." />
-            <marker date="1506925409000" expanded="true" signature="310:434" ph="{...}" />
-            <marker date="1506925409000" expanded="true" signature="443:547" ph=" Show the form for creating a new resource. ..." />
-            <marker date="1506925409000" expanded="true" signature="578:601" ph="{...}" />
-            <marker date="1506925409000" expanded="true" signature="610:764" ph=" Store a newly created resource in storage. ..." />
-            <marker date="1506925409000" expanded="true" signature="810:833" ph="{...}" />
-            <marker date="1506925409000" expanded="true" signature="842:959" ph=" Display the specified resource. ..." />
-            <marker date="1506925409000" expanded="true" signature="991:1125" ph="{...}" />
-            <marker date="1506925409000" expanded="true" signature="1134:1269" ph=" Show the form for editing the specified resource. ..." />
-            <marker date="1506925409000" expanded="true" signature="1301:1324" ph="{...}" />
-            <marker date="1506925409000" expanded="true" signature="1333:1510" ph=" Update the specified resource in storage. ..." />
-            <marker date="1506925409000" expanded="true" signature="1562:1585" ph="{...}" />
-            <marker date="1506925409000" expanded="true" signature="1594:1723" ph=" Remove the specified resource from storage. ..." />
-            <marker date="1506925409000" expanded="true" signature="1758:1781" ph="{...}" />
+            <marker date="1506927710000" expanded="true" signature="50:129" ph="..." />
+            <marker date="1506927710000" expanded="true" signature="174:1868" ph="{...}" />
+            <marker date="1506927710000" expanded="true" signature="184:280" ph=" Display a listing of the resource. ..." />
+            <marker date="1506927710000" expanded="true" signature="310:477" ph="{...}" />
+            <marker date="1506927710000" expanded="true" signature="486:590" ph=" Show the form for creating a new resource. ..." />
+            <marker date="1506927710000" expanded="true" signature="621:644" ph="{...}" />
+            <marker date="1506927710000" expanded="true" signature="653:807" ph=" Store a newly created resource in storage. ..." />
+            <marker date="1506927710000" expanded="true" signature="853:876" ph="{...}" />
+            <marker date="1506927710000" expanded="true" signature="885:1002" ph=" Display the specified resource. ..." />
+            <marker date="1506927710000" expanded="true" signature="1034:1210" ph="{...}" />
+            <marker date="1506927710000" expanded="true" signature="1219:1354" ph=" Show the form for editing the specified resource. ..." />
+            <marker date="1506927710000" expanded="true" signature="1386:1409" ph="{...}" />
+            <marker date="1506927710000" expanded="true" signature="1418:1595" ph=" Update the specified resource in storage. ..." />
+            <marker date="1506927710000" expanded="true" signature="1647:1670" ph="{...}" />
+            <marker date="1506927710000" expanded="true" signature="1679:1808" ph=" Remove the specified resource from storage. ..." />
+            <marker date="1506927710000" expanded="true" signature="1843:1866" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1173,57 +1565,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        <state relative-caret-position="-292">
+          <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
           <folding>
-            <marker date="1506925409000" expanded="true" signature="52:133" ph="..." />
-            <marker date="1506925409000" expanded="true" signature="180:1654" ph="{...}" />
-            <marker date="1506925409000" expanded="true" signature="190:286" ph=" Display a listing of the resource. ..." />
-            <marker date="1506925409000" expanded="true" signature="316:416" ph="{...}" />
-            <marker date="1506925409000" expanded="true" signature="425:529" ph=" Show the form for creating a new resource. ..." />
-            <marker date="1506925409000" expanded="true" signature="560:583" ph="{...}" />
-            <marker date="1506925409000" expanded="true" signature="592:746" ph=" Store a newly created resource in storage. ..." />
-            <marker date="1506925409000" expanded="true" signature="792:815" ph="{...}" />
-            <marker date="1506925409000" expanded="true" signature="824:941" ph=" Display the specified resource. ..." />
-            <marker date="1506925409000" expanded="true" signature="973:996" ph="{...}" />
-            <marker date="1506925409000" expanded="true" signature="1005:1140" ph=" Show the form for editing the specified resource. ..." />
-            <marker date="1506925409000" expanded="true" signature="1172:1195" ph="{...}" />
-            <marker date="1506925409000" expanded="true" signature="1204:1381" ph=" Update the specified resource in storage. ..." />
-            <marker date="1506925409000" expanded="true" signature="1433:1456" ph="{...}" />
-            <marker date="1506925409000" expanded="true" signature="1465:1594" ph=" Remove the specified resource from storage. ..." />
-            <marker date="1506925409000" expanded="true" signature="1629:1652" ph="{...}" />
+            <marker date="1506927710000" expanded="true" signature="52:133" ph="..." />
+            <marker date="1506927710000" expanded="true" signature="180:1697" ph="{...}" />
+            <marker date="1506927710000" expanded="true" signature="190:286" ph=" Display a listing of the resource. ..." />
+            <marker date="1506927710000" expanded="true" signature="316:459" ph="{...}" />
+            <marker date="1506927710000" expanded="true" signature="468:572" ph=" Show the form for creating a new resource. ..." />
+            <marker date="1506927710000" expanded="true" signature="603:626" ph="{...}" />
+            <marker date="1506927710000" expanded="true" signature="635:789" ph=" Store a newly created resource in storage. ..." />
+            <marker date="1506927710000" expanded="true" signature="835:858" ph="{...}" />
+            <marker date="1506927710000" expanded="true" signature="867:984" ph=" Display the specified resource. ..." />
+            <marker date="1506927710000" expanded="true" signature="1016:1039" ph="{...}" />
+            <marker date="1506927710000" expanded="true" signature="1048:1183" ph=" Show the form for editing the specified resource. ..." />
+            <marker date="1506927710000" expanded="true" signature="1215:1238" ph="{...}" />
+            <marker date="1506927710000" expanded="true" signature="1247:1424" ph=" Update the specified resource in storage. ..." />
+            <marker date="1506927710000" expanded="true" signature="1476:1499" ph="{...}" />
+            <marker date="1506927710000" expanded="true" signature="1508:1637" ph=" Remove the specified resource from storage. ..." />
+            <marker date="1506927710000" expanded="true" signature="1672:1695" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Seller/SellerController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="186">
+          <caret line="56" column="40" lean-forward="false" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
           <folding>
-            <marker date="1506925409000" expanded="true" signature="51:131" ph="..." />
-            <marker date="1506925409000" expanded="true" signature="177:1784" ph="{...}" />
-            <marker date="1506925409000" expanded="true" signature="187:283" ph=" Display a listing of the resource. ..." />
-            <marker date="1506925409000" expanded="true" signature="313:436" ph="{...}" />
-            <marker date="1506925409000" expanded="true" signature="445:549" ph=" Show the form for creating a new resource. ..." />
-            <marker date="1506925409000" expanded="true" signature="580:603" ph="{...}" />
-            <marker date="1506925409000" expanded="true" signature="612:766" ph=" Store a newly created resource in storage. ..." />
-            <marker date="1506925409000" expanded="true" signature="812:835" ph="{...}" />
-            <marker date="1506925409000" expanded="true" signature="844:961" ph=" Display the specified resource. ..." />
-            <marker date="1506925409000" expanded="true" signature="993:1126" ph="{...}" />
-            <marker date="1506925409000" expanded="true" signature="1135:1270" ph=" Show the form for editing the specified resource. ..." />
-            <marker date="1506925409000" expanded="true" signature="1302:1325" ph="{...}" />
-            <marker date="1506925409000" expanded="true" signature="1334:1511" ph=" Update the specified resource in storage. ..." />
-            <marker date="1506925409000" expanded="true" signature="1563:1586" ph="{...}" />
-            <marker date="1506925409000" expanded="true" signature="1595:1724" ph=" Remove the specified resource from storage. ..." />
-            <marker date="1506925409000" expanded="true" signature="1759:1782" ph="{...}" />
+            <marker date="1506927755000" expanded="true" signature="51:131" ph="..." />
+            <marker date="1506927755000" expanded="true" signature="177:1871" ph="{...}" />
+            <marker date="1506927755000" expanded="true" signature="187:283" ph=" Display a listing of the resource. ..." />
+            <marker date="1506927755000" expanded="true" signature="313:479" ph="{...}" />
+            <marker date="1506927755000" expanded="true" signature="489:593" ph=" Show the form for creating a new resource. ..." />
+            <marker date="1506927755000" expanded="true" signature="624:647" ph="{...}" />
+            <marker date="1506927755000" expanded="true" signature="656:810" ph=" Store a newly created resource in storage. ..." />
+            <marker date="1506927755000" expanded="true" signature="856:879" ph="{...}" />
+            <marker date="1506927755000" expanded="true" signature="888:1005" ph=" Display the specified resource. ..." />
+            <marker date="1506927755000" expanded="true" signature="1037:1213" ph="{...}" />
+            <marker date="1506927755000" expanded="true" signature="1222:1357" ph=" Show the form for editing the specified resource. ..." />
+            <marker date="1506927755000" expanded="true" signature="1389:1412" ph="{...}" />
+            <marker date="1506927755000" expanded="true" signature="1421:1598" ph=" Update the specified resource in storage. ..." />
+            <marker date="1506927755000" expanded="true" signature="1650:1673" ph="{...}" />
+            <marker date="1506927755000" expanded="true" signature="1682:1811" ph=" Remove the specified resource from storage. ..." />
+            <marker date="1506927755000" expanded="true" signature="1846:1869" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Transaction/TransactionController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
+        <state relative-caret-position="-698">
           <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
           <folding>
             <marker date="1506925437000" expanded="true" signature="56:120" ph="..." />
@@ -1246,10 +1638,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/UserController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1506418558000" expanded="false" signature="44:252" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="293:360" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <marker date="1506926498000" expanded="true" signature="44:97" ph="..." />
+            <marker date="1506926498000" expanded="true" signature="137:163" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Traits/ApiResponser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <caret line="16" column="78" lean-forward="true" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
+          <folding>
+            <marker date="1506926160000" expanded="true" signature="34:104" ph="..." />
+            <marker date="1506926160000" expanded="true" signature="124:670" ph="{...}" />
+            <marker date="1506926160000" expanded="true" signature="177:236" ph="{...}" />
+            <marker date="1506926160000" expanded="true" signature="291:382" ph="{...}" />
+            <marker date="1506926160000" expanded="true" signature="451:533" ph="{...}" />
+            <marker date="1506926160000" expanded="true" signature="592:668" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
           <folding>
             <element signature="e#45#58#0#PHP" expanded="true" />
           </folding>
