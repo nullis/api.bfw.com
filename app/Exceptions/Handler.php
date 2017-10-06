@@ -9,6 +9,8 @@ use Illuminate\Auth\AuthenticationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Illuminate\Validation\ValidationException;
+use Symfony\Component\HttpKernel\Exception\HttpException;
+use Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class Handler extends ExceptionHandler
@@ -81,6 +83,17 @@ class Handler extends ExceptionHandler
         {
             return $this->errorResponse('해당 페이지가 존재하지 않습니다', 404);
         }
+
+        if ($exception instanceof MethodNotAllowedHttpException)
+        {
+            return $this->errorResponse('해당 메소드는 사용할 수 없습니다', 405);
+        }
+
+        if ($exception instanceof HttpException)
+        {
+            return $this->errorResponse($exception->getMessage(),$exception->getStatusCode());
+        }
+
 
 
         return parent::render($request, $exception);
