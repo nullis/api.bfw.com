@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7b9bbde3-8263-4b2f-a5e1-68ab3708b880" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Seller/SellerController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Seller/SellerController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Traits/ApiResponser.php" afterPath="$PROJECT_DIR$/app/Traits/ApiResponser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,13 +18,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/UserController.php">
+      <file leaf-file-name="Handler.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding>
-                <element signature="e#45#58#0#PHP" expanded="true" />
+                <element signature="e#34#62#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,6 +33,9 @@
     </leaf>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>exception</find>
+    </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/public/img</dir>
     </dirStrings>
@@ -74,6 +73,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Seller/SellerController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" />
+        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php" />
+        <option value="$PROJECT_DIR$/app/Exceptions/Handler.php" />
       </list>
     </option>
   </component>
@@ -100,21 +101,48 @@
     <option name="height" value="777" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <autoscrollToSource />
+      <autoscrollToSource ProjectPane="false" />
       <autoscrollFromSource />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="api.bfw.com" type="cbb8eebc:String" user="api.bfw.com" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="api.bfw.com" type="cbb8eebc:String" user="api.bfw.com" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="api.bfw.com" type="cbb8eebc:String" user="api.bfw.com" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+              <item name="Exceptions" type="cbb8eebc:String" user="Exceptions" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="api.bfw.com" type="cbb8eebc:String" user="api.bfw.com" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+              <item name="Traits" type="cbb8eebc:String" user="Traits" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,62 +155,10 @@
               <item name="api.bfw.com" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="api.bfw.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.bfw.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.bfw.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.bfw.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.bfw.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.bfw.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="User" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.bfw.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.bfw.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="User" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="UserController.php" type="88303cf5:PhpFileNode" />
-            </path>
-            <path>
-              <item name="api.bfw.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.bfw.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.bfw.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.bfw.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="factories" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.bfw.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.bfw.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="api.bfw.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api.bfw.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="seeds" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
+        <option name="show-excluded-files" value="false" />
       </pane>
       <pane id="Scratches" />
     </panes>
@@ -190,7 +166,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/app/Traits/ApiResponser.php&#10;Apires&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/app/Traits/ApiResponser.php&#10;seed&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/database/seeds/DatabaseSeeder.php" />
+    <property name="SearchEverywhereHistoryKey" value="AuthenticationE&#9;null&#9;null&#10;ha&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/app/Exceptions/Handler.php&#10;Apires&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/app/Traits/ApiResponser.php&#10;seed&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/database/seeds/DatabaseSeeder.php" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -218,7 +194,7 @@
       <option name="presentableId" value="Default" />
       <updated>1506418570282</updated>
       <workItem from="1506418573093" duration="1393000" />
-      <workItem from="1506581564320" duration="40771000" />
+      <workItem from="1506581564320" duration="49054000" />
     </task>
     <task id="LOCAL-00001" summary="Modify database setting">
       <created>1506418941342</created>
@@ -290,11 +266,25 @@
       <option name="project" value="LOCAL" />
       <updated>1506925509982</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Generalizing The Response  Methods">
+      <created>1506928877367</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1506928877367</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Returning Validation Errors as a JSON Response">
+      <created>1506931307821</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1506931307821</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42164000" />
+    <option name="totallyTimeSpent" value="50447000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -308,16 +298,16 @@
   <component name="ToolWindowManager">
     <frame x="24" y="25" width="1255" height="777" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26298434" sideWeight="0.49457365" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26298434" sideWeight="0.49457365" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.3924155" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38088012" sideWeight="0.3924155" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991204" sideWeight="0.6075845" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36874053" sideWeight="0.6075845" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4589443" sideWeight="0.3891179" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15781488" sideWeight="0.3891179" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26298434" sideWeight="0.50542635" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -330,6 +320,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -371,7 +371,9 @@
     <MESSAGE value="Implementing The delete Method for UserController" />
     <MESSAGE value="Fix DatabaseSeeder.php Problem&#10; $product-&gt; $categories()-&gt;attach($categories);&#10; fix to &#10; $product-&gt; categories()-&gt;attach($categories);" />
     <MESSAGE value="Generalizing The Response Methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generalizing The Response Methods" />
+    <MESSAGE value="Generalizing The Response  Methods" />
+    <MESSAGE value="Returning Validation Errors as a JSON Response" />
+    <option name="LAST_COMMIT_MESSAGE" value="Returning Validation Errors as a JSON Response" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -834,30 +836,6 @@
             <marker date="1506917142000" expanded="true" signature="1143:1210" ph="{...}" />
             <marker date="1506917142000" expanded="true" signature="1241:1302" ph="{...}" />
             <marker date="1506917142000" expanded="true" signature="1357:1400" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <marker date="1506786011000" expanded="true" signature="27:79" ph="..." />
-            <marker date="1506786011000" expanded="true" signature="109:284" ph="{...}" />
-            <marker date="1506786011000" expanded="true" signature="139:183" ph="..." />
-            <marker date="1506786011000" expanded="true" signature="217:282" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Buyer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <marker date="1506786022000" expanded="true" signature="69:171" ph="{...}" />
-            <marker date="1506786022000" expanded="true" signature="106:169" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1649,10 +1627,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding>
+            <marker date="1506928515000" expanded="true" signature="49:127" ph="..." />
+            <marker date="1506928515000" expanded="true" signature="171:3783" ph="{...}" />
+            <marker date="1506928515000" expanded="true" signature="181:277" ph=" Display a listing of the resource. ..." />
+            <marker date="1506928515000" expanded="true" signature="307:448" ph="{...}" />
+            <marker date="1506928515000" expanded="true" signature="457:561" ph=" Show the form for creating a new resource. ..." />
+            <marker date="1506928515000" expanded="true" signature="592:615" ph="{...}" />
+            <marker date="1506928515000" expanded="true" signature="624:778" ph=" Store a newly created resource in storage. ..." />
+            <marker date="1506928515000" expanded="true" signature="824:1401" ph="{...}" />
+            <marker date="1506928515000" expanded="true" signature="849:994" ph="..." />
+            <marker date="1506928515000" expanded="true" signature="1410:1527" ph=" Display the specified resource. ..." />
+            <marker date="1506928515000" expanded="true" signature="1559:1707" ph="{...}" />
+            <marker date="1506928515000" expanded="true" signature="1716:1851" ph=" Show the form for editing the specified resource. ..." />
+            <marker date="1506928515000" expanded="true" signature="1883:1906" ph="{...}" />
+            <marker date="1506928515000" expanded="true" signature="1915:2092" ph=" Update the specified resource in storage. ..." />
+            <marker date="1506928515000" expanded="true" signature="2144:3473" ph="{...}" />
+            <marker date="1506928515000" expanded="true" signature="2209:2400" ph="..." />
+            <marker date="1506928515000" expanded="true" signature="2439:2490" ph="..." />
+            <marker date="1506928515000" expanded="true" signature="2564:2744" ph="..." />
+            <marker date="1506928515000" expanded="true" signature="2786:2853" ph="..." />
+            <marker date="1506928515000" expanded="true" signature="2892:3186" ph="..." />
+            <marker date="1506928515000" expanded="true" signature="2931:3130" ph="..." />
+            <marker date="1506928515000" expanded="true" signature="3220:3385" ph="..." />
+            <marker date="1506928515000" expanded="true" signature="3482:3611" ph=" Remove the specified resource from storage. ..." />
+            <marker date="1506928515000" expanded="true" signature="3646:3781" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <marker date="1506926498000" expanded="true" signature="44:97" ph="..." />
             <marker date="1506926498000" expanded="true" signature="137:163" ph="{...}" />
@@ -1660,10 +1671,295 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Traits/ApiResponser.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1085">
+          <caret line="178" column="10" lean-forward="false" selection-start-line="178" selection-start-column="10" selection-end-line="178" selection-end-column="10" />
+          <folding>
+            <marker date="1505551187000" expanded="true" signature="48:142" ph=" Created by typecasting to object. ..." />
+            <marker date="1505551187000" expanded="true" signature="168:213" ph=" @link https://wiki.php.net/rfc/iterable ..." />
+            <marker date="1505551187000" expanded="true" signature="242:366" ph=" Interface to detect if a class is traversable using &amp;foreach;. ..." />
+            <marker date="1505551187000" expanded="true" signature="416:525" ph=" Interface to create an external Iterator. ..." />
+            <marker date="1505551187000" expanded="true" signature="577:869" ph="..." />
+            <marker date="1505551187000" expanded="true" signature="586:831" ph=" Retrieve an external iterator ..." />
+            <marker date="1505551187000" expanded="true" signature="875:1024" ph=" Interface for external iterators or objects that can be iterated ..." />
+            <marker date="1505551187000" expanded="true" signature="1067:2231" ph="..." />
+            <marker date="1505551187000" expanded="true" signature="1076:1237" ph=" Return the current element ..." />
+            <marker date="1505551187000" expanded="true" signature="1279:1448" ph=" Move forward to next element ..." />
+            <marker date="1505551187000" expanded="true" signature="1487:1673" ph=" Return the key of the current element ..." />
+            <marker date="1505551187000" expanded="true" signature="1711:1975" ph=" Checks if current position is valid ..." />
+            <marker date="1505551187000" expanded="true" signature="2015:2198" ph=" Rewind the Iterator to the first element ..." />
+            <marker date="1505551187000" expanded="true" signature="2237:2348" ph=" Interface to provide accessing objects as arrays. ..." />
+            <marker date="1505551187000" expanded="true" signature="2374:3685" ph="..." />
+            <marker date="1505551187000" expanded="true" signature="2383:2744" ph=" Whether a offset exists ..." />
+            <marker date="1505551187000" expanded="true" signature="2798:3038" ph=" Offset to retrieve ..." />
+            <marker date="1505551187000" expanded="true" signature="3089:3374" ph=" Offset to set ..." />
+            <marker date="1505551187000" expanded="true" signature="3433:3640" ph=" Offset to unset ..." />
+            <marker date="1505551187000" expanded="true" signature="3691:3791" ph=" Interface for customized serializing. ..." />
+            <marker date="1505551187000" expanded="true" signature="3818:4359" ph="..." />
+            <marker date="1505551187000" expanded="true" signature="3827:4027" ph=" String representation of object ..." />
+            <marker date="1505551187000" expanded="true" signature="4071:4310" ph=" Constructs the object ..." />
+            <marker date="1505551187000" expanded="true" signature="4366:4571" ph=" Throwable is the base interface for any object that can be thrown via a throw statement in PHP 7, ..." />
+            <marker date="1505551187000" expanded="true" signature="4593:6774" ph="{...}" />
+            <marker date="1505551187000" expanded="true" signature="4604:4737" ph=" Gets the message ..." />
+            <marker date="1505551187000" expanded="true" signature="4782:5125" ph=" Gets the exception code ..." />
+            <marker date="1505551187000" expanded="true" signature="5167:5389" ph=" Gets the file in which the exception occurred ..." />
+            <marker date="1505551187000" expanded="true" signature="5431:5658" ph=" Gets the line on which the object was instantiated ..." />
+            <marker date="1505551187000" expanded="true" signature="5700:5948" ph=" Gets the stack trace ..." />
+            <marker date="1505551187000" expanded="true" signature="5991:6183" ph=" Gets the stack trace as a string ..." />
+            <marker date="1505551187000" expanded="true" signature="6234:6463" ph=" Returns the previous Throwable ..." />
+            <marker date="1505551187000" expanded="true" signature="6509:6736" ph=" Gets a string representation of the thrown object ..." />
+            <marker date="1505551187000" expanded="true" signature="6778:6888" ph=" Exception is the base class for ..." />
+            <marker date="1505551187000" expanded="true" signature="6929:9816" ph="..." />
+            <marker date="1505551187000" expanded="true" signature="7026:7157" ph=" Clone the exception ..." />
+            <marker date="1505551187000" expanded="true" signature="7209:7596" ph=" Construct the exception. Note: The message is NOT binary safe. ..." />
+            <marker date="1505551187000" expanded="true" signature="7697:7877" ph=" Gets the Exception message ..." />
+            <marker date="1505551187000" expanded="true" signature="7931:8251" ph=" Gets the Exception code ..." />
+            <marker date="1505551187000" expanded="true" signature="8302:8512" ph=" Gets the file in which the exception occurred ..." />
+            <marker date="1505551187000" expanded="true" signature="8563:8770" ph=" Gets the line in which the exception occurred ..." />
+            <marker date="1505551187000" expanded="true" signature="8821:8996" ph=" Gets the stack trace ..." />
+            <marker date="1505551187000" expanded="true" signature="9048:9266" ph=" Returns previous Exception ..." />
+            <marker date="1505551187000" expanded="true" signature="9321:9517" ph=" Gets the stack trace as a string ..." />
+            <marker date="1505551187000" expanded="true" signature="9577:9776" ph=" String representation of the exception ..." />
+            <marker date="1505551187000" expanded="true" signature="9822:9954" ph=" Error is the base class for all internal PHP error exceptions. ..." />
+            <marker date="1505551187000" expanded="true" signature="9991:12620" ph="..." />
+            <marker date="1505551187000" expanded="true" signature="10000:10320" ph=" Construct the error object. ..." />
+            <marker date="1505551187000" expanded="true" signature="10408:10420" ph="{...}" />
+            <marker date="1505551187000" expanded="true" signature="10429:10563" ph=" Gets the message ..." />
+            <marker date="1505551187000" expanded="true" signature="10598:10610" ph="{...}" />
+            <marker date="1505551187000" expanded="true" signature="10619:10962" ph=" Gets the exception code ..." />
+            <marker date="1505551187000" expanded="true" signature="11006:11228" ph=" Gets the file in which the exception occurred ..." />
+            <marker date="1505551187000" expanded="true" signature="11272:11499" ph=" Gets the line on which the object was instantiated ..." />
+            <marker date="1505551187000" expanded="true" signature="11544:11792" ph=" Gets the stack trace ..." />
+            <marker date="1505551187000" expanded="true" signature="11836:12028" ph=" Gets the stack trace as a string ..." />
+            <marker date="1505551187000" expanded="true" signature="12080:12309" ph=" Returns the previous Throwable ..." />
+            <marker date="1505551187000" expanded="true" signature="12355:12582" ph=" Gets a string representation of the thrown object ..." />
+            <marker date="1505551187000" expanded="true" signature="12626:13106" ph=" There are three scenarios where a TypeError may be thrown. ..." />
+            <marker date="1505551187000" expanded="true" signature="13140:13142" ph="..." />
+            <marker date="1505551187000" expanded="true" signature="13148:13326" ph=" ParseError is thrown when an error occurs while parsing PHP code, such as when {@see eval()} is called. ..." />
+            <marker date="1505551187000" expanded="true" signature="13361:13363" ph="..." />
+            <marker date="1505551187000" expanded="true" signature="13369:13522" ph=" AssertionError is thrown when an assertion made via {@see assert()} fails. ..." />
+            <marker date="1505551187000" expanded="true" signature="13561:13563" ph="..." />
+            <marker date="1505551187000" expanded="true" signature="13569:13786" ph=" ArgumentCountError is thrown when too few arguments are passed to a user ..." />
+            <marker date="1505551187000" expanded="true" signature="13835:14201" ph=" ArithmeticError is thrown when an error occurs while performing mathematical operations. ..." />
+            <marker date="1505551187000" expanded="true" signature="14241:14243" ph="..." />
+            <marker date="1505551187000" expanded="true" signature="14249:14414" ph=" DivisionByZeroError is thrown when an attempt is made to divide a number by zero. ..." />
+            <marker date="1505551187000" expanded="true" signature="14458:14460" ph="..." />
+            <marker date="1505551187000" expanded="true" signature="14466:14550" ph=" An Error Exception. ..." />
+            <marker date="1505551187000" expanded="true" signature="14593:15603" ph="..." />
+            <marker date="1505551187000" expanded="true" signature="14629:15229" ph=" Constructs the exception ..." />
+            <marker date="1505551187000" expanded="true" signature="15370:15556" ph=" Gets the exception severity ..." />
+            <marker date="1505551187000" expanded="true" signature="15609:16223" ph=" Class used to represent anonymous functions. ..." />
+            <marker date="1505551187000" expanded="true" signature="16247:19084" ph="..." />
+            <marker date="1505551187000" expanded="true" signature="16256:16504" ph=" This method exists only to disallow instantiation of the Closure class. ..." />
+            <marker date="1505551187000" expanded="true" signature="16554:16815" ph=" This is for consistency with other classes that implement calling magic, ..." />
+            <marker date="1505551187000" expanded="true" signature="16866:17524" ph=" Duplicates the closure with a new bound object and class scope ..." />
+            <marker date="1505551187000" expanded="true" signature="17591:18383" ph=" This method is a static version of Closure::bindTo(). ..." />
+            <marker date="1505551187000" expanded="true" signature="18473:18874" ph=" Temporarily binds the closure to newthis, and calls it with any given parameters. ..." />
+            <marker date="1505551187000" expanded="true" signature="18937:19017" ph=" @param callable $callable ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/ModelNotFoundException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <marker date="1506418558000" expanded="false" signature="52:97" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="152:1223" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="162:238" ph=" Name of the affected Eloquent model. ..." />
+            <marker date="1506418558000" expanded="true" signature="271:337" ph=" The affected model IDs. ..." />
+            <marker date="1506418558000" expanded="true" signature="368:520" ph=" Set the affected Eloquent model and instance ids. ..." />
+            <marker date="1506418558000" expanded="true" signature="570:902" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="750:820" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="828:872" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="911:986" ph=" Get the affected Eloquent model. ..." />
+            <marker date="1506418558000" expanded="true" signature="1019:1060" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="1069:1151" ph=" Get the affected Eloquent model IDs. ..." />
+            <marker date="1506418558000" expanded="true" signature="1182:1221" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Validation/ValidationException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <marker date="1506418558000" expanded="false" signature="45:116" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="161:2952" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="171:270" ph=" The validator instance. ..." />
+            <marker date="1506418558000" expanded="true" signature="304:432" ph=" The recommended response to send to the client. ..." />
+            <marker date="1506418558000" expanded="true" signature="465:542" ph=" The status code to use for the response. ..." />
+            <marker date="1506418558000" expanded="true" signature="579:645" ph=" The name of the error bag. ..." />
+            <marker date="1506418558000" expanded="true" signature="678:762" ph=" The path the client should be redirected to. ..." />
+            <marker date="1506418558000" expanded="true" signature="797:1042" ph=" Create a new exception instance. ..." />
+            <marker date="1506418558000" expanded="true" signature="1129:1315" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="1324:1464" ph=" Create a new validation exception from a plain array of messages. ..." />
+            <marker date="1506418558000" expanded="true" signature="1523:1843" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="1560:1834" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="1630:1833" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="1682:1823" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="1729:1809" ph="..." />
+            <marker date="1506418558000" expanded="true" signature="1852:1935" ph=" Get all of the validation error messages. ..." />
+            <marker date="1506418558000" expanded="true" signature="1966:2033" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="2042:2165" ph=" Set the HTTP status code to be used for the response. ..." />
+            <marker date="1506418558000" expanded="true" signature="2203:2271" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="2280:2390" ph=" Set the error bag on the exception. ..." />
+            <marker date="1506418558000" expanded="true" signature="2432:2504" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="2513:2632" ph=" Set the URL to redirect to on a validation error. ..." />
+            <marker date="1506418558000" expanded="true" signature="2671:2740" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="2749:2870" ph=" Get the underlying response instance. ..." />
+            <marker date="1506418558000" expanded="true" signature="2906:2950" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Buyer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1506786022000" expanded="true" signature="69:171" ph="{...}" />
+            <marker date="1506786022000" expanded="true" signature="106:169" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="16" column="78" lean-forward="true" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <marker date="1506786011000" expanded="true" signature="27:79" ph="..." />
+            <marker date="1506786011000" expanded="true" signature="109:284" ph="{...}" />
+            <marker date="1506786011000" expanded="true" signature="139:183" ph="..." />
+            <marker date="1506786011000" expanded="true" signature="217:282" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="237" column="12" lean-forward="false" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+          <folding>
+            <marker date="1506930501000" expanded="false" signature="56:1416" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="1467:14612" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="1477:1581" ph=" The container implementation. ..." />
+            <marker date="1506930501000" expanded="true" signature="1618:1709" ph=" A list of the exception types that are not reported. ..." />
+            <marker date="1506930501000" expanded="true" signature="1752:1858" ph=" A list of the internal exception types that should not be reported. ..." />
+            <marker date="1506930501000" expanded="true" signature="1898:2164" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="2175:2284" ph=" A list of the inputs that are never flashed for validation exceptions. ..." />
+            <marker date="1506930501000" expanded="true" signature="2315:2373" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="2384:2534" ph=" Create a new exception handler instance. ..." />
+            <marker date="1506930501000" expanded="true" signature="2590:2641" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="2650:2782" ph=" Report or log an exception. ..." />
+            <marker date="1506930501000" expanded="true" signature="2825:3307" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="2872:2901" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="2946:2988" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="3004:3083" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="3108:3171" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="3197:3299" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="3252:3298" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="3316:3433" ph=" Determine if the exception should be reported. ..." />
+            <marker date="1506930501000" expanded="true" signature="3482:3538" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="3547:3676" ph=" Determine if the exception is in the &quot;do not report&quot; list. ..." />
+            <marker date="1506930501000" expanded="true" signature="3730:3954" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="3844:3946" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="3855:3945" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="3895:3944" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="3963:4051" ph=" Get the default context variables for logging. ..." />
+            <marker date="1506930501000" expanded="true" signature="4086:4338" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="4106:4275" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="4139:4264" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="4140:4263" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="4299:4331" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="4347:4542" ph=" Render an exception into a response. ..." />
+            <marker date="1506930501000" expanded="true" signature="4595:5411" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="4680:4749" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="4787:4841" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="4937:4984" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="5034:5100" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="5146:5233" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="5420:5529" ph=" Prepare exception for rendering. ..." />
+            <marker date="1506930501000" expanded="true" signature="5585:5986" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="5643:5718" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="5767:5842" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="5891:5959" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="5995:6227" ph=" Convert an authentication exception into a response. ..." />
+            <marker date="1506930501000" expanded="true" signature="6314:6501" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="6510:6762" ph=" Create a response object from the given validation exception. ..." />
+            <marker date="1506930501000" expanded="true" signature="6858:7088" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="6892:6934" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="7097:7326" ph=" Convert a validation exception into a response. ..." />
+            <marker date="1506930501000" expanded="true" signature="7401:7700" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="7527:7561" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="7592:7692" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="7709:7947" ph=" Convert a validation exception into a JSON response. ..." />
+            <marker date="1506930501000" expanded="true" signature="8026:8201" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="8065:8193" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="8066:8172" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="8210:8411" ph=" Prepare a response for the given exception. ..." />
+            <marker date="1506930501000" expanded="true" signature="8476:8903" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="8549:8679" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="8597:8668" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="8725:8793" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="8839:8895" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="8912:9071" ph=" Create a Symfony response for the given exception. ..." />
+            <marker date="1506930501000" expanded="true" signature="9137:9763" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="9308:9532" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="9556:9660" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="9702:9755" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="9772:9892" ph=" Render an exception to a string using &quot;Whoops&quot;. ..." />
+            <marker date="1506930501000" expanded="true" signature="9957:10205" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="9983:10176" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="10015:10166" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="10195:10197" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="10214:10361" ph=" Render an exception to a string using Symfony. ..." />
+            <marker date="1506930501000" expanded="true" signature="10435:10562" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="10504:10554" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="10571:10674" ph=" Get the Whoops handler for the application. ..." />
+            <marker date="1506930501000" expanded="true" signature="10715:11313" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="10741:11305" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="10785:11304" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="10953:11088" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="11001:11074" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="11133:11293" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="11161:11279" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="11173:11278" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="11322:11505" ph=" Render the given HttpException. ..." />
+            <marker date="1506930501000" expanded="true" signature="11568:12041" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="11697:11816" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="11719:11784" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="11737:11783" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="11792:11808" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="11878:11979" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="12050:12263" ph=" Map the given exception into an Illuminate response. ..." />
+            <marker date="1506930501000" expanded="true" signature="12334:12785" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="12400:12567" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="12575:12732" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="12794:12987" ph=" Prepare a JSON response for the given exception. ..." />
+            <marker date="1506930501000" expanded="true" signature="13056:13381" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="13390:13502" ph=" Convert the given exception to an array. ..." />
+            <marker date="1506930501000" expanded="true" signature="13565:14038" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="13610:13927" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="13822:13909" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="13841:13908" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="13932:14030" ph="..." />
+            <marker date="1506930501000" expanded="true" signature="14047:14227" ph=" Render an exception to the console. ..." />
+            <marker date="1506930501000" expanded="true" signature="14289:14365" ph="{...}" />
+            <marker date="1506930501000" expanded="true" signature="14374:14499" ph=" Determine if the given exception is an HTTP exception. ..." />
+            <marker date="1506930501000" expanded="true" signature="14554:14610" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Traits/ApiResponser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="67" lean-forward="true" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
           <folding>
             <marker date="1506926160000" expanded="true" signature="34:104" ph="..." />
             <marker date="1506926160000" expanded="true" signature="124:670" ph="{...}" />
@@ -1675,12 +1971,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/UserController.php">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/AuthenticationException.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="132" column="0" lean-forward="true" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+        <state relative-caret-position="87">
+          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="29" />
           <folding>
-            <element signature="e#45#58#0#PHP" expanded="true" />
+            <marker date="1506418558000" expanded="true" signature="98:687" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="108:183" ph=" All of the guards that were checked. ..." />
+            <marker date="1506418558000" expanded="true" signature="217:358" ph=" Create a new authentication exception. ..." />
+            <marker date="1506418558000" expanded="true" signature="443:528" ph="{...}" />
+            <marker date="1506418558000" expanded="true" signature="537:612" ph=" Get the guards that were checked. ..." />
+            <marker date="1506418558000" expanded="true" signature="643:685" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Exceptions/Handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <element signature="e#34#62#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

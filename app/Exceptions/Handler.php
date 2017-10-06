@@ -4,8 +4,12 @@ namespace App\Exceptions;
 
 use App\Traits\ApiResponser;
 use Exception;
+use Illuminate\Auth\Access\AuthorizationException;
+use Illuminate\Auth\AuthenticationException;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Illuminate\Validation\ValidationException;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class Handler extends ExceptionHandler
 {
@@ -47,13 +51,38 @@ class Handler extends ExceptionHandler
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  \Exception  $exception
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\Response|\Symfony\Component\HttpFoundation\Response
      */
     public function render($request, Exception $exception)
     {
         if ($exception instanceof ValidationException){
+
             return $this->convertValidationExceptionToResponse($exception, $request);
         }
+
+        if ($exception instanceof ModelNotFoundException)
+        {
+            $modelName = strtolower(class_basename($exception->getModel()));
+
+            return $this->errorResponse($modelName.' 모델의 해당 아이디가 존재하지 않습니다',404);
+        }
+
+        if ($exception instanceof AuthenticationException)
+        {
+            return $this->unauthenticated($request, $exception);
+        }
+
+        if ($exception instanceof AuthorizationException)
+        {
+            return $this->errorResponse($exception->getMessage(), 403);
+        }
+
+        if ($exception instanceof NotFoundHttpException)
+        {
+            return $this->errorResponse('해당 페이지가 존재하지 않습니다', 404);
+        }
+
+
         return parent::render($request, $exception);
     }
 
