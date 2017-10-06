@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Buyer;
 use App\Buyer;
 use Illuminate\Http\Request;
 use App\Http\Controllers\ApiController;
+use Ramsey\Uuid\BinaryUtils;
 
 class BuyerController extends ApiController
 {
@@ -46,15 +47,16 @@ class BuyerController extends ApiController
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param Buyer $buyer
      * @return \Illuminate\Http\Response
+     * @internal param int $id
      */
-    public function show($id)
+    public function show(Buyer $buyer)
     {
-        $buyers = Buyer::has('transactions')->findOrFail($id);
+//        $buyer = Buyer::has('transactions')->findOrFail($id);
 
 //        return response()->json(['data' => $buyers],200);
-        return $this->showOne($buyers);
+        return $this->showOne($buyer);
     }
 
     /**

@@ -46,15 +46,16 @@ class SellerController extends ApiController
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param Seller $seller
      * @return \Illuminate\Http\Response
+     * @internal param int $id
      */
-    public function show($id)
+    public function show(Seller $seller)
     {
-        $sellers = Seller::has('products')->findOrFail($id);
+//        $sellers = Seller::has('products')->findOrFail($id);
 
 //        return response()->json(['data' => $sellers],200);
-        return $this->showOne($sellers);
+        return $this->showOne($seller);
     }
 
     /**
