@@ -7,6 +7,7 @@ use Exception;
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
+use Illuminate\Database\QueryException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Illuminate\Validation\ValidationException;
 use Symfony\Component\HttpKernel\Exception\HttpException;
@@ -94,9 +95,25 @@ class Handler extends ExceptionHandler
             return $this->errorResponse($exception->getMessage(),$exception->getStatusCode());
         }
 
+        if ($exception instanceof QueryException)
+        {
+//            dd($exception);
+            $errorCode = $exception->errorInfo[1];
+
+            if ($errorCode == 1451)
+            {
+                return $this->errorResponse('해당 리소스를 삭제할 수 없습니다,다른 리소스에서 사용중입니다', 409);
+            }
+        }
+
+        if (config('app.debug'))
+        {
+            return parent::render($request, $exception);
+
+        }
+        return $this->errorResponse('예상치 못한 오류가 발생했습니다. 잠시 후 다시 시도해주세요', 500);
 
 
-        return parent::render($request, $exception);
     }
 
     /**
