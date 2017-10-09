@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Product;
 
+use App\Category;
 use App\Product;
 use Illuminate\Http\Request;
 use App\Http\Controllers\ApiController;
@@ -44,12 +45,13 @@ class ProductController extends ApiController
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param Product $product
      * @return \Illuminate\Http\Response
+     * @internal param int $id
      */
-    public function show($id)
+    public function show(Product $product)
     {
-        //
+        return $this->showOne($product);
     }
 
     /**
