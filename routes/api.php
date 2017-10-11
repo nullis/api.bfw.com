@@ -39,6 +39,7 @@ use Illuminate\Http\Request;
   */
  Route::resource('products', 'Product\ProductController', ['only' => ['index', 'show']]);
  Route::resource('products.buyers', 'Product\ProductBuyerController', ['only' => ['index']]);
+ Route::resource('products.categories', 'Product\ProductCategoryController', ['only' => ['index', 'update', 'destroy']]);
  Route::resource('products.transactions', 'Product\ProductTransactionController', ['only' => ['index']]);
 
  /**
