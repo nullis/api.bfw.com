@@ -33,11 +33,20 @@ class ProductCategoryController extends ApiController
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Product  $product
+     * @param  \App\Product $product
+     * @param Category $category
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Product $product)
+    public function destroy(Product $product, Category $category)
     {
-        //
+        if (!$product->categories()->find($category->id)){
+
+            return $this->errorResponse('해당 제품을 카테고리가 아니므로 삭제 할 수 없습니다', 404);
+        }
+
+        $product->categories()->detach($category->id);
+
+        return $this->showAll($product->categories);
+
     }
 }
