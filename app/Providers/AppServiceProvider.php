@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Product;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 
@@ -16,6 +17,14 @@ class AppServiceProvider extends ServiceProvider
     {
         //Laravel 5.4에서 키가 너무 길다고 하면서 발생하는 에러
         Schema::defaultStringLength(191);
+
+        Product::updated(function($product){
+            if ($product->quantity == 0 && $product->isAvailable()) {
+                $product->status = Product::UNAVAILABLE_PRODUCT;
+
+                $product->save();
+            }
+        });
     }
 
     /**
