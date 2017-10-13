@@ -2,9 +2,12 @@
 
 namespace App\Http\Controllers\User;
 
+use App\Mail\UserCreated;
+use App\Mail\UserMailChanged;
 use App\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\ApiController;
+use Illuminate\Support\Facades\Mail;
 
 class UserController extends ApiController
 {
@@ -165,5 +168,18 @@ class UserController extends ApiController
         $user->save();
 
         return $this->showMessage('사용자 인증이 완료 되었습니다');
+    }
+
+    public function resend(User $user)
+    {
+        if ($user->isVerified()){
+            return $this->errorResponse('이미 인증된 사용자입니다',409);
+        }
+
+        retry(5, function() use($user){
+            Mail::to($user)->send(new UserCreated($user));
+        },100);
+
+        return $this->showMessage('인증메일이 재전송 되었습니다');
     }
 }
