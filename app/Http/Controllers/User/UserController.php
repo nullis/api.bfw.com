@@ -154,4 +154,16 @@ class UserController extends ApiController
         return response()->json(['data' => $user],200);
 
     }
+
+    public function verify($token)
+    {
+        $user = User::where('verification_token', $token)->firstOrFail();
+
+        $user->verified = User::VERIFIED_USER;
+        $user->verification_token = null;
+
+        $user->save();
+
+        return $this->showMessage('사용자 인증이 완료 되었습니다');
+    }
 }
