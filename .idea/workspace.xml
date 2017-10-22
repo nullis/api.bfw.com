@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b9bbde3-8263-4b2f-a5e1-68ab3708b880" name="Default" comment="Implementing the update Operation of ProductBuyerController">
+    <list default="true" id="7b9bbde3-8263-4b2f-a5e1-68ab3708b880" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Buyer.php" afterPath="$PROJECT_DIR$/app/Buyer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Category.php" afterPath="$PROJECT_DIR$/app/Category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Product.php" afterPath="$PROJECT_DIR$/app/Product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Seller.php" afterPath="$PROJECT_DIR$/app/Seller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Traits/ApiResponser.php" afterPath="$PROJECT_DIR$/app/Traits/ApiResponser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Transaction.php" afterPath="$PROJECT_DIR$/app/Transaction.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -261,7 +246,7 @@
       <workItem from="1506581564320" duration="54981000" />
       <workItem from="1507313109318" duration="25071000" />
       <workItem from="1507722064919" duration="26290000" />
-      <workItem from="1508477862660" duration="12667000" />
+      <workItem from="1508477862660" duration="12755000" />
     </task>
     <task id="LOCAL-00001" summary="Modify database setting">
       <created>1506418941342</created>
@@ -424,11 +409,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507797432524</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Transforming Responses with PHP Fractal for Security and Compatibility">
+      <created>1508682157585</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1508682157585</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120447000" />
+    <option name="totallyTimeSpent" value="120535000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -529,7 +521,8 @@
     <MESSAGE value="Implementing the Index Operation of ProductBuyerController" />
     <MESSAGE value="Implementing the update Operation of ProductBuyerController" />
     <MESSAGE value="Handling the Products Availability Using Events" />
-    <option name="LAST_COMMIT_MESSAGE" value="Handling the Products Availability Using Events" />
+    <MESSAGE value="Transforming Responses with PHP Fractal for Security and Compatibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="Transforming Responses with PHP Fractal for Security and Compatibility" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
