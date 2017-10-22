@@ -2,370 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b9bbde3-8263-4b2f-a5e1-68ab3708b880" name="Default" comment="Implementing the update Operation of ProductBuyerController">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/vue-stubs/Example.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher1.apache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher2.apache" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Buyer.php" afterPath="$PROJECT_DIR$/app/Buyer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Category.php" afterPath="$PROJECT_DIR$/app/Category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Product.php" afterPath="$PROJECT_DIR$/app/Product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Seller.php" afterPath="$PROJECT_DIR$/app/Seller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Traits/ApiResponser.php" afterPath="$PROJECT_DIR$/app/Traits/ApiResponser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Transaction.php" afterPath="$PROJECT_DIR$/app/Transaction.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/composer.json" afterPath="$PROJECT_DIR$/vendor/filp/whoops/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/Formatter.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/Formatter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/Frame.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/Frame.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/FrameCollection.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/FrameCollection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/Inspector.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/Inspector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/JsonResponseHandler.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/JsonResponseHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/PlainTextHandler.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/PlainTextHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/PrettyPageHandler.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/PrettyPageHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/XmlResponseHandler.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/XmlResponseHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/css/whoops.base.css" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/css/whoops.base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/js/whoops.base.js" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/js/whoops.base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/views/layout.html.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/views/layout.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Util/HtmlDumperOutput.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Util/HtmlDumperOutput.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Util/Misc.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Util/Misc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Util/TemplateHelper.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Util/TemplateHelper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/composer.json" afterPath="$PROJECT_DIR$/vendor/laravel/framework/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/DatabaseUserProvider.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/DatabaseUserProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/Scheduling/Schedule.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Console/Scheduling/Schedule.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Connection.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Connection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasEvents.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasEvents.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/RelationNotFoundException.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/RelationNotFoundException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/Concerns/InteractsWithPivotTable.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/Concerns/InteractsWithPivotTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOneOrMany.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOneOrMany.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/Relation.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/Relation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Query/Grammars/PostgresGrammar.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Query/Grammars/PostgresGrammar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/MySqlGrammar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/SQLiteBuilder.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/SQLiteBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Seeder.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Seeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/ModelMakeCommand.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/ModelMakeCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/PolicyMakeCommand.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/PolicyMakeCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/Vue.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/Vue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/bootstrap-stubs/app.scss" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/bootstrap-stubs/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/vue-stubs/app.js" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/Presets/vue-stubs/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/VendorPublishCommand.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/VendorPublishCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/stubs/policy.stub" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Console/stubs/policy.stub" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithAuthentication.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/Concerns/InteractsWithAuthentication.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseMigrations.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Request.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Request.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Resources/Json/Resource.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Resources/Json/Resource.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Resources/MissingValue.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Resources/MissingValue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Response.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Response.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Mail/SendQueuedMailable.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Mail/SendQueuedMailable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Mail/resources/views/html/themes/default.css" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Mail/resources/views/html/themes/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotification.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotification.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Notifications/DatabaseNotificationCollection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Notifications/SendQueuedNotifications.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Notifications/SendQueuedNotifications.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pagination/PaginationServiceProvider.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pagination/PaginationServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pagination/Paginator.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pagination/Paginator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Redis/Limiters/ConcurrencyLimiterBuilder.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Redis/Limiters/ConcurrencyLimiterBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Redis/Limiters/DurationLimiterBuilder.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Redis/Limiters/DurationLimiterBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Redirector.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Redirector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Route.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Route.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Router.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/Router.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Session/Store.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Session/Store.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Arr.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Arr.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Collection.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Collection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Artisan.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Artisan.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Route.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Route.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Str.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Str.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Testing/Fakes/NotificationFake.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/ViewErrorBag.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/ViewErrorBag.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/helpers.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/helpers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Translation/Translator.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Translation/Translator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Validation/ValidationException.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Validation/ValidationException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesJson.php" afterPath="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesJson.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/.travis.yml" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/ChangeLog-5.7.md" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/ChangeLog-5.7.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/README.md" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/composer.json" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/BaseTestListener.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/BaseTestListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/Constraint/ArraySubset.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/Constraint/ArraySubset.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/Constraint/ExceptionMessage.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/Constraint/ExceptionMessage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/Constraint/IsEqual.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/Constraint/IsEqual.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/Constraint/LogicalNot.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/Constraint/LogicalNot.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/Constraint/StringContains.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/Constraint/StringContains.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestCase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestSuite.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/TestSuite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/Warning.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Framework/Warning.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Runner/Version.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Runner/Version.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/TextUI/Command.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/TextUI/Command.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Util/Configuration.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Util/Configuration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Util/ErrorHandler.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Util/ErrorHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Util/Getopt.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Util/Getopt.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Util/InvalidArgumentHelper.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Util/InvalidArgumentHelper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Util/Test.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Util/Test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Util/Xml.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/src/Util/Xml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/Framework/AssertTest.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/Framework/AssertTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/Framework/Constraint/ArraySubsetTest.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/Framework/Constraint/ArraySubsetTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/TextUI/help.phpt" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/TextUI/help.phpt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/TextUI/help2.phpt" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/TextUI/help2.phpt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/Util/XmlTest.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/Util/XmlTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/_files/SampleClass.php" afterPath="$PROJECT_DIR$/vendor/phpunit/phpunit/tests/_files/SampleClass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/.gitignore" afterPath="$PROJECT_DIR$/vendor/psy/psysh/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/.styleci.yml" afterPath="$PROJECT_DIR$/vendor/psy/psysh/.styleci.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/.travis.yml" afterPath="$PROJECT_DIR$/vendor/psy/psysh/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/CodeCleaner/FunctionReturnInWriteContextPass.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/CodeCleaner/FunctionReturnInWriteContextPass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/Command/DocCommand.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/Command/DocCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/Command/WhereamiCommand.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/Command/WhereamiCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/Configuration.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/Configuration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/Exception/ErrorException.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/Exception/ErrorException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/Input/ShellInput.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/Input/ShellInput.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/Shell.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/Shell.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/TabCompletion/Matcher/ClassAttributesMatcher.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/TabCompletion/Matcher/ClassAttributesMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/TabCompletion/Matcher/ClassMethodsMatcher.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/TabCompletion/Matcher/ClassMethodsMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/TabCompletion/Matcher/ObjectAttributesMatcher.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/TabCompletion/Matcher/ObjectAttributesMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/TabCompletion/Matcher/ObjectMethodsMatcher.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/TabCompletion/Matcher/ObjectMethodsMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/VarDumper/Dumper.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/VarDumper/Dumper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/VarDumper/Presenter.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/VarDumper/Presenter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/VersionUpdater/GitHubChecker.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/VersionUpdater/GitHubChecker.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/functions.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Psy/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/Psy/Test/Exception/ErrorExceptionTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/Psy/Test/Exception/ErrorExceptionTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/Psy/Test/ShellTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/Psy/Test/ShellTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/CHANGES" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/CHANGES" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/README" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/composer.json" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/headers.rst" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/headers.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/introduction.rst" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/introduction.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/messages.rst" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/messages.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/plugins.rst" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/plugins.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/sending.rst" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/doc/sending.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReaderFactory/SimpleCharacterReaderFactory.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReaderFactory/SimpleCharacterReaderFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/ArrayCharacterStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/ArrayCharacterStream.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FileSpool.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FileSpool.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/PlainContentEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/PlainContentEncoder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/ParameterizedHeader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/ParameterizedHeader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/IdGenerator.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/IdGenerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/MimePart.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/MimePart.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/DecoratorPlugin.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/DecoratorPlugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/ThrottlerPlugin.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/ThrottlerPlugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/SMimeSigner.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/SMimeSigner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/NTLMAuthenticator.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/NTLMAuthenticator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/mime_types.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/mime_types.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swiftmailer_generate_mimes_config.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swiftmailer_generate_mimes_config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/charsets/iso-2022-jp/one.txt" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/_samples/charsets/iso-2022-jp/one.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance.conf.php.default" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance.conf.php.default" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/SocketTimeoutTest.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/acceptance/Swift/Transport/StreamBuffer/SocketTimeoutTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug51Test.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug51Test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug76Test.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/bug/Swift/Bug76Test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/smoke.conf.php.default" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/smoke.conf.php.default" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/smoke/Swift/Smoke/AttachmentSmokeTest.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/smoke/Swift/Smoke/AttachmentSmokeTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/smoke/Swift/Smoke/HtmlWithAttachmentSmokeTest.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/smoke/Swift/Smoke/HtmlWithAttachmentSmokeTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/smoke/Swift/Smoke/InternationalSmokeTest.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/smoke/Swift/Smoke/InternationalSmokeTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Encoder/Base64EncoderTest.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Encoder/Base64EncoderTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/ContentEncoder/Base64ContentEncoderTest.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Mime/ContentEncoder/Base64ContentEncoderTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/DecoratorPluginTest.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/DecoratorPluginTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/LoggerPluginTest.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Plugins/LoggerPluginTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Signers/SMimeSignerTest.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Signers/SMimeSignerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/AbstractSmtpTest.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/AbstractSmtpTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/NTLMAuthenticatorTest.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/Esmtp/Auth/NTLMAuthenticatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/LoadBalancedTransportTest.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/LoadBalancedTransportTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/SendmailTransportTest.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/tests/unit/Swift/Transport/SendmailTransportTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Application.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Application.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Command/Command.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Command/Command.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/ApplicationDescription.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/ApplicationDescription.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/XmlDescriptor.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/XmlDescriptor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatterStyleStack.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatterStyleStack.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/DescriptorHelper.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/DescriptorHelper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/HelperSet.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/HelperSet.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/QuestionHelper.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/QuestionHelper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Input/ArgvInput.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/ArgvInput.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Input/ArrayInput.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/ArrayInput.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Input/Input.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/Input.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Input/InputArgument.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/InputArgument.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Input/InputDefinition.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/InputDefinition.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Input/InputOption.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/InputOption.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Input/StringInput.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/StringInput.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Logger/ConsoleLogger.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Logger/ConsoleLogger.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Output/ConsoleOutput.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/ConsoleOutput.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Output/Output.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/Output.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Output/StreamOutput.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/StreamOutput.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Question/ChoiceQuestion.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Question/ChoiceQuestion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Question/ConfirmationQuestion.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Question/ConfirmationQuestion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Question/Question.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Question/Question.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Tester/CommandTester.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tester/CommandTester.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Tests/ApplicationTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/ApplicationTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/console/Tests/Helper/QuestionHelperTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/console/Tests/Helper/QuestionHelperTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/Specificity.php" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Node/Specificity.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Parser.php" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Parser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Shortcut/EmptyStringParser.php" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Shortcut/EmptyStringParser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Tokenizer/Tokenizer.php" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Tokenizer/Tokenizer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Tokenizer/TokenizerPatterns.php" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/Parser/Tokenizer/TokenizerPatterns.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/HtmlExtension.php" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/HtmlExtension.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/NodeExtension.php" afterPath="$PROJECT_DIR$/vendor/symfony/css-selector/XPath/Extension/NodeExtension.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/debug/DebugClassLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/debug/DebugClassLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/debug/Tests/DebugClassLoaderTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/debug/Tests/DebugClassLoaderTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/debug/Tests/Fixtures/DeprecatedClass.php" afterPath="$PROJECT_DIR$/vendor/symfony/debug/Tests/Fixtures/DeprecatedClass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/debug/Tests/Fixtures/DeprecatedInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/debug/Tests/Fixtures/DeprecatedInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/ContainerAwareEventDispatcher.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/ContainerAwareEventDispatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/DependencyInjection/RegisterListenersPass.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/DependencyInjection/RegisterListenersPass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcherInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcherInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/GenericEvent.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/GenericEvent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Comparator/DateComparator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Comparator/DateComparator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Comparator/NumberComparator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Comparator/NumberComparator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Finder.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Finder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Iterator/CustomFilterIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Iterator/CustomFilterIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Iterator/DateRangeFilterIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Iterator/DateRangeFilterIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Iterator/DepthRangeFilterIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Iterator/DepthRangeFilterIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Iterator/ExcludeDirectoryFilterIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Iterator/FileTypeFilterIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Iterator/MultiplePcreFilterIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Iterator/MultiplePcreFilterIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Iterator/RecursiveDirectoryIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Iterator/RecursiveDirectoryIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Iterator/SizeRangeFilterIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Iterator/SizeRangeFilterIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Iterator/SortableIterator.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Iterator/SortableIterator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/SplFileInfo.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/SplFileInfo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Tests/Iterator/SortableIteratorTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Tests/Iterator/SortableIteratorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/AcceptHeader.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/AcceptHeader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/AcceptHeaderItem.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/AcceptHeaderItem.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/BinaryFileResponse.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/BinaryFileResponse.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Cookie.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Cookie.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/File/Exception/AccessDeniedException.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/File/Exception/AccessDeniedException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/File/Exception/FileNotFoundException.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/File/Exception/FileNotFoundException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/File/MimeType/FileBinaryMimeTypeGuesser.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/File/MimeType/FileBinaryMimeTypeGuesser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/File/MimeType/FileinfoMimeTypeGuesser.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/File/MimeType/FileinfoMimeTypeGuesser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/File/UploadedFile.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/File/UploadedFile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/FileBag.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/FileBag.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/HeaderBag.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/HeaderBag.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/IpUtils.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/IpUtils.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/JsonResponse.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/JsonResponse.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/ParameterBag.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/ParameterBag.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Request.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Request.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/RequestMatcher.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/RequestMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Response.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Response.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/ResponseHeaderBag.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/ResponseHeaderBag.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/ServerBag.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/ServerBag.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Attribute/AttributeBag.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Attribute/AttributeBag.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Attribute/NamespacedAttributeBag.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Attribute/NamespacedAttributeBag.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Flash/AutoExpireFlashBag.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Flash/AutoExpireFlashBag.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Flash/FlashBag.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Flash/FlashBag.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Session.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Session.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/SessionInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/SessionInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/MemcacheSessionHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/MemcacheSessionHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/MemcachedSessionHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/MemcachedSessionHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/MongoDbSessionHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/MongoDbSessionHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/NativeFileSessionHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/NativeFileSessionHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/PdoSessionHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Handler/PdoSessionHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/MetadataBag.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/MetadataBag.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/MockArraySessionStorage.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/MockArraySessionStorage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/MockFileSessionStorage.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/MockFileSessionStorage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/NativeSessionStorage.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/NativeSessionStorage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/PhpBridgeSessionStorage.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/PhpBridgeSessionStorage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Proxy/NativeProxy.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Proxy/NativeProxy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/Proxy/SessionHandlerProxy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/SessionStorageInterface.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Session/Storage/SessionStorageInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/StreamedResponse.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/StreamedResponse.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Tests/File/MimeType/MimeTypeTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Tests/File/MimeType/MimeTypeTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Tests/FileBagTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Tests/FileBagTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Tests/Session/Storage/Handler/MongoDbSessionHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Tests/Session/Storage/Handler/MongoDbSessionHandlerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Client.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Client.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Config/EnvParametersResource.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Config/EnvParametersResource.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Config/FileLocator.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Config/FileLocator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Controller/ContainerControllerResolver.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Controller/ContainerControllerResolver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Controller/ControllerReference.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Controller/ControllerReference.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Controller/ControllerResolver.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Controller/ControllerResolver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Controller/TraceableControllerResolver.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Controller/TraceableControllerResolver.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/DataCollector/ConfigDataCollector.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/DataCollector/ConfigDataCollector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/DataCollector/MemoryDataCollector.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/DataCollector/MemoryDataCollector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/DependencyInjection/AddAnnotatedClassesToCachePass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/DependencyInjection/LazyLoadingFragmentHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/EventListener/FragmentListener.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/EventListener/FragmentListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/EventListener/LocaleListener.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/EventListener/LocaleListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/EventListener/ProfilerListener.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/EventListener/ProfilerListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/EventListener/RouterListener.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/EventListener/RouterListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/EventListener/SurrogateListener.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/EventListener/SurrogateListener.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/AccessDeniedHttpException.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/AccessDeniedHttpException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/BadRequestHttpException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/ConflictHttpException.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/ConflictHttpException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/GoneHttpException.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/GoneHttpException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/LengthRequiredHttpException.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/LengthRequiredHttpException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/MethodNotAllowedHttpException.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/MethodNotAllowedHttpException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/NotAcceptableHttpException.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/NotAcceptableHttpException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/NotFoundHttpException.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/NotFoundHttpException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/PreconditionFailedHttpException.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/PreconditionFailedHttpException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/PreconditionRequiredHttpException.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/PreconditionRequiredHttpException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/ServiceUnavailableHttpException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/TooManyRequestsHttpException.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/TooManyRequestsHttpException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/UnauthorizedHttpException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/UnprocessableEntityHttpException.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/UnprocessableEntityHttpException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/UnsupportedMediaTypeHttpException.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Exception/UnsupportedMediaTypeHttpException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Fragment/AbstractSurrogateFragmentRenderer.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Fragment/AbstractSurrogateFragmentRenderer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Fragment/FragmentHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Fragment/FragmentHandler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Fragment/HIncludeFragmentRenderer.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Fragment/HIncludeFragmentRenderer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Fragment/InlineFragmentRenderer.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Fragment/InlineFragmentRenderer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/HttpCache/AbstractSurrogate.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/HttpCache/AbstractSurrogate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/HttpCache/HttpCache.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/HttpCache/HttpCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/HttpCache/Store.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/HttpCache/Store.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Kernel.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Kernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Profiler/Profile.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Profiler/Profile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Profiler/Profiler.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Profiler/Profiler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/Controller/ContainerControllerResolverTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/Controller/ContainerControllerResolverTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/HttpCache/HttpCacheTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Tests/HttpCache/HttpCacheTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/UriSigner.php" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/UriSigner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/composer.json" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/process/Exception/ProcessTimedOutException.php" afterPath="$PROJECT_DIR$/vendor/symfony/process/Exception/ProcessTimedOutException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/process/PhpProcess.php" afterPath="$PROJECT_DIR$/vendor/symfony/process/PhpProcess.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/process/Process.php" afterPath="$PROJECT_DIR$/vendor/symfony/process/Process.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/process/ProcessBuilder.php" afterPath="$PROJECT_DIR$/vendor/symfony/process/ProcessBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/process/Tests/PhpProcessTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/process/Tests/PhpProcessTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/process/Tests/ProcessTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/process/Tests/ProcessTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Annotation/Route.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Annotation/Route.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/CompiledRoute.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/CompiledRoute.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Generator/Dumper/GeneratorDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Generator/Dumper/GeneratorDumper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Generator/Dumper/PhpGeneratorDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Generator/Dumper/PhpGeneratorDumper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Generator/UrlGenerator.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Generator/UrlGenerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Loader/AnnotationClassLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Loader/AnnotationClassLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Loader/AnnotationFileLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Loader/AnnotationFileLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Loader/ObjectRouteLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Loader/ObjectRouteLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Loader/XmlFileLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Loader/XmlFileLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Loader/YamlFileLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Loader/YamlFileLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Matcher/Dumper/DumperRoute.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Matcher/Dumper/DumperRoute.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Matcher/Dumper/MatcherDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Matcher/Dumper/MatcherDumper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Matcher/Dumper/PhpMatcherDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Matcher/Dumper/PhpMatcherDumper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Matcher/Dumper/StaticPrefixCollection.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Matcher/Dumper/StaticPrefixCollection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Matcher/UrlMatcher.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Matcher/UrlMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/RequestContext.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/RequestContext.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Route.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Route.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/RouteCollection.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/RouteCollection.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/RouteCompiler.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/RouteCompiler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Router.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Router.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher1.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher2.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher3.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher3.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher4.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher5.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher5.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher6.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher6.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher7.php" afterPath="$PROJECT_DIR$/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher7.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/IdentityTranslator.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/IdentityTranslator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/FileLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/FileLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/MoFileLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/MoFileLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/PoFileLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/PoFileLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/QtFileLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/QtFileLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/XliffFileLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/XliffFileLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Loader/YamlFileLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Loader/YamlFileLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/MessageCatalogue.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/MessageCatalogue.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/PluralizationRules.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/PluralizationRules.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Resources/schemas/xliff-core-1.2-strict.xsd" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Resources/schemas/xliff-core-1.2-strict.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/translation/Translator.php" afterPath="$PROJECT_DIR$/vendor/symfony/translation/Translator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ClassStub.php" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/ClassStub.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/SplCaster.php" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Caster/SplCaster.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/Data.php" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Cloner/Data.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/CliDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/CliDumper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Cloner/VarClonerTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Tests/Cloner/VarClonerTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -380,12 +32,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="ProductTransformer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Transformers/ProductTransformer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="450">
+              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+              <folding>
+                <element signature="e#36#52#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -406,15 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/database/migrations/2017_09_29_153457_category_product_table.php" />
-        <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
-        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ApiController.php" />
-        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php" />
-        <option value="$PROJECT_DIR$/app/Exceptions/Handler.php" />
-        <option value="$PROJECT_DIR$/app/Scopes/BuyerScope.php" />
-        <option value="$PROJECT_DIR$/app/Buyer.php" />
         <option value="$PROJECT_DIR$/app/Scopes/SellerScope.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Seller/SellerController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerController.php" />
@@ -422,8 +67,6 @@
         <option value="$PROJECT_DIR$/database/migrations/2017_09_29_124954_create_categories_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_09_29_125006_create_products_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2017_09_29_125020_create_transactions_table.php" />
-        <option value="$PROJECT_DIR$/app/Seller.php" />
-        <option value="$PROJECT_DIR$/app/Transaction.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Product/ProductController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Transaction/TransactionCategoryController.php" />
@@ -433,8 +76,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerProductController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerCategoryController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryProductController.php" />
-        <option value="$PROJECT_DIR$/app/Category.php" />
-        <option value="$PROJECT_DIR$/app/Product.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Category/CategorySellerController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryTransactionController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Category/CategoryBuyerController.php" />
@@ -453,10 +94,23 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Seller/SellerProductController.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/.env.example" />
-        <option value="$PROJECT_DIR$/app/Traits/ApiResponser.php" />
         <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/User/UserController.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/app/Transformers/UserTransformer.php" />
+        <option value="$PROJECT_DIR$/app/Transformers/BuyerTransformer.php" />
+        <option value="$PROJECT_DIR$/app/Transformers/SellerTransformer.php" />
+        <option value="$PROJECT_DIR$/app/Transformers/CategoryTransformer.php" />
+        <option value="$PROJECT_DIR$/app/Transformers/TransactionTransformer.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/app/Transaction.php" />
+        <option value="$PROJECT_DIR$/app/Seller.php" />
+        <option value="$PROJECT_DIR$/app/Buyer.php" />
+        <option value="$PROJECT_DIR$/app/Product.php" />
+        <option value="$PROJECT_DIR$/app/Category.php" />
+        <option value="$PROJECT_DIR$/app/Traits/ApiResponser.php" />
+        <option value="$PROJECT_DIR$/app/Transformers/ProductTransformer.php" />
       </list>
     </option>
   </component>
@@ -476,10 +130,9 @@
       <path value="" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="25" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1255" />
+    <option name="width" value="1280" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectView">
@@ -531,82 +184,34 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="api.bfw.com" type="cbb8eebc:String" user="api.bfw.com" />
               <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="Http" type="cbb8eebc:String" user="Http" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="api.bfw.com" type="cbb8eebc:String" user="api.bfw.com" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="Http" type="cbb8eebc:String" user="Http" />
-              <item name="Middleware" type="cbb8eebc:String" user="Middleware" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="api.bfw.com" type="cbb8eebc:String" user="api.bfw.com" />
-              <item name="app" type="cbb8eebc:String" user="app" />
-              <item name="Providers" type="cbb8eebc:String" user="Providers" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="api.bfw.com" type="cbb8eebc:String" user="api.bfw.com" />
-              <item name="app" type="cbb8eebc:String" user="app" />
               <item name="Traits" type="cbb8eebc:String" user="Traits" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="api.bfw.com" type="cbb8eebc:String" user="api.bfw.com" />
-              <item name="config" type="cbb8eebc:String" user="config" />
+              <item name="app" type="cbb8eebc:String" user="app" />
+              <item name="Transformers" type="cbb8eebc:String" user="Transformers" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="api.bfw.com" type="cbb8eebc:String" user="api.bfw.com" />
-              <item name="database" type="cbb8eebc:String" user="database" />
+              <item name="public" type="cbb8eebc:String" user="public" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="api.bfw.com" type="cbb8eebc:String" user="api.bfw.com" />
-              <item name="database" type="cbb8eebc:String" user="database" />
-              <item name="factories" type="cbb8eebc:String" user="factories" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="api.bfw.com" type="cbb8eebc:String" user="api.bfw.com" />
-              <item name="database" type="cbb8eebc:String" user="database" />
-              <item name="seeds" type="cbb8eebc:String" user="seeds" />
+              <item name="public" type="cbb8eebc:String" user="public" />
+              <item name="img" type="cbb8eebc:String" user="img" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="api.bfw.com" type="cbb8eebc:String" user="api.bfw.com" />
               <item name="resources" type="cbb8eebc:String" user="resources" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="api.bfw.com" type="cbb8eebc:String" user="api.bfw.com" />
-              <item name="resources" type="cbb8eebc:String" user="resources" />
-              <item name="views" type="cbb8eebc:String" user="views" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="api.bfw.com" type="cbb8eebc:String" user="api.bfw.com" />
-              <item name="resources" type="cbb8eebc:String" user="resources" />
-              <item name="views" type="cbb8eebc:String" user="views" />
-              <item name="emails" type="cbb8eebc:String" user="emails" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="api.bfw.com" type="cbb8eebc:String" user="api.bfw.com" />
-              <item name="routes" type="cbb8eebc:String" user="routes" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="api.bfw.com" type="cbb8eebc:String" user="api.bfw.com" />
               <item name="storage" type="cbb8eebc:String" user="storage" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="api.bfw.com" type="cbb8eebc:String" user="api.bfw.com" />
-              <item name="storage" type="cbb8eebc:String" user="storage" />
-              <item name="logs" type="cbb8eebc:String" user="logs" />
             </path>
           </expand>
           <select />
@@ -617,7 +222,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/app/User.php&#10;user&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/app/Http/Controllers/User/UserController.php&#10;api&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/routes/api.php&#10;.en&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/.env&#10;ima&#9;null&#9;null&#10;filesys&#9;null&#9;null&#10;ap&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/routes/api.php&#10;AuthenticationE&#9;null&#9;null&#10;ha&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/app/Exceptions/Handler.php&#10;Apires&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/app/Traits/ApiResponser.php&#10;seed&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/database/seeds/DatabaseSeeder.php" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/app/Traits/ApiResponser.php&#10;Produ&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/app/Transformers/ProductTransformer.php&#10;user&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/app/Transformers/UserTransformer.php&#10;User&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/app/Transformers/UserTransformer.php&#10;config&#9;null&#9;null&#10;api&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/routes/api.php&#10;.en&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/.env&#10;ima&#9;null&#9;null&#10;filesys&#9;null&#9;null&#10;ap&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/routes/api.php&#10;AuthenticationE&#9;null&#9;null&#10;ha&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/app/Exceptions/Handler.php&#10;Apires&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/app/Traits/ApiResponser.php&#10;seed&#9;FILE&#9;file:///Volumes/WorkData/Web/laravel/bfw-project/api.bfw.com/database/seeds/DatabaseSeeder.php" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v8.6.0/bin/node" />
@@ -656,7 +261,7 @@
       <workItem from="1506581564320" duration="54981000" />
       <workItem from="1507313109318" duration="25071000" />
       <workItem from="1507722064919" duration="26290000" />
-      <workItem from="1508477862660" duration="31000" />
+      <workItem from="1508477862660" duration="12667000" />
     </task>
     <task id="LOCAL-00001" summary="Modify database setting">
       <created>1506418941342</created>
@@ -823,7 +428,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107811000" />
+    <option name="totallyTimeSpent" value="120447000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -835,7 +440,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="25" y="23" width="1255" height="777" extended-state="0" />
+    <frame x="25" y="23" width="1255" height="777" extended-state="6" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26710635" sideWeight="0.49457365" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -843,9 +448,9 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.6075845" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32776934" sideWeight="0.6075845" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30349013" sideWeight="0.3891179" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30349013" sideWeight="0.3891179" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26298434" sideWeight="0.50542635" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -931,147 +536,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Transaction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Transaction/TransactionSellerController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Transaction/TransactionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Transaction/TransactionCategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Buyer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerTransactionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Seller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Category/CategoryProductController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Category/CategorySellerController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Category/CategoryTransactionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Category/CategoryBuyerController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Seller/SellerTransactionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Seller/SellerCategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerSellerController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Seller/SellerController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-596">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Http/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-262">
-          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Buyer/BuyerCategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1083,13 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1128,17 +585,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
           <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,11 +613,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/img/3.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/img/2.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -1242,48 +688,817 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Traits/ApiResponser.php">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1508477400000" expanded="true" signature="34:104" ph="..." />
-            <marker date="1508477400000" expanded="true" signature="124:808" ph="{...}" />
-            <marker date="1508477400000" expanded="true" signature="177:236" ph="{...}" />
-            <marker date="1508477400000" expanded="true" signature="291:382" ph="{...}" />
-            <marker date="1508477400000" expanded="true" signature="451:533" ph="{...}" />
-            <marker date="1508477400000" expanded="true" signature="592:668" ph="{...}" />
-            <marker date="1508477400000" expanded="true" signature="727:805" ph="{...}" />
+            <marker date="1508477400000" expanded="true" signature="0:1128" ph="{&quot;private&quot;: true...}" />
+            <marker date="1508477400000" expanded="true" signature="38:886" ph="{&quot;dev&quot;: &quot;npm run development&quot;...}" />
+            <marker date="1508477400000" expanded="true" signature="911:1126" ph="{&quot;axios&quot;: &quot;^0.16.2&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <marker date="1508481078000" expanded="true" signature="0:1458" ph="{&quot;name&quot;: &quot;laravel/laravel&quot;...}" />
+            <marker date="1508481078000" expanded="true" signature="180:398" ph="{&quot;php&quot;: &quot;&gt;=7.0.0&quot;...}" />
+            <marker date="1508481078000" expanded="true" signature="419:563" ph="{&quot;filp/whoops&quot;: &quot;~2.0&quot;...}" />
+            <marker date="1508481078000" expanded="true" signature="581:741" ph="{...}" />
+            <marker date="1508481078000" expanded="true" signature="603:677" ph="[...]" />
+            <marker date="1508481078000" expanded="true" signature="696:735" ph="{&quot;App\&quot;: &quot;app/&quot;...}" />
+            <marker date="1508481078000" expanded="true" signature="763:831" ph="{...}" />
+            <marker date="1508481078000" expanded="true" signature="782:825" ph="{&quot;Tests\&quot;: &quot;tests/&quot;...}" />
+            <marker date="1508481078000" expanded="true" signature="846:929" ph="{...}" />
+            <marker date="1508481078000" expanded="true" signature="867:923" ph="{...}" />
+            <marker date="1508481078000" expanded="true" signature="898:913" ph="[...]" />
+            <marker date="1508481078000" expanded="true" signature="946:1329" ph="{...}" />
+            <marker date="1508481078000" expanded="true" signature="985:1075" ph="[...]" />
+            <marker date="1508481078000" expanded="true" signature="1112:1163" ph="[...]" />
+            <marker date="1508481078000" expanded="true" signature="1195:1323" ph="[...]" />
+            <marker date="1508481078000" expanded="true" signature="1345:1456" ph="{&quot;preferred-install&quot;: &quot;dist&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508477400000" expanded="false" signature="44:252" ph="..." />
+            <marker date="1508477400000" expanded="true" signature="293:360" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ApiController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508477400000" expanded="false" signature="44:97" ph="..." />
+            <marker date="1508477400000" expanded="true" signature="137:163" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="278">
+          <caret line="63" column="4" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+          <folding>
+            <marker date="1508477400000" expanded="true" signature="40:418" ph="..." />
+            <marker date="1508477400000" expanded="true" signature="539:553" ph=" Buyers ..." />
+            <marker date="1508477400000" expanded="true" signature="1022:1040" ph=" Categories ..." />
+            <marker date="1508477400000" expanded="true" signature="1555:1571" ph=" Products ..." />
+            <marker date="1508477400000" expanded="true" signature="2109:2124" ph=" Sellers ..." />
+            <marker date="1508477400000" expanded="true" signature="2625:2645" ph=" Transactions ..." />
+            <marker date="1508477400000" expanded="true" signature="2978:2991" ph=" Users ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="98" column="91" lean-forward="false" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/league/flysystem/src/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <marker date="1508477400000" expanded="true" signature="48:1979" ph="{...}" />
+            <marker date="1508477400000" expanded="true" signature="58:82" ph=" @var array ..." />
+            <marker date="1508477400000" expanded="true" signature="123:148" ph=" @var Config ..." />
+            <marker date="1508477400000" expanded="true" signature="184:247" ph=" Constructor. ..." />
+            <marker date="1508477400000" expanded="true" signature="303:352" ph="{...}" />
+            <marker date="1508477400000" expanded="true" signature="361:521" ph=" Get a setting. ..." />
+            <marker date="1508477400000" expanded="true" signature="570:743" ph="{...}" />
+            <marker date="1508477400000" expanded="true" signature="634:697" ph="..." />
+            <marker date="1508477400000" expanded="true" signature="752:857" ph=" Check if an item exists by key. ..." />
+            <marker date="1508477400000" expanded="true" signature="889:1103" ph="{...}" />
+            <marker date="1508477400000" expanded="true" signature="950:984" ph="..." />
+            <marker date="1508477400000" expanded="true" signature="1112:1315" ph=" Try to retrieve a default setting from a config fallback. ..." />
+            <marker date="1508477400000" expanded="true" signature="1367:1506" ph="{...}" />
+            <marker date="1508477400000" expanded="true" signature="1407:1445" ph="..." />
+            <marker date="1508477400000" expanded="true" signature="1515:1632" ph=" Set a setting. ..." />
+            <marker date="1508477400000" expanded="true" signature="1672:1747" ph="{...}" />
+            <marker date="1508477400000" expanded="true" signature="1756:1853" ph=" Set the fallback. ..." />
+            <marker date="1508477400000" expanded="true" signature="1905:1977" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="171" column="10" lean-forward="false" selection-start-line="171" selection-start-column="10" selection-end-line="171" selection-end-column="10" />
+          <folding>
+            <marker date="1508482703000" expanded="true" signature="15:9220" ph="..." />
+            <marker date="1508482703000" expanded="true" signature="23:449" ph="..." />
+            <marker date="1508482703000" expanded="true" signature="502:930" ph="..." />
+            <marker date="1508482703000" expanded="true" signature="984:1407" ph="..." />
+            <marker date="1508482703000" expanded="true" signature="1458:1874" ph="..." />
+            <marker date="1508482703000" expanded="true" signature="1934:2358" ph="..." />
+            <marker date="1508482703000" expanded="true" signature="2394:2833" ph="..." />
+            <marker date="1508482703000" expanded="true" signature="2866:3297" ph="..." />
+            <marker date="1508482703000" expanded="true" signature="3339:3760" ph="..." />
+            <marker date="1508482703000" expanded="true" signature="3832:4326" ph="..." />
+            <marker date="1508482703000" expanded="true" signature="4427:4859" ph="..." />
+            <marker date="1508482703000" expanded="true" signature="4883:6744" ph="..." />
+            <marker date="1508482703000" expanded="true" signature="4895:4955" ph="..." />
+            <marker date="1508482703000" expanded="true" signature="6305:6355" ph="..." />
+            <marker date="1508482703000" expanded="true" signature="6423:6477" ph="..." />
+            <marker date="1508482703000" expanded="true" signature="6754:7168" ph="..." />
+            <marker date="1508482703000" expanded="true" signature="7190:9216" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="169" column="0" lean-forward="true" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <marker date="1508477400000" expanded="true" signature="49:220" ph="..." />
+            <marker date="1508477400000" expanded="true" signature="264:4620" ph="{...}" />
+            <marker date="1508477400000" expanded="true" signature="274:370" ph=" Display a listing of the resource. ..." />
+            <marker date="1508477400000" expanded="true" signature="400:541" ph="{...}" />
+            <marker date="1508477400000" expanded="true" signature="550:654" ph=" Show the form for creating a new resource. ..." />
+            <marker date="1508477400000" expanded="true" signature="685:708" ph="{...}" />
+            <marker date="1508477400000" expanded="true" signature="717:871" ph=" Store a newly created resource in storage. ..." />
+            <marker date="1508477400000" expanded="true" signature="917:1494" ph="{...}" />
+            <marker date="1508477400000" expanded="true" signature="942:1087" ph="..." />
+            <marker date="1508477400000" expanded="true" signature="1503:1652" ph=" Display the specified resource. ..." />
+            <marker date="1508477400000" expanded="true" signature="1691:1841" ph="{...}" />
+            <marker date="1508477400000" expanded="true" signature="1850:1985" ph=" Show the form for editing the specified resource. ..." />
+            <marker date="1508477400000" expanded="true" signature="2017:2040" ph="{...}" />
+            <marker date="1508477400000" expanded="true" signature="2049:2257" ph=" Update the specified resource in storage. ..." />
+            <marker date="1508477400000" expanded="true" signature="2317:3648" ph="{...}" />
+            <marker date="1508477400000" expanded="true" signature="2384:2575" ph="..." />
+            <marker date="1508477400000" expanded="true" signature="2614:2665" ph="..." />
+            <marker date="1508477400000" expanded="true" signature="2739:2919" ph="..." />
+            <marker date="1508477400000" expanded="true" signature="2961:3028" ph="..." />
+            <marker date="1508477400000" expanded="true" signature="3067:3361" ph="..." />
+            <marker date="1508477400000" expanded="true" signature="3106:3305" ph="..." />
+            <marker date="1508477400000" expanded="true" signature="3395:3560" ph="..." />
+            <marker date="1508477400000" expanded="true" signature="3657:3818" ph=" Remove the specified resource from storage. ..." />
+            <marker date="1508477400000" expanded="true" signature="3860:3997" ph="{...}" />
+            <marker date="1508477400000" expanded="true" signature="4033:4289" ph="{...}" />
+            <marker date="1508477400000" expanded="true" signature="4329:4618" ph="{...}" />
+            <marker date="1508477400000" expanded="true" signature="4369:4440" ph="..." />
+            <marker date="1508477400000" expanded="true" signature="4457:4555" ph="..." />
+            <marker date="1508477400000" expanded="true" signature="4482:4550" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transaction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508486145000" expanded="false" signature="27:185" ph="..." />
+            <marker date="1508486145000" expanded="true" signature="218:618" ph="{...}" />
+            <marker date="1508486145000" expanded="true" signature="367:434" ph="..." />
+            <marker date="1508486145000" expanded="true" signature="465:524" ph="{...}" />
+            <marker date="1508486145000" expanded="true" signature="555:616" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Seller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <marker date="1508486187000" expanded="false" signature="27:107" ph="..." />
+            <marker date="1508486187000" expanded="true" signature="134:446" ph="{...}" />
+            <marker date="1508486187000" expanded="true" signature="226:353" ph="{...}" />
+            <marker date="1508486187000" expanded="true" signature="385:444" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Buyer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <marker date="1508486234000" expanded="false" signature="27:109" ph="..." />
+            <marker date="1508486234000" expanded="true" signature="135:451" ph="{...}" />
+            <marker date="1508486234000" expanded="true" signature="226:350" ph="{...}" />
+            <marker date="1508486234000" expanded="true" signature="386:449" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <marker date="1508486261000" expanded="false" signature="27:204" ph="..." />
+            <marker date="1508486261000" expanded="true" signature="233:1037" ph="{...}" />
+            <marker date="1508486261000" expanded="true" signature="468:588" ph="..." />
+            <marker date="1508486261000" expanded="true" signature="616:637" ph="..." />
+            <marker date="1508486261000" expanded="true" signature="674:746" ph="{...}" />
+            <marker date="1508486261000" expanded="true" signature="776:836" ph="{...}" />
+            <marker date="1508486261000" expanded="true" signature="872:935" ph="{...}" />
+            <marker date="1508486261000" expanded="true" signature="969:1035" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <marker date="1508486295000" expanded="true" signature="27:167" ph="..." />
+            <marker date="1508486295000" expanded="true" signature="197:523" ph="{...}" />
+            <marker date="1508486295000" expanded="true" signature="343:387" ph="..." />
+            <marker date="1508486295000" expanded="true" signature="456:521" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/league/fractal/src/TransformerAbstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-683">
+          <caret line="27" column="15" lean-forward="false" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+          <folding>
+            <marker date="1497265496000" expanded="false" signature="9:238" ph="..." />
+            <marker date="1497265496000" expanded="false" signature="273:470" ph="..." />
+            <marker date="1497265496000" expanded="true" signature="475:780" ph=" Transformer Abstract ..." />
+            <marker date="1497265496000" expanded="true" signature="817:7450" ph="{...}" />
+            <marker date="1497265496000" expanded="true" signature="827:910" ph=" Resources that can be included if requested. ..." />
+            <marker date="1497265496000" expanded="true" signature="960:1052" ph=" Include resources without needing it to be requested. ..." />
+            <marker date="1497265496000" expanded="true" signature="1100:1224" ph=" The transformer should know about the current scope, so we can fetch relevant params. ..." />
+            <marker date="1497265496000" expanded="true" signature="1264:1335" ph=" Getter for availableIncludes. ..." />
+            <marker date="1497265496000" expanded="true" signature="1380:1433" ph="{...}" />
+            <marker date="1497265496000" expanded="true" signature="1442:1511" ph=" Getter for defaultIncludes. ..." />
+            <marker date="1497265496000" expanded="true" signature="1554:1605" ph="{...}" />
+            <marker date="1497265496000" expanded="true" signature="1614:1696" ph=" Getter for currentScope. ..." />
+            <marker date="1497265496000" expanded="true" signature="1736:1784" ph="{...}" />
+            <marker date="1497265496000" expanded="true" signature="1793:1927" ph=" Figure out which includes we need. ..." />
+            <marker date="1497265496000" expanded="true" signature="1987:2429" ph="{...}" />
+            <marker date="1497265496000" expanded="true" signature="2105:2217" ph="..." />
+            <marker date="1497265496000" expanded="true" signature="2154:2207" ph="..." />
+            <marker date="1497265496000" expanded="true" signature="2261:2395" ph="..." />
+            <marker date="1497265496000" expanded="true" signature="2309:2385" ph="..." />
+            <marker date="1497265496000" expanded="true" signature="2438:2690" ph=" This method is fired to loop through available includes, see if any of ..." />
+            <marker date="1497265496000" expanded="true" signature="2758:3154" ph="{...}" />
+            <marker date="1497265496000" expanded="true" signature="2895:3085" ph="..." />
+            <marker date="1497265496000" expanded="true" signature="2958:3074" ph="..." />
+            <marker date="1497265496000" expanded="true" signature="3163:3413" ph=" Include a resource only if it is available on the method. ..." />
+            <marker date="1497265496000" expanded="true" signature="3549:3998" ph="..." />
+            <marker date="1497265496000" expanded="true" signature="3626:3961" ph="..." />
+            <marker date="1497265496000" expanded="true" signature="3766:3864" ph="..." />
+            <marker date="1497265496000" expanded="true" signature="3872:3951" ph="..." />
+            <marker date="1497265496000" expanded="true" signature="4008:4260" ph=" Call Include Method. ..." />
+            <marker date="1497265496000" expanded="true" signature="4338:5243" ph="{...}" />
+            <marker date="1497265496000" expanded="true" signature="4770:4805" ph="..." />
+            <marker date="1497265496000" expanded="true" signature="4863:5209" ph="..." />
+            <marker date="1497265496000" expanded="true" signature="4905:5197" ph="..." />
+            <marker date="1497265496000" expanded="true" signature="5252:5369" ph=" Setter for availableIncludes. ..." />
+            <marker date="1497265496000" expanded="true" signature="5432:5522" ph="{...}" />
+            <marker date="1497265496000" expanded="true" signature="5531:5644" ph=" Setter for defaultIncludes. ..." />
+            <marker date="1497265496000" expanded="true" signature="5703:5789" ph="{...}" />
+            <marker date="1497265496000" expanded="true" signature="5798:5905" ph=" Setter for currentScope. ..." />
+            <marker date="1497265496000" expanded="true" signature="5958:6038" ph="{...}" />
+            <marker date="1497265496000" expanded="true" signature="6047:6300" ph=" Create a new primitive resource object. ..." />
+            <marker date="1497265496000" expanded="true" signature="6384:6461" ph="{...}" />
+            <marker date="1497265496000" expanded="true" signature="6470:6713" ph=" Create a new item resource object. ..." />
+            <marker date="1497265496000" expanded="true" signature="6785:6857" ph="{...}" />
+            <marker date="1497265496000" expanded="true" signature="6866:7121" ph=" Create a new collection resource object. ..." />
+            <marker date="1497265496000" expanded="true" signature="7199:7277" ph="{...}" />
+            <marker date="1497265496000" expanded="true" signature="7286:7369" ph=" Create a new null resource object. ..." />
+            <marker date="1497265496000" expanded="true" signature="7401:7448" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="580" column="30" lean-forward="true" selection-start-line="580" selection-start-column="30" selection-end-line="580" selection-end-column="30" />
+          <folding>
+            <marker date="1508417426000" expanded="false" signature="42:365" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="475:41894" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="505:582" ph=" The items contained in the collection. ..." />
+            <marker date="1508417426000" expanded="true" signature="620:691" ph=" The methods that can be proxied. ..." />
+            <marker date="1508417426000" expanded="true" signature="727:895" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="906:1000" ph=" Create a new collection. ..." />
+            <marker date="1508417426000" expanded="true" signature="1047:1116" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="1125:1261" ph=" Create a new collection instance if the value isn't one already. ..." />
+            <marker date="1508417426000" expanded="true" signature="1308:1355" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="1364:1487" ph=" Wrap the given value in a collection if applicable. ..." />
+            <marker date="1508417426000" expanded="true" signature="1529:1657" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="1666:1809" ph=" Get the underlying items from the given collection if applicable. ..." />
+            <marker date="1508417426000" expanded="true" signature="1853:1929" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="1938:2117" ph=" Create a new collection by invoking the callback a given amount of times. ..." />
+            <marker date="1508417426000" expanded="true" signature="2188:2428" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="2221:2261" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="2297:2356" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="2437:2518" ph=" Get all of the items in the collection. ..." />
+            <marker date="1508417426000" expanded="true" signature="2546:2587" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="2596:2722" ph=" Get the average value of a given key. ..." />
+            <marker date="1508417426000" expanded="true" signature="2766:2878" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="2811:2871" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="2887:3003" ph=" Alias for the &quot;avg&quot; method. ..." />
+            <marker date="1508417426000" expanded="true" signature="3051:3101" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="3110:3207" ph=" Get the median of a given key. ..." />
+            <marker date="1508417426000" expanded="true" signature="3249:3688" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="3316:3345" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="3514:3565" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="3596:3667" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="3697:3799" ph=" Get the mode of a given key. ..." />
+            <marker date="1508417426000" expanded="true" signature="3839:4418" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="3906:3935" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="4058:4181" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="4091:4180" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="4294:4387" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="4333:4386" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="4427:4523" ph=" Collapse the collection of items into a single array. ..." />
+            <marker date="1508417426000" expanded="true" signature="4556:4624" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="4633:4808" ph=" Determine if an item exists in the collection. ..." />
+            <marker date="1508417426000" expanded="true" signature="4878:5358" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="4920:5159" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="4966:5099" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="5197:5268" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="5367:5534" ph=" Determine if an item exists in the collection using strict comparison. ..." />
+            <marker date="1508417426000" expanded="true" signature="5592:5951" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="5634:5789" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="5670:5778" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="5707:5777" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="5833:5892" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="5960:6104" ph=" Cross join with the given lists, returning all possible permutations. ..." />
+            <marker date="1508417426000" expanded="true" signature="6147:6290" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="6195:6281" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="6299:6379" ph=" Dump the collection and end the script. ..." />
+            <marker date="1508417426000" expanded="true" signature="6406:6444" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="6453:6515" ph=" Dump the collection. ..." />
+            <marker date="1508417426000" expanded="true" signature="6544:6740" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="6608:6613" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="6634:6709" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="6652:6708" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="6749:6893" ph=" Get the items in the collection that are not present in the given items. ..." />
+            <marker date="1508417426000" expanded="true" signature="6928:7027" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="7036:7197" ph=" Get the items in the collection whose keys and values are not present in the given items. ..." />
+            <marker date="1508417426000" expanded="true" signature="7237:7342" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="7351:7501" ph=" Get the items in the collection whose keys are not present in the given items. ..." />
+            <marker date="1508417426000" expanded="true" signature="7540:7643" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="7652:7763" ph=" Execute a callback over each item. ..." />
+            <marker date="1508417426000" expanded="true" signature="7810:7994" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="7866:7964" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="7918:7954" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="8003:8132" ph=" Execute a callback over each nested chunk of items. ..." />
+            <marker date="1508417426000" expanded="true" signature="8185:8349" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="8219:8341" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="8260:8340" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="8358:8558" ph=" Determine if all items in the collection pass the given test. ..." />
+            <marker date="1508417426000" expanded="true" signature="8625:9110" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="8667:8914" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="8770:8878" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="8813:8864" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="8952:9023" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="9119:9245" ph=" Get all items except for those with the specified keys. ..." />
+            <marker date="1508417426000" expanded="true" signature="9281:9414" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="9423:9542" ph=" Run a filter over each of the items. ..." />
+            <marker date="1508417426000" expanded="true" signature="9598:9769" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="9629:9706" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="9778:9959" ph=" Apply the callback if the value is truthy. ..." />
+            <marker date="1508417426000" expanded="true" signature="10040:10210" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="10068:10114" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="10135:10180" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="10219:10399" ph=" Apply the callback if the value is falsy. ..." />
+            <marker date="1508417426000" expanded="true" signature="10482:10553" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="10562:10735" ph=" Filter items by the given key value pair. ..." />
+            <marker date="1508417426000" expanded="true" signature="10795:10996" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="10837:10908" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="11005:11173" ph=" Get an operator checker callback. ..." />
+            <marker date="1508417426000" expanded="true" signature="11240:12108" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="11310:12100" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="11377:12023" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="11414:12009" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="12047:12090" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="12117:12282" ph=" Filter items by the given key value pair using strict comparison. ..." />
+            <marker date="1508417426000" expanded="true" signature="12330:12392" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="12401:12572" ph=" Filter items by the given key value pair. ..." />
+            <marker date="1508417426000" expanded="true" signature="12634:12859" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="12724:12851" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="12771:12850" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="12868:13034" ph=" Filter items by the given key value pair using strict comparison. ..." />
+            <marker date="1508417426000" expanded="true" signature="13085:13149" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="13158:13329" ph=" Filter items by the given key value pair. ..." />
+            <marker date="1508417426000" expanded="true" signature="13394:13619" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="13484:13611" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="13531:13610" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="13628:13794" ph=" Filter items by the given key value pair using strict comparison. ..." />
+            <marker date="1508417426000" expanded="true" signature="13848:13915" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="13924:14076" ph=" Get the first item from the collection. ..." />
+            <marker date="1508417426000" expanded="true" signature="14148:14222" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="14231:14354" ph=" Get a flattened array of the items in the collection. ..." />
+            <marker date="1508417426000" expanded="true" signature="14398:14473" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="14482:14558" ph=" Flip the items in the collection. ..." />
+            <marker date="1508417426000" expanded="true" signature="14587:14652" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="14661:14780" ph=" Remove an item from the collection by key. ..." />
+            <marker date="1508417426000" expanded="true" signature="14816:14941" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="14864:14911" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="14950:15089" ph=" Get an item from the collection by key. ..." />
+            <marker date="1508417426000" expanded="true" signature="15138:15273" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="15185:15233" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="15282:15459" ph=" Group an associative array by a field or using a callback. ..." />
+            <marker date="1508417426000" expanded="true" signature="15522:16222" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="15656:16177" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="15748:15804" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="15854:16167" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="15996:16067" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="16231:16369" ph=" Key an associative array by a field or using a callback. ..." />
+            <marker date="1508417426000" expanded="true" signature="16405:16793" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="16534:16748" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="16626:16693" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="16802:16923" ph=" Determine if an item exists in the collection by key. ..." />
+            <marker date="1508417426000" expanded="true" signature="16955:17186" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="17055:17157" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="17104:17147" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="17195:17343" ph=" Concatenate values of a given key as a string. ..." />
+            <marker date="1508417426000" expanded="true" signature="17395:17615" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="17488:17561" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="17624:17742" ph=" Intersect the collection with the given items. ..." />
+            <marker date="1508417426000" expanded="true" signature="17782:17886" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="17895:18020" ph=" Intersect the collection with the given items by key. ..." />
+            <marker date="1508417426000" expanded="true" signature="18066:18196" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="18119:18187" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="18205:18290" ph=" Determine if the collection is empty or not. ..." />
+            <marker date="1508417426000" expanded="true" signature="18322:18370" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="18379:18461" ph=" Determine if the collection is not empty. ..." />
+            <marker date="1508417426000" expanded="true" signature="18496:18543" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="18552:18681" ph=" Determine if the given value is callable, but not a string. ..." />
+            <marker date="1508417426000" expanded="true" signature="18728:18799" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="18808:18888" ph=" Get the keys of the collection items. ..." />
+            <marker date="1508417426000" expanded="true" signature="18917:18982" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="18991:19142" ph=" Get the last item from the collection. ..." />
+            <marker date="1508417426000" expanded="true" signature="19213:19286" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="19295:19437" ph=" Get the values of a given key. ..." />
+            <marker date="1508417426000" expanded="true" signature="19486:19565" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="19574:19685" ph=" Run a map over each of the items. ..." />
+            <marker date="1508417426000" expanded="true" signature="19731:19904" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="19913:20033" ph=" Run a map over each nested chunk of items. ..." />
+            <marker date="1508417426000" expanded="true" signature="20085:20248" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="20118:20240" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="20159:20239" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="20257:20463" ph=" Run a dictionary map over the items. ..." />
+            <marker date="1508417426000" expanded="true" signature="20521:20749" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="20580:20700" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="20607:20695" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="20758:20962" ph=" Run a grouping map over the items. ..." />
+            <marker date="1508417426000" expanded="true" signature="21016:21128" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="21137:21353" ph=" Run an associative map over each of the items. ..." />
+            <marker date="1508417426000" expanded="true" signature="21407:21702" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="21487:21658" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="21589:21648" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="21711:21847" ph=" Map a collection and flatten the result by a single level. ..." />
+            <marker date="1508417426000" expanded="true" signature="21897:21959" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="21968:22073" ph=" Map the values into a new class. ..." />
+            <marker date="1508417426000" expanded="true" signature="22111:22245" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="22144:22237" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="22182:22236" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="22254:22376" ph=" Get the max value of a given key. ..." />
+            <marker date="1508417426000" expanded="true" signature="22420:22765" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="22511:22578" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="22530:22577" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="22588:22757" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="22631:22756" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="22774:22888" ph=" Merge the collection with the given items. ..." />
+            <marker date="1508417426000" expanded="true" signature="22924:23024" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="23033:23187" ph=" Create a collection by using this collection for keys and another for its values. ..." />
+            <marker date="1508417426000" expanded="true" signature="23226:23329" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="23338:23452" ph=" Union the collection with the given items. ..." />
+            <marker date="1508417426000" expanded="true" signature="23488:23576" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="23585:23707" ph=" Get the min value of a given key. ..." />
+            <marker date="1508417426000" expanded="true" signature="23751:24096" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="23842:23909" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="23861:23908" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="23919:24088" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="23962:24087" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="24105:24259" ph=" Create a new collection consisting of every n-th element. ..." />
+            <marker date="1508417426000" expanded="true" signature="24305:24568" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="24397:24527" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="24446:24491" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="24577:24686" ph=" Get the items with the specified keys. ..." />
+            <marker date="1508417426000" expanded="true" signature="24720:24937" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="24756:24810" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="24946:25110" ph=" &quot;Paginate&quot; the collection by slicing it into a smaller collection. ..." />
+            <marker date="1508417426000" expanded="true" signature="25157:25268" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="25277:25435" ph=" Partition the collection into two arrays using the given callback or key. ..." />
+            <marker date="1508417426000" expanded="true" signature="25478:25766" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="25638:25718" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="25775:25915" ph=" Pass the collection to the given callback and return the result. ..." />
+            <marker date="1508417426000" expanded="true" signature="25962:26007" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="26016:26107" ph=" Get and remove the last item from the collection. ..." />
+            <marker date="1508417426000" expanded="true" signature="26135:26187" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="26196:26344" ph=" Push an item onto the beginning of the collection. ..." />
+            <marker date="1508417426000" expanded="true" signature="26395:26495" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="26504:26619" ph=" Push an item onto the end of the collection. ..." />
+            <marker date="1508417426000" expanded="true" signature="26654:26729" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="26738:26865" ph=" Push all of the given items onto the collection. ..." />
+            <marker date="1508417426000" expanded="true" signature="26903:27059" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="26984:27027" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="27068:27211" ph=" Get and remove an item from the collection. ..." />
+            <marker date="1508417426000" expanded="true" signature="27261:27329" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="27338:27473" ph=" Put an item in the collection by key. ..." />
+            <marker date="1508417426000" expanded="true" signature="27513:27588" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="27597:27788" ph=" Get one or a specified number of items randomly from the collection. ..." />
+            <marker date="1508417426000" expanded="true" signature="27833:27997" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="27871:27926" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="28006:28154" ph=" Reduce the collection to a single value. ..." />
+            <marker date="1508417426000" expanded="true" signature="28220:28296" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="28305:28461" ph=" Create a collection of all elements that do not pass a given truth test. ..." />
+            <marker date="1508417426000" expanded="true" signature="28501:28827" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="28554:28704" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="28588:28693" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="28629:28692" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="28736:28819" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="28770:28818" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="28836:28899" ph=" Reverse items order. ..." />
+            <marker date="1508417426000" expanded="true" signature="28931:29005" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="29014:29201" ph=" Search the collection for a given value and return the corresponding key if successful. ..." />
+            <marker date="1508417426000" expanded="true" signature="29255:29569" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="29307:29380" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="29432:29539" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="29487:29529" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="29578:29670" ph=" Get and remove the first item from the collection. ..." />
+            <marker date="1508417426000" expanded="true" signature="29700:29754" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="29763:29868" ph=" Shuffle the items in the collection. ..." />
+            <marker date="1508417426000" expanded="true" signature="29912:30197" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="29980:30018" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="30026:30154" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="30072:30143" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="30093:30142" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="30206:30343" ph=" Slice the underlying collection array. ..." />
+            <marker date="1508417426000" expanded="true" signature="30396:30486" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="30495:30625" ph=" Split a collection into a certain number of groups. ..." />
+            <marker date="1508417426000" expanded="true" signature="30670:30859" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="30708:30748" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="30868:30975" ph=" Chunk the underlying collection array. ..." />
+            <marker date="1508417426000" expanded="true" signature="31010:31273" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="31042:31082" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="31176:31229" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="31282:31404" ph=" Sort through each item with a callback. ..." />
+            <marker date="1508417426000" expanded="true" signature="31458:31625" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="31634:31826" ph=" Sort the collection using the given callback. ..." />
+            <marker date="1508417426000" expanded="true" signature="31912:32862" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="32301:32364" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="32759:32817" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="32871:33050" ph=" Sort the collection in descending order using the given callback. ..." />
+            <marker date="1508417426000" expanded="true" signature="33119:33188" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="33197:33388" ph=" Splice a portion of the underlying collection array. ..." />
+            <marker date="1508417426000" expanded="true" signature="33461:33675" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="33503:33580" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="33684:33805" ph=" Get the sum of the given values. ..." />
+            <marker date="1508417426000" expanded="true" signature="33849:34140" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="33889:33942" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="34029:34132" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="34072:34128" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="34149:34257" ph=" Take the first or last {$limit} items. ..." />
+            <marker date="1508417426000" expanded="true" signature="34292:34435" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="34324:34387" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="34444:34582" ph=" Pass the collection to the given callback and then return it. ..." />
+            <marker date="1508417426000" expanded="true" signature="34628:34708" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="34717:34849" ph=" Transform each item in the collection using a callback. ..." />
+            <marker date="1508417426000" expanded="true" signature="34901:34989" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="34998:35163" ph=" Return only unique items from the collection array. ..." />
+            <marker date="1508417426000" expanded="true" signature="35222:35670" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="35257:35339" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="35444:35662" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="35503:35661" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="35579:35621" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="35679:35839" ph=" Return only unique items from the collection array using strict comparison. ..." />
+            <marker date="1508417426000" expanded="true" signature="35887:35941" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="35950:36032" ph=" Reset the keys on the underlying array. ..." />
+            <marker date="1508417426000" expanded="true" signature="36063:36130" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="36139:36246" ph=" Get a value retrieving callback. ..." />
+            <marker date="1508417426000" expanded="true" signature="36294:36490" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="36344:36380" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="36429:36482" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="36499:36727" ph=" Zip the collection together with one or more arrays. ..." />
+            <marker date="1508417426000" expanded="true" signature="36761:37121" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="36804:36903" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="36823:36885" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="36937:37041" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="36938:37023" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="36951:37008" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="37130:37280" ph=" Pad collection to the specified length with a value. ..." />
+            <marker date="1508417426000" expanded="true" signature="37321:37400" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="37409:37496" ph=" Get the collection of items as a plain array. ..." />
+            <marker date="1508417426000" expanded="true" signature="37528:37688" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="37560:37680" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="37579:37665" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="37697:37791" ph=" Convert the object into something JSON serializable. ..." />
+            <marker date="1508417426000" expanded="true" signature="37829:38287" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="37861:38279" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="37880:38264" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="37934:37995" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="38034:38107" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="38147:38202" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="38210:38254" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="38296:38404" ph=" Get the collection of items as JSON. ..." />
+            <marker date="1508417426000" expanded="true" signature="38447:38521" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="38530:38611" ph=" Get an iterator for the items. ..." />
+            <marker date="1508417426000" expanded="true" signature="38647:38707" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="38716:38827" ph=" Get a CachingIterator instance. ..." />
+            <marker date="1508417426000" expanded="true" signature="38909:38987" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="38996:39080" ph=" Count the number of items in the collection. ..." />
+            <marker date="1508417426000" expanded="true" signature="39110:39158" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="39167:39294" ph=" Get a base Support collection instance from this collection. ..." />
+            <marker date="1508417426000" expanded="true" signature="39325:39369" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="39378:39487" ph=" Determine if an item exists at an offset. ..." />
+            <marker date="1508417426000" expanded="true" signature="39528:39593" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="39602:39701" ph=" Get an item at a given offset. ..." />
+            <marker date="1508417426000" expanded="true" signature="39739:39786" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="39795:39923" ph=" Set the item at a given offset. ..." />
+            <marker date="1508417426000" expanded="true" signature="39969:40115" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="40004:40050" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="40058:40108" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="40124:40226" ph=" Unset the item at a given offset. ..." />
+            <marker date="1508417426000" expanded="true" signature="40266:40313" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="40322:40417" ph=" Convert the collection to its string representation. ..." />
+            <marker date="1508417426000" expanded="true" signature="40452:40496" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="40505:40628" ph=" Results array of items from Collection or Arrayable. ..." />
+            <marker date="1508417426000" expanded="true" signature="40679:41258" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="40717:40753" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="40788:40831" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="40871:40918" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="40957:41022" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="41069:41122" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="41164:41219" ph="..." />
+            <marker date="1508417426000" expanded="true" signature="41267:41383" ph=" Add a method to the list of proxied methods. ..." />
+            <marker date="1508417426000" expanded="true" signature="41427:41477" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="41486:41627" ph=" Dynamically access collection proxies. ..." />
+            <marker date="1508417426000" expanded="true" signature="41661:41892" ph="{...}" />
+            <marker date="1508417426000" expanded="true" signature="41717:41824" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/spatie/laravel-fractal/src/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1505501868000" expanded="true" signature="71:555" ph="..." />
+            <marker date="1505501868000" expanded="true" signature="79:316" ph=" @param null|mixed $data ..." />
+            <marker date="1505501868000" expanded="true" signature="394:554" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        <state relative-caret-position="292">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <marker date="1508486027000" expanded="true" signature="27:203" ph="..." />
+            <marker date="1508486027000" expanded="true" signature="239:1588" ph="{...}" />
+            <marker date="1508486027000" expanded="true" signature="536:615" ph=" The attributes that are mass assignable. ..." />
+            <marker date="1508486027000" expanded="true" signature="645:770" ph="..." />
+            <marker date="1508486027000" expanded="true" signature="781:868" ph=" The attributes that should be hidden for arrays. ..." />
+            <marker date="1508486027000" expanded="true" signature="896:977" ph="..." />
+            <marker date="1508486027000" expanded="true" signature="1024:1091" ph="{...}" />
+            <marker date="1508486027000" expanded="true" signature="1136:1179" ph="{...}" />
+            <marker date="1508486027000" expanded="true" signature="1226:1295" ph="{...}" />
+            <marker date="1508486027000" expanded="true" signature="1329:1396" ph="{...}" />
+            <marker date="1508486027000" expanded="true" signature="1427:1488" ph="{...}" />
+            <marker date="1508486027000" expanded="true" signature="1543:1586" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/app/Traits/ApiResponser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="40" column="45" lean-forward="false" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+          <folding>
+            <marker date="1508681038000" expanded="true" signature="34:104" ph="..." />
+            <marker date="1508681038000" expanded="true" signature="124:1406" ph="{...}" />
+            <marker date="1508681038000" expanded="true" signature="177:236" ph="{...}" />
+            <marker date="1508681038000" expanded="true" signature="291:382" ph="{...}" />
+            <marker date="1508681038000" expanded="true" signature="451:775" ph="{...}" />
+            <marker date="1508681038000" expanded="true" signature="494:577" ph="..." />
+            <marker date="1508681038000" expanded="true" signature="834:1007" ph="{...}" />
+            <marker date="1508681038000" expanded="true" signature="1066:1144" ph="{...}" />
+            <marker date="1508681038000" expanded="true" signature="1153:1227" ph=" @param $data ..." />
+            <marker date="1508681038000" expanded="true" signature="1287:1403" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transformers/BuyerTransformer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1508484514000" expanded="true" signature="40:119" ph="..." />
+            <marker date="1508484514000" expanded="true" signature="171:750" ph="{...}" />
+            <marker date="1508484514000" expanded="true" signature="181:272" ph=" A Fractal transformer. ..." />
+            <marker date="1508484514000" expanded="true" signature="318:748" ph="{...}" />
+            <marker date="1508484514000" expanded="true" signature="341:740" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transformers/CategoryTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508484746000" expanded="true" signature="40:127" ph="..." />
+            <marker date="1508484746000" expanded="true" signature="182:752" ph="{...}" />
+            <marker date="1508484746000" expanded="true" signature="192:289" ph=" A Fractal transformer. ..." />
+            <marker date="1508484746000" expanded="true" signature="341:750" ph="{...}" />
+            <marker date="1508484746000" expanded="true" signature="364:742" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transformers/SellerTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508484514000" expanded="true" signature="40:91" ph="..." />
+            <marker date="1508484514000" expanded="true" signature="144:735" ph="{...}" />
+            <marker date="1508484514000" expanded="true" signature="154:247" ph=" A Fractal transformer. ..." />
+            <marker date="1508484514000" expanded="true" signature="295:733" ph="{...}" />
+            <marker date="1508484514000" expanded="true" signature="318:725" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transformers/UserTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508483831000" expanded="true" signature="40:89" ph="..." />
+            <marker date="1508483831000" expanded="true" signature="140:759" ph="{...}" />
+            <marker date="1508483831000" expanded="true" signature="150:239" ph=" A Fractal transformer. ..." />
+            <marker date="1508483831000" expanded="true" signature="283:757" ph="{...}" />
+            <marker date="1508483831000" expanded="true" signature="306:749" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transformers/TransactionTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508485058000" expanded="true" signature="40:96" ph="..." />
+            <marker date="1508485058000" expanded="true" signature="154:809" ph="{...}" />
+            <marker date="1508485058000" expanded="true" signature="164:267" ph=" A Fractal transformer. ..." />
+            <marker date="1508485058000" expanded="true" signature="325:807" ph="{...}" />
+            <marker date="1508485058000" expanded="true" signature="348:799" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/2.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/1.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Transformers/ProductTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding>
+            <element signature="e#36#52#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
